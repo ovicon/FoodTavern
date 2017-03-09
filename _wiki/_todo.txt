@@ -1,0 +1,2 @@
+1. refactor, clean up code, create tests
+2. implement the add dialog
