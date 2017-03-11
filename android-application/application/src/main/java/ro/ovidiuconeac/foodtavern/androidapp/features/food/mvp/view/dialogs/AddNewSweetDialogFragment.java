@@ -12,7 +12,6 @@ import android.widget.EditText;
 
 import ro.ovidiuconeac.foodtavern.androidapp.R;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.FoodView;
-import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 /**

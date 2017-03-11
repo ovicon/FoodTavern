@@ -357,7 +357,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 "\n" + msg, Toast.LENGTH_SHORT).show();
     }
 
-    @OnClick(R.id.new_fruit)
+    @OnClick(R.id.new_cheese)
     @SuppressWarnings("unused")
     public void addNewCheese() {
         AddNewCheeseDialogFragment.newInstance(this)
@@ -377,7 +377,8 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
 
     @OnClick(R.id.new_cheese)
     public void newCheese() {
-        new AddNewFruitDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
+        AddNewFruitDialogFragment.newInstance(this)
+                .show(getSupportFragmentManager(), "tag_add_new");
     }
 
     @OnClick(R.id.get_sweet)
@@ -436,7 +437,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 "\n" + msg, Toast.LENGTH_SHORT).show();
     }
 
-    @OnClick(R.id.new_fruit)
+    @OnClick(R.id.new_sweet)
     @SuppressWarnings("unused")
     public void addNewSweet() {
         AddNewSweetDialogFragment.newInstance(this)
@@ -452,11 +453,6 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     public void postAddNewSweetRequestSuccess(String msg) {
         Toast.makeText(this, getString(R.string.sweet_add_new_request_success) +
                 ": " + msg, Toast.LENGTH_SHORT).show();
-    }
-
-    @OnClick(R.id.new_sweet)
-    public void newSweet() {
-        new AddNewFruitDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
     }
 
     @Override
