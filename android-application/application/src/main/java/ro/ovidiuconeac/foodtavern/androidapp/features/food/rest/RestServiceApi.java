@@ -3,8 +3,10 @@ package ro.ovidiuconeac.foodtavern.androidapp.features.food.rest;
 import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
@@ -20,29 +22,29 @@ import ro.ovidiuconeac.models.features.featurex.Sweet;
 public interface RestServiceApi {
 
     @GET("food/fruits/random")
-    Call<Fruit> fetchFruit();
+    Call<Fruit> getFruit();
 
     @GET("food/fruits/all")
-    Call<List<Fruit>> fetchAllFruits();
+    Call<List<Fruit>> getAllFruits();
 
-    @POST("food/fruits/new")
-    void postNewFruit(Fruit fruit);
+    @PUT("food/fruits/new")
+    Call<Boolean> putNewFruit(@Body Fruit fruit);
 
     @GET("food/cheeses/random")
-    Call<Cheese> fetchCheese();
+    Call<Cheese> getCheese();
 
     @GET("food/cheeses/all")
-    Call<List<Cheese>> fetchAllCheeses();
+    Call<List<Cheese>> getAllCheeses();
 
-    @POST("food/cheeses/new")
-    void postNewCheese(Cheese cheese);
+    @PUT("food/cheeses/new")
+    Call<Boolean> putNewCheese(Cheese cheese);
 
     @GET("food/sweets/random")
-    Call<Sweet> fetchSweet();
+    Call<Sweet> getSweet();
 
     @GET("food/sweets/all")
-    Call<List<Sweet>> fetchAllSweets();
+    Call<List<Sweet>> getAllSweets();
 
-    @POST("food/sweets/new")
-    void postNewSweets(Sweet sweet);
+    @PUT("food/sweets/new")
+    Call<Boolean> putNewSweet(Sweet sweet);
 }

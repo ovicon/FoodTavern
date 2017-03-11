@@ -2,6 +2,9 @@ package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter;
 
 import ro.ovidiuconeac.foodtavern.androidapp.features.common.Presenter;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.
@@ -15,13 +18,13 @@ public interface FoodPresenter extends Presenter {
     // Fruits
     void requestFruit(RestServiceApi restServiceApi);
     void requestAllFruits(RestServiceApi restServiceApi);
-    void requestAddNewFruit(RestServiceApi restServiceApi);
+    void requestAddNewFruit(RestServiceApi restServiceApi, Fruit fruit);
     // Cheeses
     void requestCheese(RestServiceApi restServiceApi);
     void requestAllCheeses(RestServiceApi restServiceApi);
-    void requestAddNewCheese(RestServiceApi restServiceApi);
+    void requestAddNewCheese(RestServiceApi restServiceApi, Cheese cheese);
     // Sweets
     void requestSweet(RestServiceApi restServiceApi);
     void requestAllSweets(RestServiceApi restServiceApi);
-    void requestAddNewSweet(RestServiceApi restServiceApi);
+    void requestAddNewSweet(RestServiceApi restServiceApi, Sweet sweet);
 }

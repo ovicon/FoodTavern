@@ -26,11 +26,16 @@ import ro.ovidiuconeac.foodtavern.androidapp.features.common.Cache;
 import ro.ovidiuconeac.foodtavern.androidapp.features.common.Presenter;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter.FoodPresenter;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter.FoodPresenterImpl;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewCheeseDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewFruitDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewSweetDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.CheesesDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.FruitsDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.SweetsDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 
 public class FoodActivity extends AppCompatActivity implements FoodView {
@@ -235,8 +240,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
         this.enableUiFruit(true);
     }
 
-    @Override
-    public void enableUiFruit(boolean enable) {
+    private void enableUiFruit(boolean enable) {
         if (enable) {
             progressBarFruit.setVisibility(View.INVISIBLE);
         } else {
@@ -280,10 +284,21 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     }
 
     @OnClick(R.id.new_fruit)
+    @SuppressWarnings("unused")
+    public void addNewFruit() {
+        AddNewFruitDialogFragment.newInstance(this)
+                .show(getSupportFragmentManager(), "tag_add_new_fruit");
+    }
+
     @Override
-    public void requestAddNewFruit() {
-        new AddNewDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
-        //presenter
+    public void requestAddNewFruit(Fruit fruit) {
+        presenter.requestAddNewFruit(restServiceApi, fruit);
+    }
+
+    @Override
+    public void postAddNewFruitRequestSuccess(String msg) {
+        Toast.makeText(this, getString(R.string.fruit_add_new_request_success) +
+                ": " + msg, Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.get_cheese)
@@ -342,14 +357,27 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 "\n" + msg, Toast.LENGTH_SHORT).show();
     }
 
-    @Override
-    public void requestAddNewCheese() {
+    @OnClick(R.id.new_fruit)
+    @SuppressWarnings("unused")
+    public void addNewCheese() {
+        AddNewCheeseDialogFragment.newInstance(this)
+                .show(getSupportFragmentManager(), "tag_add_new_cheese");
+    }
 
+    @Override
+    public void requestAddNewCheese(Cheese cheese) {
+        presenter.requestAddNewCheese(restServiceApi, cheese);
+    }
+
+    @Override
+    public void postAddNewCheeseRequestSuccess(String msg) {
+        Toast.makeText(this, getString(R.string.cheese_add_new_request_success) +
+                ": " + msg, Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.new_cheese)
     public void newCheese() {
-        new AddNewDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
+        new AddNewFruitDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
     }
 
     @OnClick(R.id.get_sweet)
@@ -408,14 +436,27 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 "\n" + msg, Toast.LENGTH_SHORT).show();
     }
 
-    @Override
-    public void requestAddNewSweet() {
+    @OnClick(R.id.new_fruit)
+    @SuppressWarnings("unused")
+    public void addNewSweet() {
+        AddNewSweetDialogFragment.newInstance(this)
+                .show(getSupportFragmentManager(), "tag_add_new_sweet");
+    }
 
+    @Override
+    public void requestAddNewSweet(Sweet sweet) {
+        presenter.requestAddNewSweet(restServiceApi, sweet);
+    }
+
+    @Override
+    public void postAddNewSweetRequestSuccess(String msg) {
+        Toast.makeText(this, getString(R.string.sweet_add_new_request_success) +
+                ": " + msg, Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.new_sweet)
     public void newSweet() {
-        new AddNewDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
+        new AddNewFruitDialogFragment().show(getSupportFragmentManager(), "tag_add_new");
     }
 
     @Override

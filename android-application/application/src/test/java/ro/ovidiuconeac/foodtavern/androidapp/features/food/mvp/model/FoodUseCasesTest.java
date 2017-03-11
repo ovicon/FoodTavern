@@ -69,6 +69,18 @@ public class FoodUseCasesTest {
     }
 
     @Test
+    public void testAddNewFruit() {
+        try {
+            when(foodUseCases.addNewFruit(any(RestServiceApi.class), any(Fruit.class))).thenReturn(true);
+            boolean result = foodUseCases.addNewFruit(any(RestServiceApi.class), any(Fruit.class));
+            assertEquals(true, result);
+        } catch (RequestException | NoResultException e) {
+            // Force fail
+            assertEquals(true, false);
+        }
+    }
+
+    @Test
     public void testGetCheese() {
         try {
             Cheese cheese = new Cheese("Telemea");
@@ -99,6 +111,18 @@ public class FoodUseCasesTest {
     }
 
     @Test
+    public void testAddNewCheese() {
+        try {
+            when(foodUseCases.addNewCheese(any(RestServiceApi.class), any(Cheese.class))).thenReturn(true);
+            boolean result = foodUseCases.addNewCheese(any(RestServiceApi.class), any(Cheese.class));
+            assertEquals(true, result);
+        } catch (RequestException | NoResultException e) {
+            // Force fail
+            assertEquals(true, false);
+        }
+    }
+
+    @Test
     public void testGetSweet() {
         try {
             Sweet sweet = new Sweet("Dobos");
@@ -122,6 +146,18 @@ public class FoodUseCasesTest {
             List<Sweet> result = foodUseCases.getAllSweets(any(RestServiceApi.class));
             assertNotNull(result);
             assertEquals("Cremes", sweet.getName());
+        } catch (RequestException | NoResultException e) {
+            // Force fail
+            assertEquals(true, false);
+        }
+    }
+
+    @Test
+    public void testAddNewSweet() {
+        try {
+            when(foodUseCases.addNewSweet(any(RestServiceApi.class), any(Sweet.class))).thenReturn(true);
+            boolean result = foodUseCases.addNewSweet(any(RestServiceApi.class), any(Sweet.class));
+            assertEquals(true, result);
         } catch (RequestException | NoResultException e) {
             // Force fail
             assertEquals(true, false);

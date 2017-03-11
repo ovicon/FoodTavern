@@ -7,6 +7,9 @@ import org.junit.Test;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.exceptions.RequestException;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -51,6 +54,12 @@ public class FoodUseCasesWithRequestExceptionTest {
         foodUseCases.getAllFruits(any(RestServiceApi.class));
     }
 
+    @Test(expected = RequestException.class)
+    public void testAddNewFruitWithNoResultException() throws NoResultException, RequestException {
+        when(foodUseCases.addNewFruit(any(RestServiceApi.class), any(Fruit.class))).thenThrow(new RequestException());
+        foodUseCases.addNewFruit(any(RestServiceApi.class), any(Fruit.class));
+    }
+
     @Test
     public void testGetCheeseWithRequestException() {
         try {
@@ -69,6 +78,12 @@ public class FoodUseCasesWithRequestExceptionTest {
         when(foodUseCases.getAllCheeses(any(RestServiceApi.class)))
                 .thenThrow(new RequestException());
         foodUseCases.getAllCheeses(any(RestServiceApi.class));
+    }
+
+    @Test(expected = RequestException.class)
+    public void testAddNewCheeseWithNoResultException() throws NoResultException, RequestException {
+        when(foodUseCases.addNewCheese(any(RestServiceApi.class), any(Cheese.class))).thenThrow(new RequestException());
+        foodUseCases.addNewCheese(any(RestServiceApi.class), any(Cheese.class));
     }
 
     @Test
@@ -90,4 +105,11 @@ public class FoodUseCasesWithRequestExceptionTest {
                 .thenThrow(new RequestException());
         foodUseCases.getAllSweets(any(RestServiceApi.class));
     }
+
+    @Test(expected = RequestException.class)
+    public void testAddNewSweetWithNoResultException() throws NoResultException, RequestException {
+        when(foodUseCases.addNewSweet(any(RestServiceApi.class), any(Sweet.class))).thenThrow(new RequestException());
+        foodUseCases.addNewSweet(any(RestServiceApi.class), any(Sweet.class));
+    }
+
 }

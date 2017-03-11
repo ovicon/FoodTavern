@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dialog_title_margin"
         android:id="@+id/dialog_title"
+        android:text="@string/dialog_title_display_cheeses"
         android:textSize="@dimen/dialog_title_size"
         android:textStyle="normal" />
 

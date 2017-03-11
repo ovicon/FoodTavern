@@ -8,6 +8,9 @@ import java.util.UUID;
 
 import ro.ovidiuconeac.foodtavern.androidapp.features.common.Screen;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -22,64 +25,76 @@ import static org.mockito.Mockito.when;
 
 public class FoodPresenterImplTest {
 
-    private RestServiceApi restServiceApi;
     private FoodPresenterImpl presenter;
-    private Screen screen;
 
     @Before
     public void setUp() {
-        restServiceApi = mock(RestServiceApi.class);
         presenter = mock(FoodPresenterImpl.class);
-        screen = mock(Screen.class);
     }
 
     @After
     public void tearDown() {
-        restServiceApi = null;
         presenter = null;
-        screen = null;
     }
 
     @Test
     public void testGetCheese() {
         doNothing().when(presenter).requestCheese(any(RestServiceApi.class));
-        presenter.requestCheese(restServiceApi);
+        presenter.requestCheese(any(RestServiceApi.class));
     }
 
     @Test
     public void testGetAllCheeses() {
         doNothing().when(presenter).requestAllCheeses(any(RestServiceApi.class));
-        presenter.requestAllCheeses(restServiceApi);
+        presenter.requestAllCheeses(any(RestServiceApi.class));
+    }
+
+    @Test
+    public void testAddNewCheese() {
+        doNothing().when(presenter).requestAddNewCheese(any(RestServiceApi.class), any(Cheese.class));
+        presenter.requestAddNewCheese(any(RestServiceApi.class), any(Cheese.class));
     }
 
     @Test
     public void testGetFruit() {
         doNothing().when(presenter).requestFruit(any(RestServiceApi.class));
-        presenter.requestFruit(restServiceApi);
+        presenter.requestFruit(any(RestServiceApi.class));
     }
 
     @Test
     public void testGetAllFruits() {
         doNothing().when(presenter).requestAllFruits(any(RestServiceApi.class));
-        presenter.requestAllFruits(restServiceApi);
+        presenter.requestAllFruits(any(RestServiceApi.class));
+    }
+
+    @Test
+    public void testAddNewFruit() {
+        doNothing().when(presenter).requestAddNewFruit(any(RestServiceApi.class), any(Fruit.class));
+        presenter.requestAddNewFruit(any(RestServiceApi.class), any(Fruit.class));
     }
 
     @Test
     public void testGetSweet() {
         doNothing().when(presenter).requestSweet(any(RestServiceApi.class));
-        presenter.requestSweet(restServiceApi);
+        presenter.requestSweet(any(RestServiceApi.class));
     }
 
     @Test
     public void testGetAllSweets() {
         doNothing().when(presenter).requestAllSweets(any(RestServiceApi.class));
-        presenter.requestAllSweets(restServiceApi);
+        presenter.requestAllSweets(any(RestServiceApi.class));
+    }
+
+    @Test
+    public void testAddNewSweet() {
+        doNothing().when(presenter).requestAddNewSweet(any(RestServiceApi.class), any(Sweet.class));
+        presenter.requestAddNewSweet(any(RestServiceApi.class), any(Sweet.class));
     }
 
     @Test
     public void testSetScreen() {
         doNothing().when(presenter).setScreen(any(Screen.class));
-        presenter.setScreen(screen);
+        presenter.setScreen(any(Screen.class));
     }
 
     @Test

@@ -3,6 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dialog_title_margin"
+        android:id="@+id/dialog_title"
+        android:text="@string/dialog_title_add_new_fruit"
+        android:textSize="@dimen/dialog_title_size"
+        android:textStyle="normal" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,14 +30,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:id="@+id/cancel"
-            android:text="Cancel" />
+            android:text="@string/cancel" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:enabled="false"
             android:id="@+id/save"
-            android:text="Save" />
+            android:text="@string/save" />
 
     </LinearLayout>
 

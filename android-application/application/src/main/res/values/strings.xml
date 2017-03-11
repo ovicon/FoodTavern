@@ -17,5 +17,12 @@
     <string name="dialog_title_display_fruits">Fruits</string>
     <string name="dialog_title_display_cheeses">Cheeses</string>
     <string name="dialog_title_display_sweets">Sweets</string>
-    <string name="dialog_title_add_new">Add New</string>
+    <string name="dialog_title_add_new_fruit">Add New Fruit</string>
+    <string name="dialog_title_add_new_cheese">Add New Cheese</string>
+    <string name="dialog_title_add_new_sweet">Add New Sweet</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="fruit_add_new_request_success">Added new fruit</string>
+    <string name="cheese_add_new_request_success">Added new cheese</string>
+    <string name="sweet_add_new_request_success">Added new sweet</string>
 </resources>

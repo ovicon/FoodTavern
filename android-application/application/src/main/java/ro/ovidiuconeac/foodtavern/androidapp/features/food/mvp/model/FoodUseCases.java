@@ -22,7 +22,7 @@ public class FoodUseCases {
     // Use case "get Fruit"
     public Fruit getFruit(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         Fruit fruit = null;
-        Call<Fruit> call = restServiceApi.fetchFruit();
+        Call<Fruit> call = restServiceApi.getFruit();
         try {
             Response<Fruit> response = call.execute();
             switch (response.code()) {
@@ -43,7 +43,7 @@ public class FoodUseCases {
     // Use case "get all Fruits"
     public List<Fruit> getAllFruits(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         List<Fruit> fruits = null;
-        Call<List<Fruit>> call = restServiceApi.fetchAllFruits();
+        Call<List<Fruit>> call = restServiceApi.getAllFruits();
         try {
             Response<List<Fruit>> response = call.execute();
             switch (response.code()) {
@@ -60,11 +60,32 @@ public class FoodUseCases {
         }
         return fruits;
     }
+
+    // Use case add new fruit
+    public boolean addNewFruit(RestServiceApi restServiceApi, Fruit fruit) throws RequestException, NoResultException {
+        boolean successful = false;
+        Call<Boolean> call = restServiceApi.putNewFruit(fruit);
+        try {
+            Response<Boolean> response = call.execute();
+            switch (response.code()) {
+                case 200: {
+                    successful = response.body();
+                    break;
+                }
+                case 404: {
+                    throw new NoResultException();
+                }
+            }
+        } catch (IOException e) {
+            throw new RequestException();
+        }
+        return successful;
+    }
     
     // Use case "get Cheese"
     public Cheese getCheese(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         Cheese cheese = null;
-        Call<Cheese> call = restServiceApi.fetchCheese();
+        Call<Cheese> call = restServiceApi.getCheese();
         try {
             Response<Cheese> response = call.execute();
             switch (response.code()) {
@@ -85,7 +106,7 @@ public class FoodUseCases {
     // Use case "get all Cheese"
     public List<Cheese> getAllCheeses(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         List<Cheese> cheeses = null;
-        Call<List<Cheese>> call = restServiceApi.fetchAllCheeses();
+        Call<List<Cheese>> call = restServiceApi.getAllCheeses();
         try {
             Response<List<Cheese>> response = call.execute();
             switch (response.code()) {
@@ -103,10 +124,31 @@ public class FoodUseCases {
         return cheeses;
     }
 
+    // Use case add new cheese
+    public boolean addNewCheese(RestServiceApi restServiceApi, Cheese cheese) throws RequestException, NoResultException {
+        boolean successful = false;
+        Call<Boolean> call = restServiceApi.putNewCheese(cheese);
+        try {
+            Response<Boolean> response = call.execute();
+            switch (response.code()) {
+                case 200: {
+                    successful = response.body();
+                    break;
+                }
+                case 404: {
+                    throw new NoResultException();
+                }
+            }
+        } catch (IOException e) {
+            throw new RequestException();
+        }
+        return successful;
+    }
+
     // Use case "get Sweet"
     public Sweet getSweet(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         Sweet sweet = null;
-        Call<Sweet> call = restServiceApi.fetchSweet();
+        Call<Sweet> call = restServiceApi.getSweet();
         try {
             Response<Sweet> response = call.execute();
             switch (response.code()) {
@@ -127,7 +169,7 @@ public class FoodUseCases {
     // Use case "get all Sweets"
     public List<Sweet> getAllSweets(RestServiceApi restServiceApi) throws RequestException, NoResultException {
         List<Sweet> Sweets = null;
-        Call<List<Sweet>> call = restServiceApi.fetchAllSweets();
+        Call<List<Sweet>> call = restServiceApi.getAllSweets();
         try {
             Response<List<Sweet>> response = call.execute();
             switch (response.code()) {
@@ -143,5 +185,26 @@ public class FoodUseCases {
             throw new RequestException();
         }
         return Sweets;
+    }
+
+    // Use case add new sweet
+    public boolean addNewSweet(RestServiceApi restServiceApi, Sweet sweet) throws RequestException, NoResultException {
+        boolean successful = false;
+        Call<Boolean> call = restServiceApi.putNewSweet(sweet);
+        try {
+            Response<Boolean> response = call.execute();
+            switch (response.code()) {
+                case 200: {
+                    successful = response.body();
+                    break;
+                }
+                case 404: {
+                    throw new NoResultException();
+                }
+            }
+        } catch (IOException e) {
+            throw new RequestException();
+        }
+        return successful;
     }
 }

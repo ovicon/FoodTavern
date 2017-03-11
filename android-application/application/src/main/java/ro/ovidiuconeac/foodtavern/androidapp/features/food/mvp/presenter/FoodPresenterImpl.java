@@ -50,12 +50,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     fruit = model.getFruit(restServiceApi);
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postFruitRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postFruitRequestError(e.getMessage()));
                 }
                 return fruit;
             }
@@ -80,12 +76,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     fruits = model.getAllFruits(restServiceApi);
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postFruitRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postFruitRequestError(e.getMessage()));
                 }
                 return fruits;
             }
@@ -104,10 +96,29 @@ public class FoodPresenterImpl implements FoodPresenter {
     }
 
     @Override
-    public void requestAddNewFruit(RestServiceApi restServiceApi) {
+    public void requestAddNewFruit(RestServiceApi restServiceApi, Fruit fruit) {
+        new AsyncTask<Void, Void, Boolean>() {
 
+            @Override
+            protected Boolean doInBackground(Void... params) {
+                boolean successful = false;
+                try {
+                    successful = model.addNewFruit(restServiceApi, fruit);
+                } catch (RequestException | NoResultException e) {
+                    // Post on ui thread
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postFruitRequestError(e.getMessage()));
+                }
+                return successful;
+            }
+
+            @Override
+            protected void onPostExecute(Boolean successful) {
+                super.onPostExecute(successful);
+                view.postAddNewFruitRequestSuccess(fruit.getName());
+            }
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
-
 
     @Override
     public void requestCheese(final RestServiceApi restServiceApi) {
@@ -121,12 +132,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     cheese = model.getCheese(restServiceApi);
                 } catch (final RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postCheeseRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postCheeseRequestError(e.getMessage()));
                 }
                 return cheese;
             }
@@ -151,12 +158,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     cheeses = model.getAllCheeses(restServiceApi);
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postCheeseRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postCheeseRequestError(e.getMessage()));
                 }
                 return cheeses;
             }
@@ -175,8 +178,28 @@ public class FoodPresenterImpl implements FoodPresenter {
     }
 
     @Override
-    public void requestAddNewCheese(RestServiceApi restServiceApi) {
+    public void requestAddNewCheese(RestServiceApi restServiceApi, Cheese cheese) {
+        new AsyncTask<Void, Void, Boolean>() {
 
+            @Override
+            protected Boolean doInBackground(Void... params) {
+                boolean successful = false;
+                try {
+                    successful = model.addNewCheese(restServiceApi, cheese);
+                } catch (RequestException | NoResultException e) {
+                    // Post on ui thread
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postFruitRequestError(e.getMessage()));
+                }
+                return successful;
+            }
+
+            @Override
+            protected void onPostExecute(Boolean successful) {
+                super.onPostExecute(successful);
+                view.postAddNewCheeseRequestSuccess(cheese.getName());
+            }
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 
     @Override
@@ -191,12 +214,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     sweet = model.getSweet(restServiceApi);
                 } catch (final RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postSweetRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postSweetRequestError(e.getMessage()));
                 }
                 return sweet;
             }
@@ -221,12 +240,8 @@ public class FoodPresenterImpl implements FoodPresenter {
                     Sweets = model.getAllSweets(restServiceApi);
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-                            view.postSweetRequestError(e.getMessage());
-                        }
-                    });
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postSweetRequestError(e.getMessage()));
                 }
                 return Sweets;
             }
@@ -245,8 +260,28 @@ public class FoodPresenterImpl implements FoodPresenter {
     }
 
     @Override
-    public void requestAddNewSweet(RestServiceApi restServiceApi) {
+    public void requestAddNewSweet(RestServiceApi restServiceApi, Sweet sweet) {
+        new AsyncTask<Void, Void, Boolean>() {
 
+            @Override
+            protected Boolean doInBackground(Void... params) {
+                boolean successful = false;
+                try {
+                    successful = model.addNewSweet(restServiceApi, sweet);
+                } catch (RequestException | NoResultException e) {
+                    // Post on ui thread
+                    new Handler(Looper.getMainLooper())
+                            .post(() -> view.postFruitRequestError(e.getMessage()));
+                }
+                return successful;
+            }
+
+            @Override
+            protected void onPostExecute(Boolean successful) {
+                super.onPostExecute(successful);
+                view.postAddNewSweetRequestSuccess(sweet.getName());
+            }
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 
     @Override
