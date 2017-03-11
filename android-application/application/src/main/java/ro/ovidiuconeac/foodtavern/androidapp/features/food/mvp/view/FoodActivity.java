@@ -260,10 +260,8 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllFruits(String[] fruits) {
         if (fruits.length > 0) {
-            if (fruitsDialog == null) {
-                fruitsDialog = FruitsDialogFragment.newInstance(fruits);
-            }
-            fruitsDialog.show(getSupportFragmentManager(), "tag_fruits_dialog");
+            FruitsDialogFragment.newInstance(fruits)
+                    .show(getSupportFragmentManager(), "tag_fruits_dialog");
         }
         this.enableUiAllFruits(true);
     }
@@ -334,10 +332,8 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllCheeses(String[] cheeses) {
         if (cheeses.length > 0) {
-            if (cheesesDialog == null) {
-                cheesesDialog = CheesesDialogFragment.newInstance(cheeses);
-            }
-            cheesesDialog.show(getSupportFragmentManager(), "tag_cheeses_dialog");
+            CheesesDialogFragment.newInstance(cheeses)
+                    .show(getSupportFragmentManager(), "tag_cheeses_dialog");
         }
         this.enableUiAllCheeses(true);
     }
@@ -375,12 +371,6 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 ": " + msg, Toast.LENGTH_SHORT).show();
     }
 
-    @OnClick(R.id.new_cheese)
-    public void newCheese() {
-        AddNewFruitDialogFragment.newInstance(this)
-                .show(getSupportFragmentManager(), "tag_add_new");
-    }
-
     @OnClick(R.id.get_sweet)
     @Override
     public void requestSweet() {
@@ -414,10 +404,8 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllSweets(String[] sweets) {
         if (sweets.length > 0) {
-            if (sweetsDialog == null) {
-                sweetsDialog = SweetsDialogFragment.newInstance(sweets);
-            }
-            sweetsDialog.show(getSupportFragmentManager(), "tag_sweets_dialog");
+            SweetsDialogFragment.newInstance(sweets)
+                    .show(getSupportFragmentManager(), "tag_sweets_dialog");
         }
         this.enableUiAllSweets(true);
     }

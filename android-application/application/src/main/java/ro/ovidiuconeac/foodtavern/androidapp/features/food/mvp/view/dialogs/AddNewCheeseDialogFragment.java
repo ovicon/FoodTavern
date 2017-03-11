@@ -55,7 +55,6 @@ public final class AddNewCheeseDialogFragment extends DialogFragment {
                 }
             }
         });
-        v.findViewById(R.id.cancel).setOnClickListener(e -> dismiss());
         save = (Button) v.findViewById(R.id.save);
         save.setOnClickListener(e -> {
             view.requestAddNewCheese(new Cheese(name.getText().toString()));

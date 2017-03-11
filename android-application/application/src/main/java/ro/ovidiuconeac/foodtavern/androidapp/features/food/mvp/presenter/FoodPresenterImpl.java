@@ -71,7 +71,7 @@ public class FoodPresenterImpl implements FoodPresenter {
             @Override
             protected List<Fruit> doInBackground(Void... params) {
                 Util.simulateNetworkLatency(4000);
-                List<Fruit> fruits = new ArrayList<Fruit>();
+                List<Fruit> fruits = new ArrayList<>();
                 try {
                     fruits = model.getAllFruits(restServiceApi);
                 } catch (RequestException | NoResultException e) {
@@ -115,7 +115,9 @@ public class FoodPresenterImpl implements FoodPresenter {
             @Override
             protected void onPostExecute(Boolean successful) {
                 super.onPostExecute(successful);
-                view.postAddNewFruitRequestSuccess(fruit.getName());
+                if (successful) {
+                    view.postAddNewFruitRequestSuccess(fruit.getName());
+                }
             }
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
@@ -189,7 +191,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
-                            .post(() -> view.postFruitRequestError(e.getMessage()));
+                            .post(() -> view.postCheeseRequestError(e.getMessage()));
                 }
                 return successful;
             }
@@ -197,7 +199,9 @@ public class FoodPresenterImpl implements FoodPresenter {
             @Override
             protected void onPostExecute(Boolean successful) {
                 super.onPostExecute(successful);
-                view.postAddNewCheeseRequestSuccess(cheese.getName());
+                if (successful) {
+                    view.postAddNewCheeseRequestSuccess(cheese.getName());
+                }
             }
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
@@ -271,7 +275,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
-                            .post(() -> view.postFruitRequestError(e.getMessage()));
+                            .post(() -> view.postSweetRequestError(e.getMessage()));
                 }
                 return successful;
             }
@@ -279,7 +283,9 @@ public class FoodPresenterImpl implements FoodPresenter {
             @Override
             protected void onPostExecute(Boolean successful) {
                 super.onPostExecute(successful);
-                view.postAddNewSweetRequestSuccess(sweet.getName());
+                if (successful) {
+                    view.postAddNewSweetRequestSuccess(sweet.getName());
+                }
             }
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }

@@ -37,7 +37,7 @@ public interface RestServiceApi {
     Call<List<Cheese>> getAllCheeses();
 
     @PUT("food/cheeses/new")
-    Call<Boolean> putNewCheese(Cheese cheese);
+    Call<Boolean> putNewCheese(@Body Cheese cheese);
 
     @GET("food/sweets/random")
     Call<Sweet> getSweet();
@@ -46,5 +46,5 @@ public interface RestServiceApi {
     Call<List<Sweet>> getAllSweets();
 
     @PUT("food/sweets/new")
-    Call<Boolean> putNewSweet(Sweet sweet);
+    Call<Boolean> putNewSweet(@Body Sweet sweet);
 }

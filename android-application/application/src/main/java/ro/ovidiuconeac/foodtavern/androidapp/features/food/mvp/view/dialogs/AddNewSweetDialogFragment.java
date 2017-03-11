@@ -55,7 +55,6 @@ public final class AddNewSweetDialogFragment extends DialogFragment {
                 }
             }
         });
-        v.findViewById(R.id.cancel).setOnClickListener(e -> dismiss());
         save = (Button) v.findViewById(R.id.save);
         save.setOnClickListener(e -> {
             view.requestAddNewSweet(new Sweet(name.getText().toString()));
