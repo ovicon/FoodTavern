@@ -13,6 +13,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
@@ -43,14 +44,13 @@ public class CheesesControllerTest {
                 .andExpect(status().isOk());
     }
 
-    @Ignore
     @Test
     public void testAddNewCheese() throws Exception {
-        Cheese cheese = new Cheese();
-        cheese.setName("Cas");
-        mvc.perform(MockMvcRequestBuilders.post("/food/cheeses/new")
-                .accept(MediaType.APPLICATION_JSON)
+        mvc.perform(MockMvcRequestBuilders.put("/food/cheeses/new")
+                .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"name\" : \"New stinky cheese\"}"))
-                .andExpect(status().isCreated());
+                .andExpect(content().string("true"))
+                .andExpect(status().is(200))
+                .andExpect(status().isOk());
     }
 }

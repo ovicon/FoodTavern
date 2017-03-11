@@ -39,6 +39,6 @@ public class FruitsControllerImpl {
 
     @RequestMapping(method = RequestMethod.PUT, path = "/new", consumes = "application/json")
     public boolean addNewFruit(@RequestBody Fruit Fruit) throws PostException {
-        return this.fruits.addNew(Fruit);
+        return fruits.addNew(Fruit);
     }
 }

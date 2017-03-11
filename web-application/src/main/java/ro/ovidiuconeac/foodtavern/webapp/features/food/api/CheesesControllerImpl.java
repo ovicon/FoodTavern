@@ -39,6 +39,6 @@ public class CheesesControllerImpl {
 
     @RequestMapping(method = RequestMethod.PUT, path = "/new", consumes = "application/json")
     public boolean addNewCheese(@RequestBody Cheese cheese) throws PostException {
-        return this.cheeses.addNew(cheese);
+        return cheeses.addNew(cheese);
     }
 }

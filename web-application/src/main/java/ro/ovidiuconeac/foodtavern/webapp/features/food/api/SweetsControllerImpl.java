@@ -39,6 +39,6 @@ public class SweetsControllerImpl {
 
     @RequestMapping(method = RequestMethod.PUT, path = "/new", consumes = "application/json")
     public boolean addNewSweet(@RequestBody Sweet Sweet) throws PostException {
-        return this.sweets.addNew(Sweet);
+        return sweets.addNew(Sweet);
     }
 }
