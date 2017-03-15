@@ -24,8 +24,7 @@ public class FruitTransformerTest {
         entity = new FruitEntity();
         entity.setId(1L);
         entity.setName("Cherry");
-        model = new Fruit();
-        model.setName("Cherry");
+        model = new Fruit("Cherry");
     }
 
     @After

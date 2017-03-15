@@ -11,8 +11,7 @@ import ro.ovidiuconeac.foodtavern.webapp.features.food.data.entities.CheeseEntit
 public class CheesesTransformer {
 
     public Cheese getModelFrom(CheeseEntity cheeseEntity) {
-        Cheese cheese = new Cheese();
-        cheese.setName(cheeseEntity.getName());
+        Cheese cheese = new Cheese(cheeseEntity.getName());
         return cheese;
     }
 

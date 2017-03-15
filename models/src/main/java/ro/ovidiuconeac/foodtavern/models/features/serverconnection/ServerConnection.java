@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.models.feature.serverconnection;
+package ro.ovidiuconeac.foodtavern.models.features.serverconnection;
 
 /**
  * Created by Ovidiu CONEAC on 2/15/2017.

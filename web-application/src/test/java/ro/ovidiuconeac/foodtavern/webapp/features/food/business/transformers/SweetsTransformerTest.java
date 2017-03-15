@@ -24,8 +24,7 @@ public class SweetsTransformerTest {
         entity = new SweetEntity();
         entity.setId(1L);
         entity.setName("Amandina");
-        model = new Sweet();
-        model.setName("Amandina");
+        model = new Sweet("Amandina");
     }
 
     @After

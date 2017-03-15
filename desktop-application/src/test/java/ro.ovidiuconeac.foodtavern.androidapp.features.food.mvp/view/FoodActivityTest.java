@@ -3,6 +3,7 @@ package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.view.FoodViewImpl;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doNothing;
@@ -14,141 +15,141 @@ import static org.mockito.Mockito.mock;
 
 public class FoodActivityTest {
 
-    private FoodActivity foodActivity;
+    private FoodViewImpl foodView;
 
     @Before
     public void setUp() {
-        foodActivity = mock(FoodActivity.class);
+        foodView = mock(FoodViewImpl.class);
     }
 
     @After
     public void tearDown() {
-        foodActivity = null;
+        foodView = null;
     }
 
     @Test
     public void testRequestFruit() {
-        doNothing().when(foodActivity).requestFruit();
-        foodActivity.requestFruit();
+        doNothing().when(foodView).requestFruit();
+        foodView.requestFruit();
     }
 
     @Test
     public void testPostFruit() {
-        doNothing().when(foodActivity).postFruit(any());
-        foodActivity.postFruit(any());
+        doNothing().when(foodView).postFruit(any());
+        foodView.postFruit(any());
     }
 
     @Test
     public void testRequestAllFruits() {
-        doNothing().when(foodActivity).requestAllFruits();
-        foodActivity.requestAllFruits();
+        doNothing().when(foodView).requestAllFruits();
+        foodView.requestAllFruits();
     }
     
     @Test
     public void testPostAllFruits() {
-        doNothing().when(foodActivity).postAllFruits(any());
-        foodActivity.postAllFruits(any());
+        doNothing().when(foodView).postAllFruits(any());
+        foodView.postAllFruits(any());
     }
     
     @Test
     public void postFruitRequestError() {
-        doNothing().when(foodActivity).postFruitRequestError(any());
-        foodActivity.postFruitRequestError(any());
+        doNothing().when(foodView).postFruitRequestError(any());
+        foodView.postFruitRequestError(any());
     }
 
     @Test
     public void testRequestAddNewFruit() {
-        doNothing().when(foodActivity).requestAddNewFruit(any());
-        foodActivity.requestAddNewFruit(any());
+        doNothing().when(foodView).requestAddNewFruit(any());
+        foodView.requestAddNewFruit(any());
     }
 
     @Test
     public void testPostAddNewFruitRequestSuccess() {
-        doNothing().when(foodActivity).postAddNewFruitRequestSuccess(any());
-        foodActivity.postAddNewFruitRequestSuccess(any());
+        doNothing().when(foodView).postAddNewFruitRequestSuccess(any());
+        foodView.postAddNewFruitRequestSuccess(any());
     }
 
     @Test
     public void testRequestCheese() {
-        doNothing().when(foodActivity).requestCheese();
-        foodActivity.requestCheese();
+        doNothing().when(foodView).requestCheese();
+        foodView.requestCheese();
     }
 
     @Test
     public void testPostCheese() {
-        doNothing().when(foodActivity).postCheese(any());
-        foodActivity.postCheese(any());
+        doNothing().when(foodView).postCheese(any());
+        foodView.postCheese(any());
     }
 
     @Test
     public void testRequestAllCheeses() {
-        doNothing().when(foodActivity).requestAllCheeses();
-        foodActivity.requestAllCheeses();
+        doNothing().when(foodView).requestAllCheeses();
+        foodView.requestAllCheeses();
     }
 
     @Test
     public void testPostAllCheeses() {
-        doNothing().when(foodActivity).postAllCheeses(any());
-        foodActivity.postAllCheeses(any());
+        doNothing().when(foodView).postAllCheeses(any());
+        foodView.postAllCheeses(any());
     }
 
     @Test
     public void testPostCheeseRequestError() {
-        doNothing().when(foodActivity).postCheeseRequestError(any());
-        foodActivity.postCheeseRequestError(any());
+        doNothing().when(foodView).postCheeseRequestError(any());
+        foodView.postCheeseRequestError(any());
     }
 
     @Test
     public void testRequestAddNewCheese() {
-        doNothing().when(foodActivity).requestAddNewCheese(any());
-        foodActivity.requestAddNewCheese(any());
+        doNothing().when(foodView).requestAddNewCheese(any());
+        foodView.requestAddNewCheese(any());
     }
 
     @Test
     public void testPostAddNewCheeseRequestSuccess() {
-        doNothing().when(foodActivity).postAddNewCheeseRequestSuccess(any());
-        foodActivity.postAddNewCheeseRequestSuccess(any());
+        doNothing().when(foodView).postAddNewCheeseRequestSuccess(any());
+        foodView.postAddNewCheeseRequestSuccess(any());
     }
 
     @Test
     public void testRequestSweet() {
-        doNothing().when(foodActivity).requestSweet();
-        foodActivity.requestSweet();
+        doNothing().when(foodView).requestSweet();
+        foodView.requestSweet();
     }
 
     @Test
     public void testPostSweet() {
-        doNothing().when(foodActivity).postSweet(any());
-        foodActivity.postSweet(any());
+        doNothing().when(foodView).postSweet(any());
+        foodView.postSweet(any());
     }
 
     @Test
     public void testRequestAllSweets() {
-        doNothing().when(foodActivity).requestAllSweets();
-        foodActivity.requestAllSweets();
+        doNothing().when(foodView).requestAllSweets();
+        foodView.requestAllSweets();
     }
 
     @Test
     public void testPostAllSweets() {
-        doNothing().when(foodActivity).postAllSweets(any());
-        foodActivity.postAllSweets(any());
+        doNothing().when(foodView).postAllSweets(any());
+        foodView.postAllSweets(any());
     }
 
     @Test
     public void testPostSweetRequestError() {
-        doNothing().when(foodActivity).postSweetRequestError(any());
-        foodActivity.postSweetRequestError(any());
+        doNothing().when(foodView).postSweetRequestError(any());
+        foodView.postSweetRequestError(any());
     }
 
     @Test
     public void testRequestAddNewSweet() {
-        doNothing().when(foodActivity).requestAddNewSweet(any());
-        foodActivity.requestAddNewSweet(any());
+        doNothing().when(foodView).requestAddNewSweet(any());
+        foodView.requestAddNewSweet(any());
     }
 
     @Test
     public void testPostAddNewSweetRequestSuccess() {
-        doNothing().when(foodActivity).postAddNewSweetRequestSuccess(any());
-        foodActivity.postAddNewSweetRequestSuccess(any());
+        doNothing().when(foodView).postAddNewSweetRequestSuccess(any());
+        foodView.postAddNewSweetRequestSuccess(any());
     }
 }

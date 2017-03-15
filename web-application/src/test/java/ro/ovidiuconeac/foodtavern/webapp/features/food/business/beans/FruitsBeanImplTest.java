@@ -29,8 +29,7 @@ public class FruitsBeanImplTest {
     @Test
     public void testGetRandom() {
         try {
-            Fruit fruit = new Fruit();
-            fruit.setName("Mar");
+            Fruit fruit = new Fruit("Mar");
             when(bean.getRandom()).thenReturn(fruit);
             Fruit result = bean.getRandom();
             assertNotNull(result);
@@ -59,8 +58,7 @@ public class FruitsBeanImplTest {
     @Test
     public void testGetAll() {
         try {
-            Fruit fruit = new Fruit();
-            fruit.setName("Banana");
+            Fruit fruit = new Fruit("Banana");
             List<Fruit> fruits = new ArrayList<>();
             fruits.add(fruit);
             when(bean.getAll()).thenReturn(fruits);
@@ -93,7 +91,7 @@ public class FruitsBeanImplTest {
     public void testAddNew() {
         try {
             when(bean.addNew(any(Fruit.class))).thenReturn(true);
-            boolean result = bean.addNew(new Fruit());
+            boolean result = bean.addNew(new Fruit(""));
             assertEquals(true, result);
         } catch (PostException e) {
             assertEquals(true, false);
@@ -103,14 +101,14 @@ public class FruitsBeanImplTest {
     @Test(expected = PostException.class)
     public void testAddNewWithPostException1() throws PostException {
         when(bean.addNew(any(Fruit.class))).thenThrow(new PostException());
-        bean.addNew(new Fruit());
+        bean.addNew(new Fruit(""));
     }
 
     @Test
     public void testAddNewWithPostException2() {
         try {
             when(bean.addNew(any(Fruit.class))).thenThrow(new PostException());
-            bean.addNew(new Fruit());
+            bean.addNew(new Fruit(""));
         } catch (PostException e) {
             assertEquals("Unable to add food to database.", e.getMessage());
         }

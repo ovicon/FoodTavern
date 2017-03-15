@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.view;
+package ro.ovidiuconeac.foodtavern.desktopapp;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -16,7 +16,7 @@ public class DesktopApplication extends javafx.application.Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/layout/server_connection.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/layout/food_view.fxml")));
         stage.setScene(scene);
         stage.show();
     }

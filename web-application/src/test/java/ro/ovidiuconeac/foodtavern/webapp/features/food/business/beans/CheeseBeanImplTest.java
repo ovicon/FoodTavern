@@ -29,8 +29,7 @@ public class CheeseBeanImplTest {
     @Test
     public void testGetRandom() {
         try {
-            Cheese cheese = new Cheese();
-            cheese.setName("Telemea");
+            Cheese cheese = new Cheese("Telemea");
             when(bean.getRandom()).thenReturn(cheese);
             Cheese result = bean.getRandom();
             assertNotNull(result);
@@ -59,8 +58,7 @@ public class CheeseBeanImplTest {
     @Test
     public void testGetAll() {
         try {
-            Cheese cheese = new Cheese();
-            cheese.setName("Cas");
+            Cheese cheese = new Cheese("Cas");
             List<Cheese> cheeses = new ArrayList<>();
             cheeses.add(cheese);
             when(bean.getAll()).thenReturn(cheeses);
@@ -93,7 +91,7 @@ public class CheeseBeanImplTest {
     public void testAddNew() {
         try {
             when(bean.addNew(any(Cheese.class))).thenReturn(true);
-            boolean result = bean.addNew(new Cheese());
+            boolean result = bean.addNew(new Cheese(""));
             assertEquals(true, result);
         } catch (PostException e) {
             assertEquals(true, false);
@@ -103,14 +101,14 @@ public class CheeseBeanImplTest {
     @Test(expected = PostException.class)
     public void testAddNewWithPostException1() throws PostException {
         when(bean.addNew(any(Cheese.class))).thenThrow(new PostException());
-        bean.addNew(new Cheese());
+        bean.addNew(new Cheese(""));
     }
 
     @Test
     public void testAddNewWithPostException2() {
         try {
             when(bean.addNew(any(Cheese.class))).thenThrow(new PostException());
-            bean.addNew(new Cheese());
+            bean.addNew(new Cheese(""));
         } catch (PostException e) {
             assertEquals("Unable to add food to database.", e.getMessage());
         }

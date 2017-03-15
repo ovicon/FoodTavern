@@ -1,6 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.rest;
-
-import java.util.List;
+package ro.ovidiuconeac.foodtavern.desktopapp.features.food.rest;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -9,6 +7,8 @@ import retrofit2.http.PUT;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
 import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+
+import java.util.List;
 
 /**
  * Created by Ovidiu CONEAC on 2/12/2017.

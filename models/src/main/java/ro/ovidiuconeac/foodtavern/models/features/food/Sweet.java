@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.models.feature.food;
+package ro.ovidiuconeac.foodtavern.models.features.food;
 
 /**
  * Created by ovidiu on 2/7/17.
@@ -6,7 +6,11 @@ package ro.ovidiuconeac.foodtavern.models.feature.food;
 
 public class Sweet extends Food {
 
-    public Sweet() {
-        // Default controller
+    public Sweet(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

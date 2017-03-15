@@ -3,21 +3,15 @@ package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.UUID;
-
-import ro.ovidiuconeac.foodtavern.androidapp.features.common.Screen;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.presenter.FoodPresenterImpl;
+import ro.ovidiuconeac.foodtavern.desktopapp.features.food.rest.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
 import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 /**
  * Created by ovidiu on 2/7/17.
@@ -89,20 +83,5 @@ public class FoodPresenterImplTest {
     public void testAddNewSweet() {
         doNothing().when(presenter).requestAddNewSweet(any(RestServiceApi.class), any(Sweet.class));
         presenter.requestAddNewSweet(any(RestServiceApi.class), any(Sweet.class));
-    }
-
-    @Test
-    public void testSetScreen() {
-        doNothing().when(presenter).setScreen(any(Screen.class));
-        presenter.setScreen(any(Screen.class));
-    }
-
-    @Test
-    public void testGetUuid() {
-        UUID uuid = UUID.randomUUID();
-        when(presenter.getUuid()).thenReturn(uuid);
-        UUID result = presenter.getUuid();
-        assertNotNull(result);
-        assertEquals(uuid, result);
     }
 }

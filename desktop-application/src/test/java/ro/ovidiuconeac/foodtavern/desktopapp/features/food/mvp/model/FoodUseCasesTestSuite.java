@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.model;
+package ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

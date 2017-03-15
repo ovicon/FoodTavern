@@ -29,8 +29,7 @@ public class SweetsBeanImplTest {
     @Test
     public void testGetRandom() {
         try {
-            Sweet sweet = new Sweet();
-            sweet.setName("Cake");
+            Sweet sweet = new Sweet("Cake");
             when(bean.getRandom()).thenReturn(sweet);
             Sweet result = bean.getRandom();
             assertNotNull(result);
@@ -59,8 +58,7 @@ public class SweetsBeanImplTest {
     @Test
     public void testGetAll() {
         try {
-            Sweet sweet = new Sweet();
-            sweet.setName("Cake");
+            Sweet sweet = new Sweet("Cake");
             List<Sweet> sweets = new ArrayList<>();
             sweets.add(sweet);
             when(bean.getAll()).thenReturn(sweets);
@@ -93,7 +91,7 @@ public class SweetsBeanImplTest {
     public void testAddNew() {
         try {
             when(bean.addNew(any(Sweet.class))).thenReturn(true);
-            boolean result = bean.addNew(new Sweet());
+            boolean result = bean.addNew(new Sweet(""));
             assertEquals(true, result);
         } catch (PostException e) {
             assertEquals(true, false);
@@ -103,14 +101,14 @@ public class SweetsBeanImplTest {
     @Test(expected = PostException.class)
     public void testAddNewWithPostException1() throws PostException {
         when(bean.addNew(any(Sweet.class))).thenThrow(new PostException());
-        bean.addNew(new Sweet());
+        bean.addNew(new Sweet(""));
     }
 
     @Test
     public void testAddNewWithPostException2() {
         try {
             when(bean.addNew(any(Sweet.class))).thenThrow(new PostException());
-            bean.addNew(new Sweet());
+            bean.addNew(new Sweet(""));
         } catch (PostException e) {
             assertEquals("Unable to add food to database.", e.getMessage());
         }

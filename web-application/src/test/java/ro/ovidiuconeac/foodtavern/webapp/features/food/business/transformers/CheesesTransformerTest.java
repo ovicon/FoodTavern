@@ -24,8 +24,7 @@ public class CheesesTransformerTest {
         entity = new CheeseEntity();
         entity.setId(1L);
         entity.setName("Cas");
-        model = new Cheese();
-        model.setName("Cas");
+        model = new Cheese("Cas");
     }
 
     @After

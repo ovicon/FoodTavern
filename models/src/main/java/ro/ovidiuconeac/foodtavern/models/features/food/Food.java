@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.models.feature.food;
+package ro.ovidiuconeac.foodtavern.models.features.food;
 
 /**
  * Created by ovidiu on 2/7/17.
@@ -22,13 +22,5 @@ public abstract class Food {
     @Override
     public int hashCode() {
         return name != null ? name.hashCode() : 0;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

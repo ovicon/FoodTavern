@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.common;
+package ro.ovidiuconeac.foodtavern.desktopapp.features.common;
 
 /**
  * Created by ovidiu on 12/29/16.

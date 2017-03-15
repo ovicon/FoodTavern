@@ -11,8 +11,7 @@ import ro.ovidiuconeac.foodtavern.webapp.features.food.data.entities.FruitEntity
 public class FruitsTransformer {
 
     public Fruit getModelFrom(FruitEntity fruitEntity) {
-        Fruit fruit = new Fruit();
-        fruit.setName(fruitEntity.getName());
+        Fruit fruit = new Fruit(fruitEntity.getName());
         return fruit;
     }
 

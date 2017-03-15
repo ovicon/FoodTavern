@@ -1,12 +1,11 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.model;
+package ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.exceptions.NoResultException;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.exceptions.RequestException;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
+import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
+import ro.ovidiuconeac.foodtavern.desktopapp.features.food.rest.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
 import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;

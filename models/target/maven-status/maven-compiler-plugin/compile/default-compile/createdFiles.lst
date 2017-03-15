@@ -1,5 +1,5 @@
-ro/ovidiuconeac/foodtavern/models/Food.class
-ro/ovidiuconeac/foodtavern/models/Cheese.class
-ro/ovidiuconeac/foodtavern/models/ServerConnection.class
-ro/ovidiuconeac/foodtavern/models/Sweet.class
-ro/ovidiuconeac/foodtavern/models/Fruit.class
+ro/ovidiuconeac/foodtavern/models/features/food/Fruit.class
+ro/ovidiuconeac/foodtavern/models/features/food/Cheese.class
+ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.class
+ro/ovidiuconeac/foodtavern/models/features/food/Food.class
+ro/ovidiuconeac/foodtavern/models/features/food/Sweet.class

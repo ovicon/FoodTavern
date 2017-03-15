@@ -11,8 +11,7 @@ import ro.ovidiuconeac.foodtavern.webapp.features.food.data.entities.SweetEntity
 public class SweetsTransformer {
 
     public Sweet getModelFrom(SweetEntity sweetEntity) {
-        Sweet sweet = new Sweet();
-        sweet.setName(sweetEntity.getName());
+        Sweet sweet = new Sweet(sweetEntity.getName());
         return sweet;
     }
 

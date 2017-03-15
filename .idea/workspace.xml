@@ -2,25 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46a768d-94b5-4b2d-8788-dde2e09a5b06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/Cheese.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/Fruit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/ServerConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/Sweet.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBeanImpl.class" afterPath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBeanImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImpl.class" afterPath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImpl.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/DesktopApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/common/RestServiceApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/model/FoodUseCases.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/presenter/FoodPresenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/presenter/FoodPresenterImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/system/application/desktop/features/food/view/food_layout.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/application-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/application-1.0.0.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.api.FoodControllerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.business.CheeseBeanImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.business.FruitsBeanImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.business.SweetsBeanImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.dao.CheesesDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.dao.FruitsDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.dao.SweetsDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.transformers.CheeseTransformerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.transformers.FruitTransformerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.food.data.transformers.SweetTransformerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.serverconnection.api.ServerConnectionControllerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/TEST-ro.ovidiuconeac.server.features.serverconnection.business.ServerConnectionBeanImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.api.FoodControllerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.business.CheeseBeanImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.business.FruitsBeanImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.business.SweetsBeanImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.dao.CheesesDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.dao.FruitsDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.dao.SweetsDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.transformers.CheeseTransformerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.transformers.FruitTransformerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.food.data.transformers.SweetTransformerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.serverconnection.api.ServerConnectionControllerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/surefire-reports/ro.ovidiuconeac.server.features.serverconnection.business.ServerConnectionBeanImplTest.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.class" afterPath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Food.class" afterPath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Food.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.class" afterPath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.class" afterPath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/models-1.0.0.jar" afterPath="$PROJECT_DIR$/models/target/models-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.class" afterPath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.class" afterPath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.class" afterPath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.class" afterPath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-application/.idea/misc.xml" afterPath="$PROJECT_DIR$/android-application/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerImpl.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerImpl.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerImpl.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_wiki/_todo.txt" afterPath="$PROJECT_DIR$/_wiki/_todo.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-application/models/.gitignore" afterPath="$PROJECT_DIR$/android-application/models/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/desktop-application.iml" afterPath="$PROJECT_DIR$/desktop-application/desktop-application.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/pom.xml" afterPath="$PROJECT_DIR$/desktop-application/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/common/Util.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/common/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCases.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCases.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenter.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/rest/RestServiceApi.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/rest/RestServiceApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml" afterPath="$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml" afterPath="$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/presenter/FoodPresenterImplTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/presenter/FoodPresenterImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/view/FoodActivityTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/view/FoodActivityTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTestSuite.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.java" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java" afterPath="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web-application/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/web-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/rest-service/target/" />
     <ignored path="$PROJECT_DIR$/web-application/target/" />
@@ -40,21 +121,21 @@
     <useGeneratedInitString>true</useGeneratedInitString>
     <manualInitString null="true" />
     <showTooltips>true</showTooltips>
-    <failedCoveredHighlight>-3920</failedCoveredHighlight>
+    <failedCoveredHighlight>-11513856</failedCoveredHighlight>
     <periodicRefresh>false</periodicRefresh>
     <languageLevel>1.8 - lambda functions, virtual extension methods.</languageLevel>
     <instrumentLambda class="com.atlassian.clover.cfg.instr.java.LambdaInstrumentation">NONE</instrumentLambda>
     <testCaseLayout class="com.atlassian.clover.idea.config.TestCaseLayout">TEST_CASES</testCaseLayout>
     <autoScrollFromSource>false</autoScrollFromSource>
-    <coveredHighlight>-3605816</coveredHighlight>
+    <coveredHighlight>-16756736</coveredHighlight>
     <outOfDateStripe>-256</outOfDateStripe>
-    <excludes null="true" />
     <includes null="true" />
+    <excludes null="true" />
     <alwaysExpandTestClasses>false</alwaysExpandTestClasses>
     <autoViewInCloudReport>true</autoViewInCloudReport>
     <flushPolicy>0</flushPolicy>
-    <filteredHighlight>-4144960</filteredHighlight>
-    <outOfDateHighlight>-32</outOfDateHighlight>
+    <filteredHighlight>-11513776</filteredHighlight>
+    <outOfDateHighlight>-16777201</outOfDateHighlight>
     <showInline>true</showInline>
     <dumpInstrumentedSources>false</dumpInstrumentedSources>
     <hideFullyCovered>false</hideFullyCovered>
@@ -63,7 +144,7 @@
     <coveredStripe>-16711936</coveredStripe>
     <highlightCovered>true</highlightCovered>
     <viewCoverage>true</viewCoverage>
-    <notCoveredHighlight>-341816</notCoveredHighlight>
+    <notCoveredHighlight>-11534336</notCoveredHighlight>
     <relativeInitString>false</relativeInitString>
     <failedCoveredStripe>-14336</failedCoveredStripe>
     <testViewScope class="com.atlassian.clover.idea.config.TestViewScope">GLOBAL</testViewScope>
@@ -87,7 +168,7 @@
     <span>0</span>
     <projectRebuild class="com.atlassian.clover.idea.config.ProjectRebuild">ASK</projectRebuild>
     <showSummaryInToolbar>true</showSummaryInToolbar>
-    <filteredStripe>-12566464</filteredStripe>
+    <filteredStripe>-4144960</filteredStripe>
     <cloudReportIncludeSubpkgs>false</cloudReportIncludeSubpkgs>
     <enabled>false</enabled>
     <showSummaryInToolwindow>true</showSummaryInToolwindow>
@@ -103,25 +184,18 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="CheesesControllerImpl.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerImpl.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="405">
-                    <caret line="39" column="92" lean-forward="true" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
-                    <folding />
-                  </state>
+            <file leaf-file-name="food_view.fxml" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml">
+                <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+                  <state />
                 </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="CheesesControllerTest.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="645">
-                    <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+                <provider editor-type-id="text-editor">
+                  <state relative-caret-position="180">
+                    <caret line="10" column="212" lean-forward="false" selection-start-line="10" selection-start-column="212" selection-end-line="10" selection-end-column="301" />
                     <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="docComment;class#CheesesControllerTest#0" expanded="false" />
-                      <element signature="e#929#957#0" expanded="false" />
+                      <marker date="1489611534689" expanded="true" signature="2136:2546" ph="..." />
+                      <marker date="1489611534689" expanded="true" signature="2671:2984" ph="..." />
+                      <marker date="1489611534689" expanded="true" signature="3044:3446" ph="..." />
                     </folding>
                   </state>
                 </provider>
@@ -133,32 +207,80 @@
     </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FoodTavern" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FruitsControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java">
+      <file leaf-file-name="DesktopApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <element signature="docComment;class#FruitsControllerTest#0" expanded="false" />
-                <element signature="e#928#956#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SweetsControllerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java">
+      <file leaf-file-name="server_connection.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state relative-caret-position="198">
+              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodViewImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="260" column="30" lean-forward="false" selection-start-line="260" selection-start-column="30" selection-end-line="260" selection-end-column="30" />
               <folding>
-                <element signature="docComment;class#SweetsControllerTest#0" expanded="false" />
-                <element signature="e#928#956#0" expanded="false" />
-                <element signature="method#testGetRandomSweet#0;class#SweetsControllerTest#0" expanded="false" />
-                <element signature="method#testGetAllSweets#0;class#SweetsControllerTest#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2688#2689#0" expanded="true" />
+                <element signature="e#2737#2738#0" expanded="true" />
+                <element signature="e#3938#3939#0" expanded="true" />
+                <element signature="e#3977#3978#0" expanded="true" />
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4070#4071#0" expanded="true" />
+                <element signature="e#4217#4218#0" expanded="true" />
+                <element signature="e#4256#4257#0" expanded="true" />
+                <element signature="e#5472#5473#0" expanded="true" />
+                <element signature="e#5511#5512#0" expanded="true" />
+                <element signature="e#5556#5557#0" expanded="true" />
+                <element signature="e#5606#5607#0" expanded="true" />
+                <element signature="e#5757#5758#0" expanded="true" />
+                <element signature="e#5796#5797#0" expanded="true" />
+                <element signature="e#6977#6978#0" expanded="true" />
+                <element signature="e#7016#7017#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/WebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,14 +299,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>NoResultException</find>
-      <find>Fruit</find>
       <find>heese</find>
+      <find>Fruit</find>
       <find>Cheese</find>
+      <find>private void enableUiAllCheeses(boolean enable) {         if (enable) {             progressBarAllCheeses.setVisible(false);         } else {             progressBarAllCheeses.setVisible(true);         }         getAllCheeses.setDisable(enable);     }</find>
+      <find>enableUiAllSweets</find>
     </findStrings>
     <replaceStrings>
       <replace>GetException</replace>
-      <replace>Sweet</replace>
       <replace>Fruit</replace>
+      <replace>Cheese</replace>
       <replace>Sweet</replace>
     </replaceStrings>
   </component>
@@ -204,48 +328,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/business/beans/SweetsBean.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/api/FruitsControllerImpl.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/api/CheesesControllerImpl.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/api/SweetsControllerImpl.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/WebApplication.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/business/beans/SweetsBeanImpl.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/exceptions/PostException.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/exceptions/GetException.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/business/beans/CheeseBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/business/beans/FruitsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/business/beans/SweetsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/api/CheesesControllerTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/api/SweetsControllerTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/api/FruitsControllerTest.java" />
-        <option value="$PROJECT_DIR$/rest-service/src/test/java/ro/ovidiuconeac/server/features/food/api/ControllerTestSuite.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/desktop-application/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/food/Cheese.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/food/Cheese.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/models/pom.xml" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/serverconnection/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/web-application/pom.xml" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBean.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBeanImpl.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBean.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImpl.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBean.java" />
         <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImpl.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java" />
-        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.java" />
         <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBean.java" />
         <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBeanImpl.java" />
         <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/api/ServerConnectionController.java" />
@@ -255,6 +338,47 @@
         <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.java" />
         <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java" />
         <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/DesktopApplication.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewController.java" />
+        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/feature/food/Food.java" />
+        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/feature/serverconnection/ServerConnection.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/view/FoodViewController.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/view/FoodViewImpl.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/DesktopApplication.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/rest/RestServiceApi.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/rest/RestServiceApi.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenter.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCases.java" />
+        <option value="$PROJECT_DIR$/desktop-application/pom.xml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java" />
+        <option value="$PROJECT_DIR$/_wiki/_todo.txt" />
+        <option value="$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/NoResultException.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/RequestException.java" />
+        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.java" />
+        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java" />
+        <option value="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java" />
+        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/resources/food_view_layout.fxml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/common/Util.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/common/Util.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/presenter/FoodPresenterImplTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/view/FoodActivityTest.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_layout.fxml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view_layout_example.fxml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml" />
+        <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java" />
       </list>
     </option>
   </component>
@@ -266,9 +390,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
+    <option name="y" value="28" />
     <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -468,7 +592,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -512,18 +635,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -543,57 +654,7 @@
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,7 +680,11 @@
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,7 +698,39 @@
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
+              <option name="myItemId" value="desktop-application" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop-application" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop-application" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -649,7 +746,7 @@
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,7 +760,7 @@
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
+              <option name="myItemId" value="desktop-application" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -672,519 +769,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food" />
-              <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.atlassian.clover.idea.projectview.PsiDirectoryNodeWrapper" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server/features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server/features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="transformers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server/features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server/features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="business">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="rest-service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ro/ovidiuconeac/server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="food">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Sw&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/server/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/data/entities/SweetEntity.java&#10;Che&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/server/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/CheesesDaoImpl.java" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/desktop-application" />
+    <property name="SearchEverywhereHistoryKey" value="Requ&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/RequestException.java&#10;NoRes&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/NoResultException.java&#10;Sw&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/server/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/data/entities/SweetEntity.java&#10;Che&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/server/rest-service/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/CheesesDaoImpl.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ro.ovidiuconeac.foodtavern.models.features" />
-      <recent name="ro.ovidiuconeac.foodtavern.webapp" />
-      <recent name="ro.ovidiuconeac.foodtavern.webapp.features" />
-      <recent name="ro.ovidiuconeac.server.features.food.business.transformers" />
-      <recent name="ro.ovidiuconeac.server.features.food.business.beans" />
+      <recent name="ro.ovidiuconeac.foodtavern.desktopapp" />
+      <recent name="ro.ovidiuconeac.foodtavern.desktopapp.features" />
+      <recent name="ro.ovidiuconeac.foodtavern.desktopapp.features.food" />
+      <recent name="ro.ovidiuconeac.desktopapp.features.food.mvp" />
+      <recent name="ro.ovidiuconeac.system.application.desktop.features.food.mvp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources/layout" />
       <recent name="$PROJECT_DIR$/desktop-application/src/main/resources" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food" />
-      <recent name="$PROJECT_DIR$/rest-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/common" />
+      <recent name="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ro.ovidiuconeac.server.features.food.api" />
@@ -1192,40 +808,14 @@
       <recent name="ro.ovidiuconeac.server.features.food.data.dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/layouts" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources/layout" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view" />
       <recent name="$PROJECT_DIR$/desktop-application/src/main/resources" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/layout" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/view" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in web-application">
-    <configuration default="false" name="CheesesControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="web-application" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api" />
-      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.CheesesControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DesktopApplication">
     <configuration default="false" name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1246,46 +836,40 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CheesesControllerTest.testAddNewCheese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DesktopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.*" />
+          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.desktopapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="web-application" />
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.foodtavern.desktopapp.DesktopApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api" />
-      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.CheesesControllerTest" />
-      <option name="METHOD_NAME" value="testAddNewCheese" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="desktop-application" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FruitsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.*" />
+          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="web-application" />
+      <module name="desktop-application" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api" />
-      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.foodtavern.webapp.features.food.api.FruitsControllerTest" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1298,9 +882,29 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="All in web-application" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FoodViewImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ro.ovidiuconeac.foodtavern.desktopapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.view.FoodViewImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="desktop-application" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in desktop-application" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="web-application" />
+      <module name="desktop-application" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -1561,19 +1165,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="MaxCompute SQL.FruitsDaoImpl.java" />
       <item index="1" class="java.lang.String" itemvalue="MaxCompute SQL.CheesesCrudRepositoryImplAddTest.java" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CheesesControllerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WebApplication" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CheesesControllerTest.testAddNewCheese" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FruitsControllerTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.All in web-application" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WebApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DesktopApplication" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FoodViewImpl" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.All in desktop-application" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in web-application" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FruitsControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheesesControllerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CheesesControllerTest.testAddNewCheese" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WebApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DesktopApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WebApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in desktop-application" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FoodViewImpl" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" />
       </list>
     </recent_temporary>
   </component>
@@ -1594,23 +1198,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_web-application - 2017.03.11 at 15h 20m 27s.xml">
-      <configuration name="All in web-application" configurationId="JUnit" />
+    <history-entry file="All_in_desktop-application - 2017.03.15 at 19h 36m 50s.xml">
+      <configuration name="All in desktop-application" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_web-application - 2017.03.11 at 15h 20m 47s.xml">
-      <configuration name="All in web-application" configurationId="JUnit" />
+    <history-entry file="All_in_desktop-application - 2017.03.15 at 19h 37m 15s.xml">
+      <configuration name="All in desktop-application" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheesesControllerTest - 2017.03.11 at 15h 15m 19s.xml">
-      <configuration name="CheesesControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheesesControllerTest - 2017.03.11 at 15h 15m 34s.xml">
-      <configuration name="CheesesControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheesesControllerTest - 2017.03.11 at 15h 16m 22s.xml">
-      <configuration name="CheesesControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheesesControllerTest - 2017.03.11 at 15h 16m 30s.xml">
-      <configuration name="CheesesControllerTest" configurationId="JUnit" />
+    <history-entry file="All_in_desktop-application - 2017.03.15 at 19h 38m 04s.xml">
+      <configuration name="All in desktop-application" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheesesControllerTest - 2017.03.11 at 15h 17m 43s.xml">
       <configuration name="CheesesControllerTest" configurationId="JUnit" />
@@ -1624,16 +1219,34 @@
     <history-entry file="FruitsControllerTest - 2017.03.11 at 15h 19m 51s.xml">
       <configuration name="FruitsControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ro_ovidiuconeac_foodtavern_desktopapp_features_food_mvp_model_in_desktop-application - 2017.03.15 at 18h 06m 24s.xml">
+      <configuration name="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ro_ovidiuconeac_foodtavern_desktopapp_features_food_mvp_model_in_desktop-application - 2017.03.15 at 18h 07m 37s.xml">
+      <configuration name="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ro_ovidiuconeac_foodtavern_desktopapp_features_food_mvp_model_in_desktop-application - 2017.03.15 at 18h 07m 40s.xml">
+      <configuration name="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.model in desktop-application" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Test Runs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417431" sideWeight="0.50416666" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1643,18 +1256,18 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2719486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27178898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cloverage" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29437706" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2924312" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32745314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.415656" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44427082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29701835" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417431" sideWeight="0.49583334" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1668,6 +1281,46 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0765625" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Test Runs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417431" sideWeight="0.50416666" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cloverage" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27178898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2924312" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29701835" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0765625" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417431" sideWeight="0.49583334" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29895833" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1693,8 +1346,32 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1703,445 +1380,416 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/ro/ovidiuconeac/server/models/1.0.0/models-1.0.0.jar!/ro/ovidiuconeac/models/features/food/Cheese.class" />
-    <entry file="file://$PROJECT_DIR$/android-application/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Cheese.java">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4217#4218#0" expanded="true" />
+            <element signature="e#4256#4257#0" expanded="true" />
+            <element signature="e#5472#5473#0" expanded="true" />
+            <element signature="e#5511#5512#0" expanded="true" />
+            <element signature="e#5556#5557#0" expanded="true" />
+            <element signature="e#5606#5607#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+            <element signature="e#6977#6978#0" expanded="true" />
+            <element signature="e#7016#7017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_31/javafx-src.zip!/javafx/fxml/FXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4217#4218#0" expanded="true" />
+            <element signature="e#4256#4257#0" expanded="true" />
+            <element signature="e#5472#5473#0" expanded="true" />
+            <element signature="e#5511#5512#0" expanded="true" />
+            <element signature="e#5556#5557#0" expanded="true" />
+            <element signature="e#5606#5607#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+            <element signature="e#6977#6978#0" expanded="true" />
+            <element signature="e#7016#7017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewImpl.java" />
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_31/javafx-src.zip!/javafx/fxml/FXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.java">
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="67" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="67" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Sweet.java">
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/model/FoodUseCases.java" />
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/common/RestServiceApi.java" />
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewImpl.java" />
+    <entry file="file://$PROJECT_DIR$/desktop-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/pom.xml">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/pom.xml">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java">
+    <entry file="file://$PROJECT_DIR$/_wiki/_todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="18">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBean.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/RequestException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/api/ServerConnectionControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/business/ServerConnectionBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/serverconnection/api/ServerConnectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/system/common/exceptions/NoResultException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/system/common/exceptions/RequestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/exceptions/PostException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/exceptions/GetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/entities/CheeseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/entities/FruitEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/entities/SweetEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/dao/CheesesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/dao/FruitsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/data/dao/SweetsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/exceptions/NoResultException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java">
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_31/javafx-src.zip!/javafx/application/Platform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="367">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/rest/RestServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/model/FoodUseCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/BeanImplTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitsTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBean.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheesesBeanImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/FruitTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#CheesesBeanImpl#0" expanded="false" />
-            <element signature="method#CheesesBeanImpl#0;class#CheesesBeanImpl#0" expanded="false" />
-            <element signature="method#getRandom#0;class#CheesesBeanImpl#0" expanded="false" />
-            <element signature="method#getAll#0;class#CheesesBeanImpl#0" expanded="false" />
-            <element signature="method#addNew#0;class#CheesesBeanImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandom#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException1#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException2#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAll#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException1#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException2#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNew#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException1#0;class#CheeseBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException2#0;class#CheeseBeanImplTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandom#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException1#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException2#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAll#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException1#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException2#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNew#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException1#0;class#FruitsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException2#0;class#FruitsBeanImplTest#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/SweetsBeanImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandom#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException1#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetRandomWithGetException2#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAll#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException1#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testGetAllWithGetException2#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNew#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException1#0;class#SweetsBeanImplTest#0" expanded="false" />
-            <element signature="method#testAddNewWithPostException2#0;class#SweetsBeanImplTest#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="489">
+          <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/SweetsTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#FruitsBeanImpl#0" expanded="false" />
-            <element signature="method#FruitsBeanImpl#0;class#FruitsBeanImpl#0" expanded="false" />
-            <element signature="method#getRandom#0;class#FruitsBeanImpl#0" expanded="false" />
-            <element signature="method#getAll#0;class#FruitsBeanImpl#0" expanded="false" />
-            <element signature="method#addNew#0;class#FruitsBeanImpl#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/transformers/CheesesTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/ControllerTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/FruitsBeanImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="237">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/business/beans/CheeseBeanImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/common/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/view/FoodActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1653">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp/presenter/FoodPresenterImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="72" column="58" lean-forward="false" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view_layout_example.fxml" />
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_31/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/presenter/FoodPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="144">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerImpl.java">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="92" lean-forward="true" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/CheesesControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CheesesControllerTest#0" expanded="false" />
-            <element signature="e#929#957#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#FruitsControllerTest#0" expanded="false" />
-            <element signature="e#928#956#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/DesktopApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="docComment;class#SweetsControllerTest#0" expanded="false" />
-            <element signature="e#928#956#0" expanded="false" />
-            <element signature="method#testGetRandomSweet#0;class#SweetsControllerTest#0" expanded="false" />
-            <element signature="method#testGetAllSweets#0;class#SweetsControllerTest#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="212" lean-forward="false" selection-start-line="10" selection-start-column="212" selection-end-line="10" selection-end-column="301" />
+          <folding>
+            <marker date="1489611534689" expanded="true" signature="2136:2546" ph="..." />
+            <marker date="1489611534689" expanded="true" signature="2671:2984" ph="..." />
+            <marker date="1489611534689" expanded="true" signature="3044:3446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="260" column="30" lean-forward="false" selection-start-line="260" selection-start-column="30" selection-end-line="260" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4217#4218#0" expanded="true" />
+            <element signature="e#4256#4257#0" expanded="true" />
+            <element signature="e#5472#5473#0" expanded="true" />
+            <element signature="e#5511#5512#0" expanded="true" />
+            <element signature="e#5556#5557#0" expanded="true" />
+            <element signature="e#5606#5607#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+            <element signature="e#6977#6978#0" expanded="true" />
+            <element signature="e#7016#7017#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2204,7 +1852,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
