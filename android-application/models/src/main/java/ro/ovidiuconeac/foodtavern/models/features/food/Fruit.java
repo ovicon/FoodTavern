@@ -1,12 +1,12 @@
-package ro.ovidiuconeac.models.features.featurex;
+package ro.ovidiuconeac.foodtavern.models.features.food;
 
 /**
  * Created by ovidiu on 2/7/17.
  */
 
-public class Sweet extends Food {
+public class Fruit extends Food {
 
-    public Sweet(String name) {
+    public Fruit(String name) {
         this.name = name;
     }
 

@@ -15,9 +15,9 @@ import ro.ovidiuconeac.foodtavern.androidapp.features.food.exceptions.RequestExc
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.model.FoodUseCases;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.FoodView;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
-import ro.ovidiuconeac.models.features.featurex.Cheese;
-import ro.ovidiuconeac.models.features.featurex.Fruit;
-import ro.ovidiuconeac.models.features.featurex.Sweet;
+import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
+import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.

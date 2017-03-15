@@ -3,7 +3,6 @@ package ro.ovidiuconeac.system.application.desktop;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import ro.ovidiuconeac.system.application.desktop.features.food.view.FoodViewImpl;
 
 import java.io.IOException;
 
@@ -17,7 +16,7 @@ public class DesktopApplication extends javafx.application.Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Scene scene = new FoodViewImpl(FXMLLoader.load(getClass().getResource("features/food/view/food_layout.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("../../../desktopapp/features/food/mvc/food_layout.fxml")));
         stage.setScene(scene);
         stage.show();
     }

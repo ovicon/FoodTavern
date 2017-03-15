@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import ro.ovidiuconeac.foodtavern.androidapp.R;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.FoodView;
-import ro.ovidiuconeac.models.features.featurex.Sweet;
+import ro.ovidiuconeac.models.features.food.Sweet;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/2/17.

@@ -1,9 +1,9 @@
 package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view;
 
 import ro.ovidiuconeac.foodtavern.androidapp.features.common.Screen;
-import ro.ovidiuconeac.models.features.featurex.Cheese;
-import ro.ovidiuconeac.models.features.featurex.Fruit;
-import ro.ovidiuconeac.models.features.featurex.Sweet;
+import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
+import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.

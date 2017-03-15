@@ -33,9 +33,9 @@ import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.Chee
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.FruitsDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.SweetsDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
-import ro.ovidiuconeac.models.features.featurex.Cheese;
-import ro.ovidiuconeac.models.features.featurex.Fruit;
-import ro.ovidiuconeac.models.features.featurex.Sweet;
+import ro.ovidiuconeac.models.features.food.Cheese;
+import ro.ovidiuconeac.models.features.food.Fruit;
+import ro.ovidiuconeac.models.features.food.Sweet;
 
 
 public class FoodActivity extends AppCompatActivity implements FoodView {
