@@ -42,13 +42,13 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     EditText serverConnection;
 
     // Fruit
-    @BindView(R.id.progressBarFruit)
+    @BindView(R.id.progress_bar_fruit)
     ProgressBar progressBarFruit;
     @BindView(R.id.fruit)
     EditText fruit;
     @BindView(R.id.get_fruit)
     Button getFruit;
-    @BindView(R.id.progressBarAllFruits)
+    @BindView(R.id.progress_bar_all_fruits)
     ProgressBar progressBarAllFruits;
     @BindView(R.id.get_all_fruits)
     Button getAllFruits;
@@ -56,13 +56,13 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     Button newFruit;
 
     // Cheese
-    @BindView(R.id.progressBarCheese)
+    @BindView(R.id.progress_bar_cheese)
     ProgressBar progressBarCheese;
     @BindView(R.id.cheese)
     EditText cheese;
     @BindView(R.id.get_cheese)
     Button getCheese;
-    @BindView(R.id.progressBarAllCheeses)
+    @BindView(R.id.progress_bar_all_cheeses)
     ProgressBar progressBarAllCheeses;
     @BindView(R.id.get_all_cheeses)
     Button getAllCheeses;
@@ -70,13 +70,13 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     Button newCheese;
 
     // Sweet
-    @BindView(R.id.progressBarSweet)
+    @BindView(R.id.progress_bar_sweet)
     ProgressBar progressBarSweet;
     @BindView(R.id.sweet)
     EditText sweet;
     @BindView(R.id.get_sweet)
     Button getSweet;
-    @BindView(R.id.progressBarAllSweets)
+    @BindView(R.id.progress_bar_all_sweets)
     ProgressBar progressBarAllSweets;
     @BindView(R.id.get_all_sweets)
     Button getAllSweets;
