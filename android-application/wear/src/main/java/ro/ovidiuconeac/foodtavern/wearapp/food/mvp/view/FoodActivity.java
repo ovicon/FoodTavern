@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view;
+package ro.ovidiuconeac.foodtavern.wearapp.food.mvp.view;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -26,14 +26,17 @@ import ro.ovidiuconeac.foodtavern.androidapp.features.common.Cache;
 import ro.ovidiuconeac.foodtavern.androidapp.features.common.Presenter;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter.FoodPresenter;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter.FoodPresenterImpl;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewDialogFragment;
-import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.ViewAllDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewCheeseDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewFruitDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.AddNewSweetDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.CheesesDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.FruitsDialogFragment;
+import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.SweetsDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.rest.RestServiceApi;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
 
-import static ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs.FoodType.*;
 
 public class FoodActivity extends AppCompatActivity implements FoodView {
 
@@ -253,7 +256,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllFruits(String[] fruits) {
         if (fruits.length > 0) {
-            ViewAllDialogFragment.newInstance(fruits, FRUIT)
+            FruitsDialogFragment.newInstance(fruits)
                     .show(getSupportFragmentManager(), "tag_fruits_dialog");
         }
         this.enableUiAllFruits(true);
@@ -277,7 +280,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @OnClick(R.id.new_fruit)
     @SuppressWarnings("unused")
     public void addNewFruit() {
-        AddNewDialogFragment.newInstance(this, FRUIT)
+        AddNewFruitDialogFragment.newInstance(this)
                 .show(getSupportFragmentManager(), "tag_add_new_fruit");
     }
 
@@ -325,7 +328,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllCheeses(String[] cheeses) {
         if (cheeses.length > 0) {
-            ViewAllDialogFragment.newInstance(cheeses, CHEESE)
+            CheesesDialogFragment.newInstance(cheeses)
                     .show(getSupportFragmentManager(), "tag_cheeses_dialog");
         }
         this.enableUiAllCheeses(true);
@@ -349,7 +352,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @OnClick(R.id.new_cheese)
     @SuppressWarnings("unused")
     public void addNewCheese() {
-        AddNewDialogFragment.newInstance(this, CHEESE)
+        AddNewCheeseDialogFragment.newInstance(this)
                 .show(getSupportFragmentManager(), "tag_add_new_cheese");
     }
 
@@ -397,7 +400,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @Override
     public void postAllSweets(String[] sweets) {
         if (sweets.length > 0) {
-            ViewAllDialogFragment.newInstance(sweets, SWEET)
+            SweetsDialogFragment.newInstance(sweets)
                     .show(getSupportFragmentManager(), "tag_sweets_dialog");
         }
         this.enableUiAllSweets(true);
@@ -421,7 +424,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
     @OnClick(R.id.new_sweet)
     @SuppressWarnings("unused")
     public void addNewSweet() {
-        AddNewDialogFragment.newInstance(this, SWEET)
+        AddNewSweetDialogFragment.newInstance(this)
                 .show(getSupportFragmentManager(), "tag_add_new_sweet");
     }
 

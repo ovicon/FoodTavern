@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruits" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarFruit"
+                android:layout_weight="0.1" />
+
+            <EditText
+                android:id="@+id/fruit"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/get_fruit"
+                android:text="@string/get_one"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarAllFruits"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/get_all_fruits"
+                android:text="@string/get_all"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+            <Button
+                android:id="@+id/new_fruit"
+                android:text="@string/add_new"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheeses" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarCheese"
+                android:layout_weight="0.1" />
+
+            <EditText
+                android:id="@+id/cheese"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/get_cheese"
+                android:text="@string/get_one"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarAllCheeses"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/get_all_cheeses"
+                android:text="@string/get_all"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+            <Button
+                android:id="@+id/new_cheese"
+                android:text="@string/add_new"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sweets" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarSweet"
+                android:layout_weight="0.1" />
+
+            <EditText
+                android:id="@+id/sweet"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/get_sweet"
+                android:text="@string/get_one"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarAllSweets"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/get_all_sweets"
+                android:text="@string/get_all"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+            <Button
+                android:id="@+id/new_sweet"
+                android:text="@string/add_new"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

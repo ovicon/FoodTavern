@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs;
+package ro.ovidiuconeac.foodtavern.wearapp.food.mvp.view.dialogs;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;

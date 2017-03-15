@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.dialogs;
+package ro.ovidiuconeac.foodtavern.wearapp.food.mvp.view.dialogs;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -12,28 +12,28 @@ import android.widget.EditText;
 
 import ro.ovidiuconeac.foodtavern.androidapp.R;
 import ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.FoodView;
-import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/2/17.
  */
 
-public final class AddNewCheeseDialogFragment extends DialogFragment {
+public final class AddNewSweetDialogFragment extends DialogFragment {
 
     private static FoodView view;
 
     private EditText name;
     private Button save;
 
-    public static AddNewCheeseDialogFragment newInstance(FoodView view) {
-        AddNewCheeseDialogFragment.view = view;
-        return new AddNewCheeseDialogFragment();
+    public static AddNewSweetDialogFragment newInstance(FoodView view) {
+        AddNewSweetDialogFragment.view = view;
+        return new AddNewSweetDialogFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_dialog_add_new_cheese, container, false);
+        View v = inflater.inflate(R.layout.fragment_dialog_add_new_sweet, container, false);
         name = (EditText) v.findViewById(R.id.name);
         name.addTextChangedListener(new TextWatcher() {
             @Override
@@ -57,7 +57,7 @@ public final class AddNewCheeseDialogFragment extends DialogFragment {
         });
         save = (Button) v.findViewById(R.id.save);
         save.setOnClickListener(e -> {
-            view.requestAddNewCheese(new Cheese(name.getText().toString()));
+            view.requestAddNewSweet(new Sweet(name.getText().toString()));
             dismiss();
         });
         return v;
