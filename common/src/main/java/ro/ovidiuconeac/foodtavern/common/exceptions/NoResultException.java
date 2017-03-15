@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.system.common.exceptions;
+package ro.ovidiuconeac.foodtavern.common.exceptions;
 
 /**
  * Created by Ovidiu CONEAC on 2/16/2017.
@@ -7,6 +7,6 @@ package ro.ovidiuconeac.system.common.exceptions;
 public class NoResultException extends Exception {
 
     public NoResultException() {
-        super("No result exception. Data was not found on the server.");
+        super("Data was not found on the server.");
     }
 }

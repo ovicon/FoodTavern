@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.system.common.exceptions;
+package ro.ovidiuconeac.foodtavern.common.exceptions;
 
 /**
  * Created by Ovidiu CONEAC on 2/14/2017.
@@ -7,6 +7,6 @@ package ro.ovidiuconeac.system.common.exceptions;
 public class RequestException extends Exception {
 
     public RequestException() {
-        super("Request exception. Unable to contact server.");
+        super("Unable to contact server.");
     }
 }
