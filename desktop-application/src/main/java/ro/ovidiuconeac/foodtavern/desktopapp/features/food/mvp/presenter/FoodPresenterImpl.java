@@ -59,7 +59,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 });
             } catch (RequestException | NoResultException e) {
                 // Run on ui thread
-                Platform.runLater(() -> view.postFruitRequestError(e.getMessage()));
+                Platform.runLater(() -> view.postAllFruitsRequestError(e.getMessage()));
             }
         });
     }
@@ -113,7 +113,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 });
             } catch (RequestException | NoResultException e) {
                 // Run on ui thread
-                Platform.runLater(() -> view.postCheeseRequestError(e.getMessage()));
+                Platform.runLater(() -> view.postAllCheesesRequestError(e.getMessage()));
             }
         });
     }
@@ -167,7 +167,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 });
             } catch (RequestException | NoResultException e) {
                 // Run on ui thread
-                Platform.runLater(() -> view.postSweetRequestError(e.getMessage()));
+                Platform.runLater(() -> view.postAllSweetsRequestError(e.getMessage()));
             }
         });
     }

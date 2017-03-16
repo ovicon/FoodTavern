@@ -72,6 +72,10 @@ public class FoodUseCases {
                     successful = response.body();
                     break;
                 }
+                case 400: {
+                    System.out.println(response.body());
+                    break;
+                }
                 case 404: {
                     throw new NoResultException();
                 }

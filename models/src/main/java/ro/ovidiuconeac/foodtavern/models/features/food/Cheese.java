@@ -6,11 +6,10 @@ package ro.ovidiuconeac.foodtavern.models.features.food;
 
 public class Cheese extends Food {
 
+    // Required for Json deserialization
+    public Cheese() {}
+
     public Cheese(String name) {
         this.name = name;
-    }
-
-    public String getName() {
-        return name;
     }
 }

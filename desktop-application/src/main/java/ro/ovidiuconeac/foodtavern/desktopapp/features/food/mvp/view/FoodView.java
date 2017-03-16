@@ -14,6 +14,7 @@ public interface FoodView {
     void requestAllFruits();
     void postAllFruits(String[] fruits);
     void postFruitRequestError(String msg);
+    void postAllFruitsRequestError(String msg);
     void requestAddNewFruit(Fruit fruit);
     void postAddNewFruitRequestSuccess(String msg);
     // Cheese
@@ -22,6 +23,7 @@ public interface FoodView {
     void requestAllCheeses();
     void postAllCheeses(String[] cheeses);
     void postCheeseRequestError(String msg);
+    void postAllCheesesRequestError(String msg);
     void requestAddNewCheese(Cheese cheese);
     void postAddNewCheeseRequestSuccess(String msg);
     // Sweet
@@ -30,6 +32,7 @@ public interface FoodView {
     void requestAllSweets();
     void postAllSweets(String[] sweets);
     void postSweetRequestError(String msg);
+    void postAllSweetsRequestError(String msg);
     void requestAddNewSweet(Sweet sweet);
     void postAddNewSweetRequestSuccess(String msg);
 }

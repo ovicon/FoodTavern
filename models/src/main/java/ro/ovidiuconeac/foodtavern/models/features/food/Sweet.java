@@ -6,11 +6,10 @@ package ro.ovidiuconeac.foodtavern.models.features.food;
 
 public class Sweet extends Food {
 
+    // Required for Json deserialization
+    public Sweet() {}
+
     public Sweet(String name) {
         this.name = name;
-    }
-
-    public String getName() {
-        return name;
     }
 }

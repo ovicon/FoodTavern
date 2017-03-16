@@ -4,9 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.presenter.FoodPresenter;
@@ -18,6 +16,7 @@ import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
 import java.net.URL;
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 /**
@@ -25,54 +24,33 @@ import java.util.ResourceBundle;
  */
 public class FoodViewImpl implements Initializable, FoodView {
 
+    private static RestServiceApi restServiceApi;
+
     // Server
-    @FXML
-    private TextField serverConnection;
+    private @FXML TextField serverConnection;
 
     // Fruit
-    @FXML
-    private ProgressIndicator progressBarFruit;
-    @FXML
-    private TextField fruit;
-    @FXML
-    private Button getFruit;
-    @FXML
-    private ProgressIndicator progressBarAllFruits;
-    @FXML
-    private Button getAllFruits;
-    @FXML
-    private Button newFruit;
+    private @FXML ProgressIndicator progressBarFruit;
+    private @FXML TextField fruit;
+    private @FXML Button getFruit;
+    private @FXML ProgressIndicator progressBarAllFruits;
+    private @FXML Button getAllFruits;
 
     // Cheese
-    @FXML
-    private ProgressIndicator progressBarCheese;
-    @FXML
-    private TextField cheese;
-    @FXML
-    private Button getCheese;
-    @FXML
-    private ProgressIndicator progressBarAllCheeses;
-    @FXML
-    private Button getAllCheeses;
-    @FXML
-    private Button newCheese;
+    private @FXML ProgressIndicator progressBarCheese;
+    private @FXML TextField cheese;
+    private @FXML Button getCheese;
+    private @FXML ProgressIndicator progressBarAllCheeses;
+    private @FXML Button getAllCheeses;
 
     // Sweet
-    @FXML
-    private ProgressIndicator progressBarSweet;
-    @FXML
-    private TextField sweet;
-    @FXML
-    private Button getSweet;
-    @FXML
-    private ProgressIndicator progressBarAllSweets;
-    @FXML
-    private Button getAllSweets;
-    @FXML
-    private Button newSweet;
+    private @FXML ProgressIndicator progressBarSweet;
+    private @FXML TextField sweet;
+    private @FXML Button getSweet;
+    private @FXML ProgressIndicator progressBarAllSweets;
+    private @FXML Button getAllSweets;
 
     private FoodPresenter presenter;
-    private RestServiceApi restServiceApi;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -80,32 +58,29 @@ public class FoodViewImpl implements Initializable, FoodView {
         initializeRestService();
     }
 
+    @FXML
     private void initializeRestService() {
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
         Retrofit service = new Retrofit.Builder()
-                .baseUrl("http://localhost:1984") // TODO
+                .baseUrl(getServerConnection())
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         restServiceApi = service.create(RestServiceApi.class);
     }
 
-    public static void main(String[] args) {
-        new FoodViewImpl().requestFruit();
-    }
-
     @FXML
     @Override
     public void requestFruit() {
-        this.enableUiFruit(false);
+        enableUiFruit(false);
         presenter.requestFruit(restServiceApi);
     }
 
     @Override
     public void postFruit(String fruit) {
         this.fruit.setText(fruit);
-        this.enableUiFruit(true);
+        enableUiFruit(true);
     }
 
     private void enableUiFruit(boolean enable) {
@@ -121,13 +96,22 @@ public class FoodViewImpl implements Initializable, FoodView {
     @FXML
     @Override
     public void requestAllFruits() {
-        this.enableUiAllFruits(false);
+        enableUiAllFruits(false);
         presenter.requestAllFruits(restServiceApi);
     }
 
     @Override
     public void postAllFruits(String[] fruits) {
-        Arrays.stream(fruits).forEach(System.out::println);
+        StringBuilder builder = new StringBuilder();
+        Arrays.stream(fruits).forEach(s -> {
+            builder.append(s);
+            builder.append("\n");
+        });
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Fruits");
+        alert.setHeaderText("");
+        alert.setContentText(builder.toString());
+        alert.show();
         this.enableUiAllFruits(true);
     }
 
@@ -142,22 +126,41 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postFruitRequestError(String msg) {
-        System.out.println(msg);
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiFruit(true);
+    }
+
+    @Override
+    public void postAllFruitsRequestError(String msg) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiAllFruits(true);
     }
 
     @FXML
     private void addNewFruit() {
-        System.out.println("addNewFruit");
+        TextInputDialog textInput = new TextInputDialog("");
+        textInput.setTitle("Add New Fruit");
+        textInput.setHeaderText("");
+        Optional<String> result = textInput.showAndWait();
+        result.ifPresent(s -> {
+            if (!s.isEmpty()) {
+                requestAddNewFruit(new Fruit(s));
+            }
+        });
     }
 
     @Override
     public void requestAddNewFruit(Fruit fruit) {
-
+        presenter.requestAddNewFruit(restServiceApi, fruit);
     }
 
     @Override
     public void postAddNewFruitRequestSuccess(String msg) {
-        System.out.println(msg);
+
     }
 
     @FXML
@@ -192,7 +195,16 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAllCheeses(String[] cheeses) {
-        Arrays.stream(cheeses).forEach(System.out::println);
+        StringBuilder builder = new StringBuilder();
+        Arrays.stream(cheeses).forEach(s -> {
+            builder.append(s);
+            builder.append("\n");
+        });
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Cheeses");
+        alert.setHeaderText("");
+        alert.setContentText(builder.toString());
+        alert.show();
         this.enableUiAllCheeses(true);
     }
 
@@ -207,22 +219,41 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postCheeseRequestError(String msg) {
-        System.out.println(msg);
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiCheese(true);
+    }
+
+    @Override
+    public void postAllCheesesRequestError(String msg) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiAllCheeses(true);
     }
 
     @FXML
     private void addNewCheese() {
-        System.out.println("addNewCheese");
+        TextInputDialog textInput = new TextInputDialog("");
+        textInput.setTitle("Add New Cheese");
+        textInput.setHeaderText("");
+        Optional<String> result = textInput.showAndWait();
+        result.ifPresent(s -> {
+            if (!s.isEmpty()) {
+                requestAddNewCheese(new Cheese(s));
+            }
+        });
     }
 
     @Override
     public void requestAddNewCheese(Cheese cheese) {
-
+        presenter.requestAddNewCheese(restServiceApi, cheese);
     }
 
     @Override
     public void postAddNewCheeseRequestSuccess(String msg) {
-        System.out.println(msg);
+
     }
 
     @FXML
@@ -257,8 +288,17 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAllSweets(String[] sweets) {
-        Arrays.stream(sweets).forEach(System.out::println);
-        enableUiAllSweets(true);
+        StringBuilder builder = new StringBuilder();
+        Arrays.stream(sweets).forEach(s -> {
+            builder.append(s);
+            builder.append("\n");
+        });
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Sweets");
+        alert.setHeaderText("");
+        alert.setContentText(builder.toString());
+        alert.show();
+        this.enableUiAllSweets(true);
     }
 
     private void enableUiAllSweets(boolean enable) {
@@ -272,22 +312,45 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postSweetRequestError(String msg) {
-        System.out.println(msg);
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiSweet(true);
+
+    }
+
+    @Override
+    public void postAllSweetsRequestError(String msg) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setHeaderText(msg);
+        alert.show();
+        enableUiAllSweets(true);
     }
 
     @FXML
     private void addNewSweet() {
-        System.out.println("addNewSweet");
+        TextInputDialog textInput = new TextInputDialog("");
+        textInput.setTitle("Add New Fruit");
+        textInput.setHeaderText("");
+        Optional<String> result = textInput.showAndWait();
+        result.ifPresent(s -> {
+            if(!s.isEmpty()) {
+                requestAddNewSweet(new Sweet(s));
+            }
+        });
     }
 
     @Override
     public void requestAddNewSweet(Sweet sweet) {
-
+        presenter.requestAddNewSweet(restServiceApi, sweet);
     }
 
     @Override
     public void postAddNewSweetRequestSuccess(String msg) {
-        System.out.println(msg);
-        System.out.println(msg);
+
+    }
+
+    private String getServerConnection() {
+        return serverConnection == null || serverConnection.getText().isEmpty() ? "http://localhost:1984" : serverConnection.getText();
     }
 }
