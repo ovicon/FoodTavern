@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view.FoodActivity">
+        <activity android:name="ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.FoodActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

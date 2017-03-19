@@ -1,0 +1,17 @@
+System package/folder structure (based on "The C4 software architecture model" - "http://www.codingthearchitecture.com/2014/08/24/c4_model_poster.html")
+
+System:
+ - ro.ovidiuconeac.foodtavern
+
+Containers:
+ - ro.ovidiuconeac.foodtavern.androidapp
+ - ro.ovidiuconeac.foodtavern.desktopapp
+ - ro.ovidiuconeac.foodtavern.webservice
+ - ro.ovidiuconeac.foodtavern.webapp
+
+Components:
+ - ro.ovidiuconeac.foodtavern.androidapp.components.food
+ - ro.ovidiuconeac.foodtavern.desktopapp.components.food
+ - ro.ovidiuconeac.foodtavern.webservice.components.food
+                                                   .serverconnection
+ - ro.ovidiuconeac.foodtavern.webapp

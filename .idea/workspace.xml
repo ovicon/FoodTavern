@@ -2,8 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46a768d-94b5-4b2d-8788-dde2e09a5b06" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture/C4_architecture_modeling_step_1_system_context_diagram.odg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture/C4_architecture_modeling_step_1_system_context_diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture/C4_architecture_modeling_step_2_container_diagram.odg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture/.~lock.C4_architecture_modeling_step_1_system_context_diagram.odg#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/04_design/package_structure.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/.~lock.C4_architecture_modeling_step_1_system_context_diagram.odg#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/.~lock.C4_architecture_modeling_step_2_container_diagram.odg#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/C4_architecture_modeling_step_1_system_context_diagram.odg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/C4_architecture_modeling_step_1_system_context_diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/C4_architecture_modeling_step_2_container_diagram.odg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture_and_design/C4_architecture_modeling_step_2_container_diagram.png" afterPath="$PROJECT_DIR$/_wiki/00_software_engineering_process/03_architecture/C4_architecture_modeling_step_2_container_diagram.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/MainActivityCheesesLayoutsTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/MainActivityCheesesLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/MainActivityFruitsLayoutsTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/MainActivityFruitsLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/MainActivityServerConnectionLayoutsTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/MainActivityServerConnectionLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/MainActivitySweetsLayoutsTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/androidTest/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/MainActivitySweetsLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/common/Cache.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/common/Cache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/common/Presenter.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/common/Presenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/common/Screen.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/common/Screen.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/common/Util.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/common/Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/exceptions/NoResultException.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/exceptions/NoResultException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/exceptions/RequestException.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/exceptions/RequestException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/model/FoodUseCases.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/model/FoodUseCases.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/presenter/FoodPresenter.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/presenter/FoodPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/presenter/FoodPresenterImpl.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/presenter/FoodPresenterImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/FoodActivity.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/FoodActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/FoodView.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/FoodView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/dialogs/AddNewDialogFragment.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/dialogs/AddNewDialogFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/dialogs/FoodType.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/dialogs/FoodType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/dialogs/ViewAllDialogFragment.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/dialogs/ViewAllDialogFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/rest/RestServiceApi.java" afterPath="$PROJECT_DIR$/android-application/application/src/main/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/rest/RestServiceApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/model/FoodUseCasesTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/model/FoodUseCasesTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/model/FoodUseCasesTestSuite.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/model/FoodUseCasesTestSuite.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/presenter/FoodPresenterImplTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/presenter/FoodPresenterImplTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/features/food/mvp/view/FoodActivityTest.java" afterPath="$PROJECT_DIR$/android-application/application/src/test/java/ro/ovidiuconeac/foodtavern/androidapp/components/food/mvp/view/FoodActivityTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_wiki/_todo.txt" afterPath="$PROJECT_DIR$/_wiki/_todo.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-application/application/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android-application/application/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-application/application/src/main/res/layout-land/activity_food.xml" afterPath="$PROJECT_DIR$/android-application/application/src/main/res/layout-land/activity_food.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-application/application/src/main/res/layout/activity_food.xml" afterPath="$PROJECT_DIR$/android-application/application/src/main/res/layout/activity_food.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/rest-service/target/" />
     <ignored path="$PROJECT_DIR$/web-application/target/" />
@@ -89,7 +127,28 @@
     <favorites_list name="FoodTavern" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package_structure.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/04_design/package_structure.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,8 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/FruitsControllerTest.java" />
-        <option value="$PROJECT_DIR$/web-application/src/test/java/ro/ovidiuconeac/foodtavern/webapp/features/food/api/SweetsControllerTest.java" />
         <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/DesktopApplication.java" />
         <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewController.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/feature/food/Food.java" />
@@ -186,6 +243,8 @@
         <option value="$PROJECT_DIR$/desktop-application/src/main/resources/layout/server_connection.fxml" />
         <option value="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/FoodViewImpl.java" />
         <option value="$PROJECT_DIR$/_wiki/_todo.txt" />
+        <option value="$PROJECT_DIR$/_wiki/00_software_engineering_process/04_design/package_structure.txt" />
+        <option value="$PROJECT_DIR$/_wiki/todo.txt" />
       </list>
     </option>
   </component>
@@ -428,7 +487,195 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="android-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovidiuconeac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00_software_engineering_process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00_software_engineering_process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00_software_engineering_process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03_architecture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,13 +697,6 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources/layout" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/view" />
-      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvc" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ro.ovidiuconeac.foodtavern.desktopapp" />
       <recent name="ro.ovidiuconeac.foodtavern.desktopapp.features" />
@@ -464,17 +704,24 @@
       <recent name="ro.ovidiuconeac.desktopapp.features.food.mvp" />
       <recent name="ro.ovidiuconeac.system.application.desktop.features.food.mvp" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ro.ovidiuconeac.server.features.food.api" />
-      <recent name="ro.ovidiuconeac.server.features.food.exceptions" />
-      <recent name="ro.ovidiuconeac.server.features.food.data.dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/desktop-application/src/main/resources/layout" />
       <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view/dialogs" />
       <recent name="$PROJECT_DIR$/desktop-application/src/main/resources" />
       <recent name="$PROJECT_DIR$/desktop-application/src/test/java/ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp" />
       <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.ovidiuconeac.server.features.food.api" />
+      <recent name="ro.ovidiuconeac.server.features.food.exceptions" />
+      <recent name="ro.ovidiuconeac.server.features.food.data.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources/layout" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/features/food/mvp/view" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/resources" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvp/view" />
+      <recent name="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/desktopapp/features/food/mvc" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DesktopApplication">
@@ -1015,7 +1262,7 @@
       <updated>1487955307677</updated>
       <workItem from="1489924029287" duration="1351000" />
       <workItem from="1489928007082" duration="636000" />
-      <workItem from="1489937372831" duration="271000" />
+      <workItem from="1489937372831" duration="1322000" />
     </task>
     <servers />
   </component>
@@ -1052,7 +1299,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2258000" />
+    <option name="totallyTimeSpent" value="3309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1065,7 +1312,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1082,7 +1329,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27582535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27582535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1235,14 +1482,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/serverconnection/ServerConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/model/FoodUseCases.java" />
     <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/common/RestServiceApi.java" />
     <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/system/application/desktop/features/food/view/FoodViewImpl.java" />
     <entry file="file://$PROJECT_DIR$/desktop-application/pom.xml">
@@ -1553,6 +1792,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/04_design/package_structure.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
