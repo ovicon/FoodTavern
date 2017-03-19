@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.view.FoodViewImpl">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view.FoodViewImpl">
     <Label text="Server connection" textFill="RED">
       <VBox.margin>
          <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />

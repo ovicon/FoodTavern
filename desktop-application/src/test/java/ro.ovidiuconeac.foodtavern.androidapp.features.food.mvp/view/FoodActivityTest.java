@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.view;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.desktopapp.features.food.mvp.view.FoodViewImpl;
+import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view.FoodViewImpl;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doNothing;
