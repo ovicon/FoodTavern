@@ -1,8 +1,15 @@
-# CleanArhitectureWIthAndroidAndSpringBoot
-Full stack system, based on clean architecture, with Android client and Spring Boot backend. 
-___
-The server application implemented as a Spring Boot application.
-___
+# FoodTavern
+
+Full stack system based on clean architecture and MVP as presentation layer.
+
+The system is composed of the following:
+- Android App
+- Desktop App
+- Web App
+- RESTfull Web Service
+
+In progress...
+
 License
 -------
 
