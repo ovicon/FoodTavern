@@ -1,0 +1,4 @@
+- use unchecked exceptions
+- rename packages according to the C4 architecture model
+- Ho to do 188n in the desktop app?
+- exceptions and models must be common for all applications, find a way to make it happen
