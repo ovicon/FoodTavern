@@ -8,7 +8,7 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -25,7 +25,9 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                $.each(result, function(index, value){
+                    console.log(result[index].name);
+                });
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -37,12 +39,18 @@ function FoodUseCases() {
     // Use case add new fruit
     FoodUseCases.prototype.addNewFruit = function() {
         var url = 'http://localhost:1984/food/fruits/new';
+        var fruit = "name=smochineeeeee";
         jQuery.ajax({
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
             type: 'PUT',
             url: url,
             dataType: 'json',
+            data: fruit,
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -59,7 +67,7 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -76,7 +84,9 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                $.each(result, function(index, value){
+                    console.log(result[index].name);
+                });
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -93,7 +103,7 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -110,7 +120,7 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -127,7 +137,9 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                $.each(result, function(index, value){
+                    console.log(result[index].name);
+                });
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')
@@ -144,7 +156,7 @@ function FoodUseCases() {
             url: url,
             dataType: 'json',
             success: function successCallback(result) {
-
+                console.log(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 $('#server_connection')

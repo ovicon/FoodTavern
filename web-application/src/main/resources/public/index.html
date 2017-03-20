@@ -22,6 +22,21 @@
     <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
     <script type="application/javascript">
         new ServerConnectionUseCases().displayServerConnection();
+
+        // Unit testing
+        var v = new FoodUseCases();
+        v.getFruit();
+        v.getCheese();
+        v.getSweet();
+
+        v.getAllFruits();
+        v.getAllCheeses();
+        v.getAllSweets();
+
+        v.addNewFruit();
+        v.addNewCheese();
+        v.addNewSweet();
+
     </script>
 </head>
 <body>
