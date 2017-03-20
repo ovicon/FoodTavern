@@ -3,31 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Server - Home</title>
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
+    <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
     <script type="application/javascript">
-    function displayServerConnection() {
-        var url = 'http://localhost:1984/serverconnection';
-        jQuery.ajax({
-            type: 'GET',
-            url: url,
-            dataType: 'json',
-            success: function successCallback(result) {
-                $('#server_connection')
-                    .text('The server connection for your client is: ' + result.scheme + '://' + result.host + ':' + result.port);
-            },
-            error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus + ', please check the configured port: ' + url);
-            }
-        });
-    }
+        new ServerConnectionUseCases().displayServerConnection();
     </script>
-    <style>
-        body {background-color: powderblue;}
-    </style>
 </head>
-<body onload="displayServerConnection()">
-    <h1 id="server_connection"></h1>
+<body>
+<h1 id="server_connection"></h1>
+<div class="container">
+
+    <label class="col-sm-2 col-form-label">Fruits</label>
+    <br />
+    <form class="form-inline">
+        <i id="progress_bar_fruit" class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+        <label class="sr-only" for="fruit">Username</label>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <input type="text" class="form-control" id="fruit">
+        </div>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <button type="submit" class="btn btn-primary">Get</button>
+        </div>
+        <button type="submit" class="btn btn-primary">Get All</button>
+        <button type="submit" class="btn btn-primary">New</button>
+    </form>
+
+    <label class="col-sm-2 col-form-label">cheeses</label>
+    <br />
+    <form class="form-inline">
+        <i id="progress_bar_cheese" class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+        <label class="sr-only" for="cheese">Username</label>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <input type="text" class="form-control" id="cheese">
+        </div>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <button type="submit" class="btn btn-primary">Get</button>
+        </div>
+        <button type="submit" class="btn btn-primary">Get All</button>
+        <button type="submit" class="btn btn-primary">New</button>
+    </form>
+
+    <label class="col-sm-2 col-form-label">sweets</label>
+    <br />
+    <form class="form-inline">
+        <i id="progress_bar_sweet" class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+        <label class="sr-only" for="sweet">Username</label>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <input type="text" class="form-control" id="sweet">
+        </div>
+
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <button type="submit" class="btn btn-primary">Get</button>
+        </div>
+        <button type="submit" class="btn btn-primary">Get All</button>
+        <button type="submit" class="btn btn-primary">New</button>
+    </form>
+</div>
 </body>
 </html>

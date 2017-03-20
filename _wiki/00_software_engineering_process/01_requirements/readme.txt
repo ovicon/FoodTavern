@@ -1,5 +1,8 @@
 Non-functional:
 - A network delay feature must be implemented to show the behaviour of the asynchronous implementation
+- The mobile client is an Android application
+- The desktop client is a JavaFX application
+- The web application is an HTMl5, CSS3, JavaScript application
 - etc
 
 Functional:
