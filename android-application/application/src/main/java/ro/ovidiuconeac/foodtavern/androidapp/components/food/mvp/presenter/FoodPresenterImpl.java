@@ -10,7 +10,6 @@ import java.util.UUID;
 
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Screen;
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Util;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.AndroidAppException;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.RequestException;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.model.FoodUseCases;
@@ -49,7 +48,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 Fruit fruit = new Fruit("");
                 try {
                     fruit = model.getFruit(restServiceApi);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postFruitRequestError(e.getMessage()));
@@ -75,7 +74,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 List<Fruit> fruits = new ArrayList<>();
                 try {
                     fruits = model.getAllFruits(restServiceApi);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postFruitRequestError(e.getMessage()));
@@ -105,7 +104,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 boolean successful = false;
                 try {
                     successful = model.addNewFruit(restServiceApi, fruit);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postFruitRequestError(e.getMessage()));
@@ -133,7 +132,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 Cheese cheese = new Cheese("");
                 try {
                     cheese = model.getCheese(restServiceApi);
-                } catch (final AndroidAppException e) {
+                } catch (final RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postCheeseRequestError(e.getMessage()));
@@ -159,7 +158,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 List<Cheese> cheeses = new ArrayList<>();
                 try {
                     cheeses = model.getAllCheeses(restServiceApi);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postCheeseRequestError(e.getMessage()));
@@ -189,7 +188,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 boolean successful = false;
                 try {
                     successful = model.addNewCheese(restServiceApi, cheese);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postCheeseRequestError(e.getMessage()));
@@ -217,7 +216,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 Sweet sweet = new Sweet("");
                 try {
                     sweet = model.getSweet(restServiceApi);
-                } catch (final AndroidAppException e) {
+                } catch (final RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postSweetRequestError(e.getMessage()));
@@ -243,7 +242,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 List<Sweet> Sweets = new ArrayList<>();
                 try {
                     Sweets = model.getAllSweets(restServiceApi);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postSweetRequestError(e.getMessage()));
@@ -273,7 +272,7 @@ public class FoodPresenterImpl implements FoodPresenter {
                 boolean successful = false;
                 try {
                     successful = model.addNewSweet(restServiceApi, sweet);
-                } catch (AndroidAppException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper())
                             .post(() -> view.postSweetRequestError(e.getMessage()));

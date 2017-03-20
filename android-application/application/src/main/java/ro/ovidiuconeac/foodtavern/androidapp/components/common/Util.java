@@ -11,11 +11,11 @@ package ro.ovidiuconeac.foodtavern.androidapp.components.common;
 public abstract class Util {
 
     public static void simulateNetworkLatency(int millis) {
-        // Pause current thread
+/*        // Pause current thread
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }

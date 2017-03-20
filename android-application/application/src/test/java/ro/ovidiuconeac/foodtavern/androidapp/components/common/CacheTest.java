@@ -4,9 +4,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/20/17.
@@ -15,15 +17,18 @@ import static org.mockito.Mockito.mock;
 public class CacheTest {
 
     private Cache cache;
+    private Presenter presenter;
 
     @Before
     public void setUp() {
         cache = mock(Cache.class);
+        presenter = mock(Presenter.class);
     }
 
     @After
     public void tearDown() {
         cache = null;
+        presenter = null;
     }
 
     @Test
@@ -34,7 +39,8 @@ public class CacheTest {
 
     @Test
     public void testCacheRestorePresenter() {
-        doNothing().when(cache).restorePresenterFor(any());
-        cache.restorePresenterFor(any());
+        when(cache.restorePresenterFor(any())).thenReturn(presenter);
+        Presenter result = cache.restorePresenterFor(any());
+        assertNotNull(presenter);
     }
 }
