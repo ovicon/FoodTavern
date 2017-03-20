@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/foodtavern.iml" filepath="$PROJECT_DIR$/foodtavern.iml" />
       <module fileurl="file://$PROJECT_DIR$/models/models.iml" filepath="$PROJECT_DIR$/models/models.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-application/web-application.iml" filepath="$PROJECT_DIR$/web-application/web-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-service/web-service.iml" filepath="$PROJECT_DIR$/web-service/web-service.iml" />
     </modules>
   </component>
 </project>

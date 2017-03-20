@@ -11,9 +11,11 @@
 
     <modules>
         <module>models</module>
+        <module>web-service</module>
         <module>web-application</module>
         <module>desktop-application</module>
         <module>common</module>
+
     </modules>
 
     <parent>

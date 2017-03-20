@@ -9,8 +9,9 @@
         <module name="common" />
         <module name="desktop-application" />
         <module name="models" />
-        <module name="rest-service" />
         <module name="web-application" />
+        <module name="web-server" />
+        <module name="web-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,9 +19,9 @@
       <module name="desktop-application" target="1.8" />
       <module name="foodtavern" target="1.8" />
       <module name="models" target="1.8" />
-      <module name="rest-service" target="1.8" />
-      <module name="server" target="1.8" />
       <module name="web-application" target="1.8" />
+      <module name="web-server" target="1.8" />
+      <module name="web-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

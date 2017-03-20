@@ -1,9 +1,8 @@
-package ro.ovidiuconeac.foodtavern.androidapp.features.food.mvp.presenter;
+package ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenterImpl;
 import ro.ovidiuconeac.foodtavern.desktopapp.components.food.rest.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
