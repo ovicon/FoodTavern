@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.models.features.food;
+package ro.ovidiuconeac.foodtavern.common.models;
 
 /**
  * Created by ovidiu on 2/7/17.
