@@ -330,7 +330,7 @@ public class FoodViewImpl implements Initializable, FoodView {
     @FXML
     private void addNewSweet() {
         TextInputDialog textInput = new TextInputDialog("");
-        textInput.setTitle("Add New Fruit");
+        textInput.setTitle("Add New Sweet");
         textInput.setHeaderText("");
         Optional<String> result = textInput.showAndWait();
         result.ifPresent(s -> {
