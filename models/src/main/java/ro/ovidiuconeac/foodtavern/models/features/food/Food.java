@@ -24,6 +24,10 @@ public abstract class Food {
         return name != null ? name.hashCode() : 0;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }

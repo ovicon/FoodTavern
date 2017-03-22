@@ -3,7 +3,7 @@ function FoodUseCases() {
     // Use case "get Fruit"
     FoodUseCases.prototype.getFruit = function () {
         var url = 'http://localhost:1984/food/fruits/random';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -20,7 +20,7 @@ function FoodUseCases() {
     // Use case "get all Fruits"
     FoodUseCases.prototype.getAllFruits = function() {
         var url = 'http://localhost:1984/food/fruits/all';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -37,18 +37,16 @@ function FoodUseCases() {
     }
 
     // Use case add new fruit
-    FoodUseCases.prototype.addNewFruit = function() {
+    FoodUseCases.prototype.addNewFruit = function(fruit) {
         var url = 'http://localhost:1984/food/fruits/new';
-        var fruit = "name=smochineeeeee";
-        jQuery.ajax({
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
+        var fruit = {};
+        fruit["name"] = "caca";
+        $.ajax({
             type: 'PUT',
+            contentType: "application/json",
             url: url,
-            dataType: 'json',
-            data: fruit,
+            data: JSON.stringify(fruit),
+            dataType: "json",
             success: function successCallback(result) {
                 console.log(result.name);
             },
@@ -62,7 +60,7 @@ function FoodUseCases() {
     // Use case "get Cheese"
     FoodUseCases.prototype.getCheese = function() {
         var url = 'http://localhost:1984/food/cheeses/random';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -79,7 +77,7 @@ function FoodUseCases() {
     // Use case "get all Cheese"
     FoodUseCases.prototype.getAllCheeses = function() {
         var url = 'http://localhost:1984/food/cheeses/all';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -96,12 +94,14 @@ function FoodUseCases() {
     }
 
     // Use case add new cheese
-    FoodUseCases.prototype.addNewCheese = function() {
-        var url = 'http://localhost:1984/food/fruits/new';
-        jQuery.ajax({
+    FoodUseCases.prototype.addNewCheese = function(cheese) {
+        var url = 'http://localhost:1984/food/cheeses/new';
+        $.ajax({
             type: 'PUT',
+            contentType: "application/json",
             url: url,
-            dataType: 'json',
+            data: JSON.stringify(cheese),
+            dataType: "json",
             success: function successCallback(result) {
                 console.log(result.name);
             },
@@ -115,7 +115,7 @@ function FoodUseCases() {
     // Use case "get Sweet"
     FoodUseCases.prototype.getSweet = function() {
         var url = 'http://localhost:1984/food/sweets/random';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -132,7 +132,7 @@ function FoodUseCases() {
     // Use case "get all Sweets"
     FoodUseCases.prototype.getAllSweets = function() {
         var url = 'http://localhost:1984/food/sweets/all';
-        jQuery.ajax({
+        $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
@@ -149,12 +149,14 @@ function FoodUseCases() {
     }
 
     // Use case add new sweet
-    FoodUseCases.prototype.addNewSweet = function() {
-        var url = 'http://localhost:1984/food/fruits/new';
-        jQuery.ajax({
+    FoodUseCases.prototype.addNewSweet = function(sweet) {
+        var url = 'http://localhost:1984/food/sweets/new';
+        $.ajax({
             type: 'PUT',
+            contentType: "application/json",
             url: url,
-            dataType: 'json',
+            data: JSON.stringify(sweet),
+            dataType: "json",
             success: function successCallback(result) {
                 console.log(result.name);
             },

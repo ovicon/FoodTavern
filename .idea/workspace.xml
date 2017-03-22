@@ -2,8 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa4e4b3-78ef-4ba4-94e1-2150a85cc4eb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/Main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/ro/ovidiuconeac/foodtavern/common/exceptions/NoResultException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/ro/ovidiuconeac/foodtavern/common/exceptions/RequestException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/layout/food_view.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/layout/server_connection.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/common/Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/ResponseBody.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/rest/RestServiceApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithRequestExceptionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/CheesesControllerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/FruitsControllerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/SweetsControllerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/CheesesBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/CheesesBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/FruitsBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/FruitsBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/SweetsBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/SweetsBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/CheesesTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/FruitsTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/SweetsTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/dao/CheesesDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/dao/FruitsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/dao/SweetsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/entities/CheeseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/entities/FruitEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/data/entities/SweetEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/exceptions/GetException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/food/exceptions/PostException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/api/ServerConnectionController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/business/ServerConnectionBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/business/ServerConnectionBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/classes/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/CheesesControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/ControllerTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/FruitsControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/api/SweetsControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/BeanImplTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/CheeseBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/FruitsBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/beans/SweetsBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/CheesesTransformerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/FruitTransformerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/SweetsTransformerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/food/business/transformers/TransformerTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/api/ServerConnectionControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-application/target/test-classes/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/business/ServerConnectionBeanImplTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Food.class" afterPath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/foodtavern/models/features/food/Food.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/resources/public/index.html" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" afterPath="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/public/index.html" afterPath="$PROJECT_DIR$/web-application/target/classes/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js" afterPath="$PROJECT_DIR$/web-application/target/classes/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" afterPath="$PROJECT_DIR$/web-application/target/classes/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +91,37 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="food_view.fxml" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="465">
+                    <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="58" />
+                    <folding />
+                  </state>
+                </provider>
+                <provider editor-type-id="JavaFX-Scene-Builder">
+                  <state />
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="495">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,21 +131,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerConnectionUseCases.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js">
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodUseCases.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FoodUseCases.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodPresenter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodViewImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="50" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -61,8 +206,8 @@
       <file leaf-file-name="FoodRestServiceApi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,16 +215,33 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>public List&lt;*&gt;</find>
       <find>fruit</find>
       <find>result.body</find>
+      <find>jQuery</find>
+      <find>void</find>
+      <find>addNew</find>
+      <find>FoodPresenterImpl</find>
+      <find>:</find>
     </findStrings>
     <replaceStrings>
       <replace>function</replace>
       <replace>sweet</replace>
       <replace>result.name</replace>
+      <replace>$</replace>
+      <replace>FoodPresenterImpl.prototype.</replace>
+      <replace>FoodView</replace>
+      <replace>FoodPresenter</replace>
+      <replace>= $('#')</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -101,13 +263,20 @@
         <option value="$PROJECT_DIR$/_wiki/00_software_engineering_process/00_description/readme.txt" />
         <option value="$PROJECT_DIR$/_wiki/00_software_engineering_process/01_requirements/readme.txt" />
         <option value="$PROJECT_DIR$/web-application/src/main/resources/public/css/main.css" />
-        <option value="$PROJECT_DIR$/_wiki/todo.txt" />
         <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/serverconnection/mvp/model/FoodUseCases.js" />
         <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/mvp/model/FoodUseCases.js" />
         <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js" />
-        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" />
-        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java" />
         <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/temp.js" />
+        <option value="$PROJECT_DIR$/_wiki/todo.txt" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenterImpl.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodViewImpl.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/Main.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js" />
+        <option value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js" />
       </list>
     </option>
   </component>
@@ -125,9 +294,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="28" />
+    <option name="x" value="1920" />
     <option name="width" value="1920" />
-    <option name="height" value="1018" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -144,6 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,6 +337,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="web-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,52 +504,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodtavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,6 +588,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,6 +791,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="desktop-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -573,6 +910,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,6 +1020,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,99 +1125,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodtavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_wiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="00_software_engineering_process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodtavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_wiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="00_software_engineering_process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02_mockups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodtavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_wiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="00_software_engineering_process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02_mockups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodtavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodTavern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_wiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="00_software_engineering_process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01_requirements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -834,19 +1135,22 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/mvp/model" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="SearchEverywhereHistoryKey" value="todo&#9;FILE&#9;file:///home/ovidiu/Developer/workspace/Spring/FoodTavern/_wiki/todo.txt" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/serverconnection" />
-      <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/serverconnection" />
-      <recent name="$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/android_app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/mvp/model" />
       <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro" />
       <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js" />
       <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/html/error" />
       <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view" />
+      <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/serverconnection" />
+      <recent name="$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/serverconnection" />
+      <recent name="$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/android_app" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Main2">
@@ -1284,6 +1588,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5fa4e4b3-78ef-4ba4-94e1-2150a85cc4eb" name="Default" comment="" />
@@ -1292,15 +1599,17 @@
       <option name="presentableId" value="Default" />
       <updated>1490016155818</updated>
       <workItem from="1490016157023" duration="2513000" />
-      <workItem from="1490019634783" duration="11001000" />
+      <workItem from="1490019634783" duration="11789000" />
+      <workItem from="1490119521081" duration="3032000" />
+      <workItem from="1490196541542" duration="6493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13514000" />
+    <option name="totallyTimeSpent" value="23827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1314,18 +1623,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18855219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18782791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28168264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14165792" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28700745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1333,7 +1643,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1351,105 +1660,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_running.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/android_app/android_app_error_fruits.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_add_new_fruit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_add_new_sweet.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_error_unable_to_contact_server.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_add_new_cheese.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="335" column="31" lean-forward="true" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-service/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="335" column="31" lean-forward="false" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_add_new_cheese.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1463,14 +1673,6 @@
     <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app_running.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_wiki/00_software_engineering_process/02_mockups/desktop_app/desktop_app.png">
@@ -1557,7 +1759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,7 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1586,15 +1785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,7 +1792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,6 +1799,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="92" lean-forward="false" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/serverconnection/mvp/model/FoodUseCases.js" />
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/serverconnection/mvp/model/ServerConnectionUseCases.js" />
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/mvp/model/FoodUseCases.js" />
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/CheesesControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Cheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#263#264#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/foodtavern/models/features/food/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#595#596#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="118" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/target/classes/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenterImpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1622,50 +1906,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/serverconnection/mvp/model/FoodUseCases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/serverconnection/mvp/model/ServerConnectionUseCases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/food/mvp/model/FoodUseCases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="129" column="51" lean-forward="true" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/rest/FoodRestServiceApi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="50" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="495">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#i#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1674,10 +1976,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js">
+    <entry file="file://$PROJECT_DIR$/desktop-application/src/main/resources/layout/food_view.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-application/src/main/resources/public/js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding />
         </state>
       </provider>

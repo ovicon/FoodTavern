@@ -19,23 +19,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
+    <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js"></script>
+    <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js"></script>
     <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
     <script type="application/javascript">
         new ServerConnectionUseCases().displayServerConnection();
 
         // Unit testing
-        var v = new FoodUseCases();
-        v.getFruit();
-        v.getCheese();
-        v.getSweet();
+        var v = new FoodView();
+        v.requestFruit();
+        v.requestCheese();
+        v.requestSweet();
 
-        v.getAllFruits();
-        v.getAllCheeses();
-        v.getAllSweets();
+        v.requestAllFruits();
+        v.requestAllCheeses();
+        v.requestAllSweets();
 
-        v.addNewFruit();
-        v.addNewCheese();
-        v.addNewSweet();
+
+        v.requestAddNewFruit();
+
+        v.requestAddNewCheese();
+        v.requestAddNewSweet();
+
 
     </script>
 </head>
