@@ -14,78 +14,78 @@
         <fx:include source="server_connection.fxml" />
 
         <Label text="Fruits">
-         <VBox.margin>
-            <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
-         </VBox.margin></Label>
+            <VBox.margin>
+                <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin></Label>
         <HBox prefHeight="100.0" prefWidth="300.0">
             <ProgressIndicator id="progress_bar_fruit" fx:id="progressBarFruit" visible="false" />
             <TextField id="fruit" fx:id="fruit" />
             <Button id="get_fruit" fx:id="getFruit" mnemonicParsing="false" onAction="#requestFruit" text="Get">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
-         <VBox.margin>
-            <Insets bottom="10.0" />
-         </VBox.margin>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
+            <VBox.margin>
+                <Insets bottom="10.0" />
+            </VBox.margin>
         </HBox>
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progress_bar_all_fruits" fx:id="progressBarAllFruits" visible="false" />
             <Button id="get_all_fruits" fx:id="getAllFruits" mnemonicParsing="false" onAction="#requestAllFruits" text="Get All" />
             <Button id="new_fruit" fx:id="newFruit" mnemonicParsing="false" onAction="#addNewFruit" text="New">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
         </HBox>
 
         <Label text="Cheeses">
-         <VBox.margin>
-            <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
-         </VBox.margin></Label>
+            <VBox.margin>
+                <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin></Label>
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progress_bar_cheese" fx:id="progressBarCheese" visible="false" />
             <TextField id="cheese" fx:id="cheese" />
             <Button id="get_cheese" fx:id="getCheese" mnemonicParsing="false" onAction="#requestCheese" text="Get">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
-         <VBox.margin>
-            <Insets bottom="10.0" />
-         </VBox.margin>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
+            <VBox.margin>
+                <Insets bottom="10.0" />
+            </VBox.margin>
         </HBox>
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progress_bar_all_cheeses" fx:id="progressBarAllCheeses" visible="false" />
             <Button id="get_all_cheeses" fx:id="getAllCheeses" mnemonicParsing="false" onAction="#requestAllCheeses" text="Get All" />
             <Button id="new_cheese" fx:id="newCheese" mnemonicParsing="false" onAction="#addNewCheese" text="New">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
-         <VBox.margin>
-            <Insets />
-         </VBox.margin>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
         </HBox>
 
         <Label id="progress_bar_sweet" text="Sweets">
-         <VBox.margin>
-            <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
-         </VBox.margin></Label>
+            <VBox.margin>
+                <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin></Label>
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progress_bar_sweet" fx:id="progressBarSweet" visible="false" />
             <TextField id="sweet" fx:id="sweet" />
             <Button id="get_sweet" fx:id="getSweet" mnemonicParsing="false" onAction="#requestSweet" text="Get">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
-         <VBox.margin>
-            <Insets bottom="10.0" />
-         </VBox.margin>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
+            <VBox.margin>
+                <Insets bottom="10.0" />
+            </VBox.margin>
         </HBox>
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progress_bar_all_sweets" fx:id="progressBarAllSweets" visible="false" />
             <Button id="get_all_sweets" fx:id="getAllSweets" mnemonicParsing="false" onAction="#requestAllSweets" text="Get All" />
             <Button id="new_sweet" fx:id="newSweet" mnemonicParsing="false" onAction="#addNewSweet" text="New">
-            <HBox.margin>
-               <Insets left="10.0" />
-            </HBox.margin></Button>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin></Button>
         </HBox>
     </VBox>
 </ScrollPane>

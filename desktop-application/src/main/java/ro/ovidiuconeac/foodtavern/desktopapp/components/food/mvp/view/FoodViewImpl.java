@@ -102,17 +102,21 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAllFruits(String[] fruits) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Fruits");
+        alert.setHeaderText("");
+        alert.setContentText(getNamesAsStringFrom(fruits));
+        alert.show();
+        this.enableUiAllFruits(true);
+    }
+
+    private String getNamesAsStringFrom(String[] fruits) {
         StringBuilder builder = new StringBuilder();
         Arrays.stream(fruits).forEach(s -> {
             builder.append(s);
             builder.append("\n");
         });
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Fruits");
-        alert.setHeaderText("");
-        alert.setContentText(builder.toString());
-        alert.show();
-        this.enableUiAllFruits(true);
+        return builder.toString();
     }
 
     private void enableUiAllFruits(boolean enable) {
@@ -195,15 +199,10 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAllCheeses(String[] cheeses) {
-        StringBuilder builder = new StringBuilder();
-        Arrays.stream(cheeses).forEach(s -> {
-            builder.append(s);
-            builder.append("\n");
-        });
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Cheeses");
         alert.setHeaderText("");
-        alert.setContentText(builder.toString());
+        alert.setContentText(getNamesAsStringFrom(cheeses));
         alert.show();
         this.enableUiAllCheeses(true);
     }
@@ -288,15 +287,10 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAllSweets(String[] sweets) {
-        StringBuilder builder = new StringBuilder();
-        Arrays.stream(sweets).forEach(s -> {
-            builder.append(s);
-            builder.append("\n");
-        });
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Sweets");
         alert.setHeaderText("");
-        alert.setContentText(builder.toString());
+        alert.setContentText(getNamesAsStringFrom(sweets));
         alert.show();
         this.enableUiAllSweets(true);
     }
