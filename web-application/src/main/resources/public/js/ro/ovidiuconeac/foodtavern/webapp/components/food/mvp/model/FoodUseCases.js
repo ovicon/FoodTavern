@@ -1,4 +1,17 @@
-function FoodUseCases() {
+/**
+ * Created by ovidiu on 3/22/17.
+ */
+function FoodUseCases(view) {
+
+    // Duplicat method in FoodView.js
+    FoodUseCases.prototype.getStringFrom = function(array) {
+        var buf = '';
+        for (var i=0; i<array.length; i++) {
+            buf += array[i].name;
+            buf += '\n';
+        }
+        return buf;
+    }
 
     // Use case "get Fruit"
     FoodUseCases.prototype.getFruit = function () {
@@ -7,12 +20,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                view.postFruit(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -24,14 +37,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                $.each(result, function(index, value){
-                    console.log(result[index].name);
-                });
+                view.postAllFruits(FoodUseCases.prototype.getStringFrom(result));
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                console.log(errorThrown);
             }
         });
     }
@@ -46,13 +57,13 @@ function FoodUseCases() {
             contentType: "application/json",
             url: url,
             data: JSON.stringify(fruit),
-            dataType: "json",
+            dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                // TODO
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -64,12 +75,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                view.postCheese(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -81,14 +92,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                $.each(result, function(index, value){
-                    console.log(result[index].name);
-                });
+                view.postAllCheese(FoodUseCases.prototype.getStringFrom(result));
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -102,12 +111,12 @@ function FoodUseCases() {
             url: url,
             data: JSON.stringify(cheese),
             dataType: "json",
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                // TODO
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -119,12 +128,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                view.postSweet(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -136,14 +145,12 @@ function FoodUseCases() {
             type: 'GET',
             url: url,
             dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                $.each(result, function(index, value){
-                    console.log(result[index].name);
-                });
+                view.postAllSweets(FoodUseCases.prototype.getStringFrom(result));
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }
@@ -156,13 +163,13 @@ function FoodUseCases() {
             contentType: "application/json",
             url: url,
             data: JSON.stringify(sweet),
-            dataType: "json",
+            dataType: 'json',
+            async: 'true',
             success: function successCallback(result) {
-                console.log(result.name);
+                // TODO
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                $('#server_connection')
-                    .text('Unable to establish server connection, '  + textStatus);
+                // TODO
             }
         });
     }

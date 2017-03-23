@@ -6,57 +6,57 @@
 </head>
 <body>
 <h1 id="server_connection"></h1>
-<div class="container">
+<div>
 
-    <label class="col-sm-2 col-form-label">Fruits</label>
+    <label>Fruits</label>
     <br />
-    <form class="form-inline">
-        <img id="progress_bar_fruit" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;">
-
-        <label class="sr-only" for="fruit"></label>
-
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="fruit">
-        </div>
-
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <button id="get_fruit" type="submit" class="btn btn-primary">Get</button>
-        </div>
-        <button id="get_all_fruits" type="submit" class="btn btn-primary">Get All</button>
-        <button id="new_fruit" type="submit" class="btn btn-primary">New</button>
-    </form>
-
-    <label class="col-sm-2 col-form-label">cheeses</label>
+    <div style="float:left">
+        <img id="progress_bar_fruit" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="fruit">
+        <button id="get_fruit">Get</button>
+    </div>
     <br />
-    <form class="form-inline">
-        <img id="progress_bar_cheese" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;">
-
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="cheese">
-        </div>
-
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <button id="get_cheese" type="submit" class="btn btn-primary">Get</button>
-        </div>
-        <button id="get_all_cheeses" type="submit" class="btn btn-primary">Get All</button>
-        <button id="new_cheese" type="submit" class="btn btn-primary">New</button>
-    </form>
-
-    <label class="col-sm-2 col-form-label">sweets</label>
     <br />
-    <form class="form-inline">
-        <img id="progress_bar_sweet" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;">
+    <div style="float: left">
+        <img id="progress_bar_all_fruits" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_fruits">Get All</button>
+        <button id="new_fruit">New</button>
+    </div>
+    <br />
+    <br />
 
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="sweet">
-        </div>
+    <label>Cheeses</label>
+    <br />
+    <div style="float: left">
+        <img id="progress_bar_cheese" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="cheese">
+        <button id="get_cheese">Get</button>
+    </div>
+    <br />
+    <br />
+    <div style="float: left">
+        <img id="progress_bar_all_cheeses" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_cheeses">Get All</button>
+        <button id="new_cheese">New</button>
+    </div>
+    <br />
+    <br />
 
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <button id="get_sweet" type="submit" class="btn btn-primary">Get</button>
-        </div>
-        <button id="get_all_sweet" type="submit" class="btn btn-primary">Get All</button>
-        <button id="new_sweet" type="submit" class="btn btn-primary">New</button>
-    </form>
+    <label>Sweets</label>
+    <br />
+    <div style="float: left">
+        <img id="progress_bar_sweet" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="sweet">
+        <button id="get_sweet">Get</button>
+    </div>
+    <br />
+    <br />
+    <div style="float: left">
+        <img id="progress_bar_all_sweets" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_sweets">Get All</button>
+        <button id="new_sweet">New</button>
+    </div>
+
 </div>
 
 <!-- Favicon -->
@@ -78,6 +78,15 @@
 <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
 <script type="application/javascript">
 
+    $(document).ready(function () {
+        new ServerConnectionUseCases().displayServerConnection();
+
+        // Unit testing
+        var v = new FoodView();
+        //v.requestAllFruits();
+
+    });
+
     var f = function() {
         alert('');
         console.log("hello");
@@ -86,15 +95,11 @@
 
     eval(f);
 
-    new ServerConnectionUseCases().displayServerConnection();
-
-    // Unit testing
-    var v = new FoodView();
-    v.requestFruit();
-    v.requestCheese();
-    v.requestSweet();
+    /*    v.requestFruit();
+     v.requestCheese();
+     v.requestSweet();*/
     /*
-     v.requestAllFruits();
+
      v.requestAllCheeses();
      v.requestAllSweets();
 

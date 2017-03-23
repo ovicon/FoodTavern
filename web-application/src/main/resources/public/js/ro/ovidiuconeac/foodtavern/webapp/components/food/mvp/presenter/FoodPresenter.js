@@ -4,14 +4,13 @@
 function FoodPresenter(view) {
 
     var view = view;
-    var model = new FoodUseCases();
+    var model = new FoodUseCases(view);
 
-    FoodPresenter.prototype.requestFruit = function () {
+    FoodPresenter.prototype.requestFruit = function() {
         model.getFruit()
     }
 
-
-    FoodPresenter.prototype.requestAllFruits = function () {
+    FoodPresenter.prototype.requestAllFruits = function() {
         model.getAllFruits();
     }
 
@@ -21,11 +20,11 @@ function FoodPresenter(view) {
         model.addNewFruit(fruit);
     }
 
-    FoodPresenter.prototype.requestCheese = function () {
+    FoodPresenter.prototype.requestCheese = function() {
         model.getCheese();
     }
 
-    FoodPresenter.prototype.requestAllCheeses = function () {
+    FoodPresenter.prototype.requestAllCheeses = function() {
         model.getAllCheeses();
     }
 
@@ -35,11 +34,11 @@ function FoodPresenter(view) {
         model.addNewCheese(cheese);
     }
 
-    FoodPresenter.prototype.requestSweet = function () {
+    FoodPresenter.prototype.requestSweet = function() {
         model.getSweet();
     }
 
-    FoodPresenter.prototype.requestAllSweets = function () {
+    FoodPresenter.prototype.requestAllSweets = function() {
         model.getAllSweets();
     }
 
