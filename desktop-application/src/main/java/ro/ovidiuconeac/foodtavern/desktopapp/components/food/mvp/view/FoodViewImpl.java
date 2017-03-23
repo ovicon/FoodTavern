@@ -2,6 +2,7 @@ package ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -18,6 +19,7 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.TimerTask;
 
 /**
  * Created by ovidiu on 2/24/17.
@@ -49,6 +51,9 @@ public class FoodViewImpl implements Initializable, FoodView {
     private @FXML Button getSweet;
     private @FXML ProgressIndicator progressBarAllSweets;
     private @FXML Button getAllSweets;
+
+    // Status
+    private @FXML Label status;
 
     private FoodPresenter presenter;
 
@@ -164,7 +169,27 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAddNewFruitRequestSuccess(String msg) {
+        status.setText("Added new fruit: " + msg);
+        resetStatus();
+    }
 
+    private void resetStatus() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    // Log error
+                }
+                Platform.runLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        status.setText("");
+                    }
+                });
+            }
+        }).start();
     }
 
     @FXML
@@ -252,7 +277,8 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAddNewCheeseRequestSuccess(String msg) {
-
+        status.setText("Added new cheese: " + msg);
+        resetStatus();
     }
 
     @FXML
@@ -341,7 +367,8 @@ public class FoodViewImpl implements Initializable, FoodView {
 
     @Override
     public void postAddNewSweetRequestSuccess(String msg) {
-
+        status.setText("Added new sweet: " + msg);
+        resetStatus();
     }
 
     private String getServerConnection() {

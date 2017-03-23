@@ -17,7 +17,7 @@ function FoodView() {
     });
     var newFruit = $('#new_fruit');
     newFruit.click(function () {
-        // TODO use dialogs
+        addNewFruit();
     });
 
     // Cheese
@@ -33,8 +33,8 @@ function FoodView() {
         FoodView.prototype.requestAllCheeses();
     });
     var newCheese = $('#new_cheese');
-    newFruit.click(function () {
-        // TODO use dialogs
+    newCheese.click(function () {
+        addNewCheese();
     });
 
     // Sweet
@@ -51,7 +51,7 @@ function FoodView() {
     });
     var newSweet = $('#new_sweet');
     newSweet.click(function () {
-        // TODO use dialogs
+        addNewSweet();
     });
 
     // jQuery
@@ -85,8 +85,8 @@ function FoodView() {
     }
 
     FoodView.prototype.postAllFruits = function (names) {
-        enableUiAllFruits(true);
         alert(names);
+        enableUiAllFruits(true);
     }
 
     function enableUiAllFruits(enable) {
@@ -97,6 +97,19 @@ function FoodView() {
             progressBarAllFruits.css('visibility', 'visible');
             getAllFruits.attr('disabled', 'true');
         }
+    }
+
+    FoodView.prototype.postFruitRequestError = function (msg) {
+        alert(msg);
+    }
+
+    FoodView.prototype.postAllFruitsRequestError = function (msg) {
+        alert(msg);
+    }
+
+    function addNewFruit() {
+        var fruitName = prompt("Add New Fruit");
+        presenter.requestAddNewFruit(fruitName);
     }
 
     FoodView.prototype.requestAddNewFruit = function(name) {
@@ -131,8 +144,8 @@ function FoodView() {
     }
 
     FoodView.prototype.postAllCheese = function (names) {
-        enableUiAllCheeses(true);
         alert(names);
+        enableUiAllCheeses(true);
     }
 
     function enableUiAllCheeses(enable) {
@@ -143,6 +156,19 @@ function FoodView() {
             progressBarAllCheeses.css('visibility', 'visible');
             getAllCheeses.attr('disabled', 'true');
         }
+    }
+
+    FoodView.prototype.postCheeseRequestError = function (msg) {
+        alert(msg);
+    }
+
+    FoodView.prototype.postAllCheesesRequestError = function (msg) {
+        alert(msg);
+    }
+
+    function addNewCheese() {
+        var cheeseName = prompt("Add New Cheese");
+        presenter.requestAddNewCheese(cheeseName);
     }
 
     FoodView.prototype.requestAddNewCheese = function(name) {
@@ -177,8 +203,8 @@ function FoodView() {
     }
 
     FoodView.prototype.postAllSweets = function (names) {
-        enableUiAllSweets(true);
         alert(names);
+        enableUiAllSweets(true);
     }
 
     function enableUiAllSweets(enable) {
@@ -189,6 +215,19 @@ function FoodView() {
             progressBarAllSweets.css('visibility', 'visible');
             getAllSweets.attr('disabled', 'true');
         }
+    }
+
+    FoodView.prototype.postSweetRequestError = function (msg) {
+        alert(msg);
+    }
+
+    FoodView.prototype.postAllSweetsRequestError = function (msg) {
+        alert(msg);
+    }
+
+    function addNewSweet() {
+        var sweetName = prompt("Add New Sweet");
+        presenter.requestAddNewSweet(sweetName);
     }
 
     FoodView.prototype.requestAddNewSweet = function(name) {

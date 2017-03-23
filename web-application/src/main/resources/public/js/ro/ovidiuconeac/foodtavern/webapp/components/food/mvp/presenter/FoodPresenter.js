@@ -7,7 +7,8 @@ function FoodPresenter(view) {
     var model = new FoodUseCases(view);
 
     FoodPresenter.prototype.requestFruit = function() {
-        model.getFruit()
+        var x = model.getFruit()
+        view.postFruit(x);
     }
 
     FoodPresenter.prototype.requestAllFruits = function() {
@@ -15,9 +16,9 @@ function FoodPresenter(view) {
     }
 
     FoodPresenter.prototype.requestAddNewFruit = function(fruit) {
-        var fruit = {};
-        fruit["name"] = "caca";
-        model.addNewFruit(fruit);
+        var fruitObject = {};
+        fruitObject["name"] = fruit;
+        model.addNewFruit(fruitObject);
     }
 
     FoodPresenter.prototype.requestCheese = function() {
@@ -29,9 +30,9 @@ function FoodPresenter(view) {
     }
 
     FoodPresenter.prototype.requestAddNewCheese = function(cheese) {
-        var cheese = {};
-        cheese["name"] = "caca";
-        model.addNewCheese(cheese);
+        var cheeseObject = {};
+        cheeseObject["name"] = cheese;
+        model.addNewCheese(cheeseObject);
     }
 
     FoodPresenter.prototype.requestSweet = function() {
@@ -43,8 +44,8 @@ function FoodPresenter(view) {
     }
 
     FoodPresenter.prototype.requestAddNewSweet = function(sweet) {
-        var sweet = {};
-        sweet["name"] = "caca";
-        model.addNewSweet(sweet);
+        var sweetObjects = {};
+        sweetObjects["name"] = sweet;
+        model.addNewSweet(sweetObjects);
     }
 }

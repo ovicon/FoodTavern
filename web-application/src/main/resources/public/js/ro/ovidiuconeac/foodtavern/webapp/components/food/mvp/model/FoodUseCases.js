@@ -15,6 +15,7 @@ function FoodUseCases(view) {
 
     // Use case "get Fruit"
     FoodUseCases.prototype.getFruit = function () {
+        var result1;
         var url = 'http://localhost:1984/food/fruits/random';
         $.ajax({
             type: 'GET',
@@ -25,7 +26,7 @@ function FoodUseCases(view) {
                 view.postFruit(result.name);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                // TODO
+                view.postFruitRequestError(textStatus);
             }
         });
     }
@@ -42,7 +43,7 @@ function FoodUseCases(view) {
                 view.postAllFruits(FoodUseCases.prototype.getStringFrom(result));
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                console.log(errorThrown);
+                view.postAllFruitsRequestError(textStatus);
             }
         });
     }
@@ -50,8 +51,6 @@ function FoodUseCases(view) {
     // Use case add new fruit
     FoodUseCases.prototype.addNewFruit = function(fruit) {
         var url = 'http://localhost:1984/food/fruits/new';
-        var fruit = {};
-        fruit["name"] = "caca";
         $.ajax({
             type: 'PUT',
             contentType: "application/json",
