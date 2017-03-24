@@ -1,6 +1,7 @@
-function ServerConnectionUseCases() {
+function ServerConnectionUseCases(presenter) {
 
-    ServerConnectionUseCases.prototype.displayServerConnection = function () {
+    // Use case "Get server connection"
+    ServerConnectionUseCases.prototype.getServerConnection = function () {
         var url = 'http://localhost:1984/serverconnection';
         jQuery.ajax({
             type: 'GET',

@@ -54,7 +54,6 @@ function FoodView() {
         addNewSweet();
     });
 
-    // jQuery
     var presenter = new FoodPresenter(this);
 
     FoodView.prototype.requestFruit = function () {
@@ -116,6 +115,10 @@ function FoodView() {
         presenter.requestAddNewFruit(name);
     }
 
+    FoodView.prototype.postAddNewFruitRequestSuccess = function (msg) {
+        // TODO
+    }
+
     FoodView.prototype.requestCheese = function () {
         enableUiCheese(false);
         presenter.requestCheese();
@@ -143,7 +146,7 @@ function FoodView() {
         presenter.requestAllCheeses();
     }
 
-    FoodView.prototype.postAllCheese = function (names) {
+    FoodView.prototype.postAllCheeses = function (names) {
         alert(names);
         enableUiAllCheeses(true);
     }
@@ -173,6 +176,10 @@ function FoodView() {
 
     FoodView.prototype.requestAddNewCheese = function(name) {
         presenter.requestAddNewCheese(name);
+    }
+
+    FoodPresenter.prototype.postAddNewCheeseRequestSuccess = function(msg) {
+        // TODO
     }
 
     FoodView.prototype.requestSweet = function () {
@@ -232,5 +239,9 @@ function FoodView() {
 
     FoodView.prototype.requestAddNewSweet = function(name) {
         presenter.requestAddNewSweet(name);
+    }
+
+    FoodPresenter.prototype.postAddNewSweetRequestSuccess = function(msg) {
+        // TODO
     }
 }

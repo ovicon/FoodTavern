@@ -1,17 +1,7 @@
 /**
  * Created by ovidiu on 3/22/17.
  */
-function FoodUseCases(view) {
-
-    // Duplicat method in FoodView.js
-    FoodUseCases.prototype.getStringFrom = function(array) {
-        var buf = '';
-        for (var i=0; i<array.length; i++) {
-            buf += array[i].name;
-            buf += '\n';
-        }
-        return buf;
-    }
+function FoodUseCases(presenter) {
 
     // Use case "get Fruit"
     FoodUseCases.prototype.getFruit = function () {
@@ -23,10 +13,10 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postFruit(result.name);
+                presenter.postFruit(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                view.postFruitRequestError(textStatus);
+                presenter.postFruitRequestError(textStatus);
             }
         });
     }
@@ -40,15 +30,15 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postAllFruits(FoodUseCases.prototype.getStringFrom(result));
+                presenter.postAllFruits(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                view.postAllFruitsRequestError(textStatus);
+                presenter.postAllFruitsRequestError(textStatus);
             }
         });
     }
 
-    // Use case add new fruit
+    // Use case "add new fruit"
     FoodUseCases.prototype.addNewFruit = function(fruit) {
         var url = 'http://localhost:1984/food/fruits/new';
         $.ajax({
@@ -59,7 +49,7 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                // TODO
+                presenter.postAddNewFruitRequestSuccess(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 // TODO
@@ -76,10 +66,10 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postCheese(result.name);
+                presenter.postCheese(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
-                // TODO
+                presenter.postCheeseRequestError(textStatus);
             }
         });
     }
@@ -93,7 +83,7 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postAllCheese(FoodUseCases.prototype.getStringFrom(result));
+                presenter.postAllCheeses(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 // TODO
@@ -101,7 +91,7 @@ function FoodUseCases(view) {
         });
     }
 
-    // Use case add new cheese
+    // Use case "add new cheese"
     FoodUseCases.prototype.addNewCheese = function(cheese) {
         var url = 'http://localhost:1984/food/cheeses/new';
         $.ajax({
@@ -129,7 +119,7 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postSweet(result.name);
+                presenter.postSweet(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 // TODO
@@ -146,7 +136,7 @@ function FoodUseCases(view) {
             dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
-                view.postAllSweets(FoodUseCases.prototype.getStringFrom(result));
+                presenter.postAllSweets(result);
             },
             error: function errorCallback(xhr, textStatus, errorThrown) {
                 // TODO
@@ -154,7 +144,7 @@ function FoodUseCases(view) {
         });
     }
 
-    // Use case add new sweet
+    // Use case "add new sweet"
     FoodUseCases.prototype.addNewSweet = function(sweet) {
         var url = 'http://localhost:1984/food/sweets/new';
         $.ajax({

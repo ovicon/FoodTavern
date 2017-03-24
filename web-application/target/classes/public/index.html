@@ -8,55 +8,58 @@
 <h1 id="server_connection"></h1>
 <div>
 
-    <label>Fruits</label>
-    <br />
-    <div style="float:left">
-        <img id="progress_bar_fruit" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <input type="text" id="fruit">
-        <button id="get_fruit">Get</button>
+    <div>
+        <label>Fruits</label>
+        <br />
+        <div>
+            <img id="progress_bar_fruit" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <input type="text" id="fruit">
+            <button id="get_fruit">Get</button>
+        </div>
+        <div>
+            <img id="progress_bar_all_fruits" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <button id="get_all_fruits">Get All</button>
+            <button id="new_fruit">New</button>
+        </div>
     </div>
+
     <br />
-    <br />
-    <div style="float: left">
-        <img id="progress_bar_all_fruits" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <button id="get_all_fruits">Get All</button>
-        <button id="new_fruit">New</button>
-    </div>
     <br />
     <br />
 
-    <label>Cheeses</label>
-    <br />
-    <div style="float: left">
-        <img id="progress_bar_cheese" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <input type="text" id="cheese">
-        <button id="get_cheese">Get</button>
+    <div>
+        <label>Cheeses</label>
+        <br />
+        <div>
+            <img id="progress_bar_cheese" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <input type="text" id="cheese">
+            <button id="get_cheese">Get</button>
+        </div>
+        <div>
+            <img id="progress_bar_all_cheeses" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <button id="get_all_cheeses">Get All</button>
+            <button id="new_cheese">New</button>
+        </div>
     </div>
+
     <br />
-    <br />
-    <div style="float: left">
-        <img id="progress_bar_all_cheeses" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <button id="get_all_cheeses">Get All</button>
-        <button id="new_cheese">New</button>
-    </div>
     <br />
     <br />
 
-    <label>Sweets</label>
-    <br />
-    <div style="float: left">
-        <img id="progress_bar_sweet" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <input type="text" id="sweet">
-        <button id="get_sweet">Get</button>
+    <div>
+        <label>Sweets</label>
+        <br />
+        <div>
+            <img id="progress_bar_sweet" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <input type="text" id="sweet">
+            <button id="get_sweet">Get</button>
+        </div>
+        <div>
+            <img id="progress_bar_all_sweets" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+            <button id="get_all_sweets">Get All</button>
+            <button id="new_sweet">New</button>
+        </div>
     </div>
-    <br />
-    <br />
-    <div style="float: left">
-        <img id="progress_bar_all_sweets" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <button id="get_all_sweets">Get All</button>
-        <button id="new_sweet">New</button>
-    </div>
-
 </div>
 
 <!-- Favicon -->
@@ -65,52 +68,17 @@
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/png" href="favicon.ico" />
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
 <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js"></script>
 <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js"></script>
+<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
 <script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
 <script type="application/javascript">
-
     $(document).ready(function () {
         new ServerConnectionUseCases().displayServerConnection();
-
-        // Unit testing
-        var v = new FoodView();
-        //v.requestAllFruits();
-
+        new FoodView();
     });
-
-    var f = function() {
-        alert('');
-        console.log("hello");
-    }
-
-
-    eval(f);
-
-    /*    v.requestFruit();
-     v.requestCheese();
-     v.requestSweet();*/
-    /*
-
-     v.requestAllCheeses();
-     v.requestAllSweets();
-
-
-     v.requestAddNewFruit();
-
-     v.requestAddNewCheese();
-     v.requestAddNewSweet();
-     */
-
-
 </script>
 
 </body>
