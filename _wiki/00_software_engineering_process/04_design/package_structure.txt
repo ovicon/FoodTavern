@@ -13,5 +13,4 @@ Components:
  - ro.ovidiuconeac.foodtavern.androidapp.components.food
  - ro.ovidiuconeac.foodtavern.desktopapp.components.food
  - ro.ovidiuconeac.foodtavern.webservice.components.food
-                                                   .serverconnection
- - ro.ovidiuconeac.foodtavern.webservice
+   ro.ovidiuconeac.foodtavern.webservice.components.serverconnection
