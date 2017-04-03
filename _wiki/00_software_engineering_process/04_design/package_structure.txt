@@ -12,5 +12,6 @@ Containers:
 Components:
  - ro.ovidiuconeac.foodtavern.androidapp.components.food
  - ro.ovidiuconeac.foodtavern.desktopapp.components.food
+ - ro.ovidiuconeac.foodtavern.webapp.components.food
  - ro.ovidiuconeac.foodtavern.webservice.components.food
-   ro.ovidiuconeac.foodtavern.webservice.components.serverconnection
+ - ro.ovidiuconeac.foodtavern.webservice.components.serverconnection

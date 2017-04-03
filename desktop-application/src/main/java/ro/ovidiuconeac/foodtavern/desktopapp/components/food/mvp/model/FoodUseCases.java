@@ -43,7 +43,7 @@ public class FoodUseCases {
 
     // Use case add new fruit
     public boolean addNewFruit(RestServiceApi restServiceApi, Fruit fruit) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewFruit(fruit);
+        Call<Boolean> call = restServiceApi.postNewFruit(fruit);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);
@@ -76,7 +76,7 @@ public class FoodUseCases {
 
     // Use case add new cheese
     public boolean addNewCheese(RestServiceApi restServiceApi, Cheese cheese) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewCheese(cheese);
+        Call<Boolean> call = restServiceApi.postNewCheese(cheese);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);
@@ -109,7 +109,7 @@ public class FoodUseCases {
 
     // Use case add new sweet
     public boolean addNewSweet(RestServiceApi restServiceApi, Sweet sweet) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewSweet(sweet);
+        Call<Boolean> call = restServiceApi.postNewSweet(sweet);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);

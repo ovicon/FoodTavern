@@ -2,66 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Server - Home</title>
+    <title>Web Server</title>
 </head>
 <body>
-<h1 id="server_connection"></h1>
-<div>
-
-    <div>
-        <label>Fruits</label>
-        <br />
-        <div>
-            <img id="progress_bar_fruit" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <input type="text" id="fruit">
-            <button id="get_fruit">Get</button>
-        </div>
-        <div>
-            <img id="progress_bar_all_fruits" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <button id="get_all_fruits">Get All</button>
-            <button id="new_fruit">New</button>
-        </div>
-    </div>
-
-    <br />
-    <br />
-    <br />
-
-    <div>
-        <label>Cheeses</label>
-        <br />
-        <div>
-            <img id="progress_bar_cheese" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <input type="text" id="cheese">
-            <button id="get_cheese">Get</button>
-        </div>
-        <div>
-            <img id="progress_bar_all_cheeses" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <button id="get_all_cheeses">Get All</button>
-            <button id="new_cheese">New</button>
-        </div>
-    </div>
-
-    <br />
-    <br />
-    <br />
-
-    <div>
-        <label>Sweets</label>
-        <br />
-        <div>
-            <img id="progress_bar_sweet" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <input type="text" id="sweet">
-            <button id="get_sweet">Get</button>
-        </div>
-        <div>
-            <img id="progress_bar_all_sweets" src="../img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-            <button id="get_all_sweets">Get All</button>
-            <button id="new_sweet">New</button>
-        </div>
-    </div>
-</div>
-
+<div id="includedContent"></div>
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 <!-- Main stylesheet -->
@@ -70,16 +14,24 @@
 <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js"></script>
-<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js"></script>
-<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
-<script src="js/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
+
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js"></script>
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js"></script>
+
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.js"></script>
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/presenter/ServerConnectionPresenter.js"></script>
+
+
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/navigation/NavigationController.js"></script>
+
+<script src="ro/ovidiuconeac/foodtavern/webapp/components/Main.js"></script>
+
 <script type="application/javascript">
     $(document).ready(function () {
-        new ServerConnectionUseCases().displayServerConnection();
-        new FoodView();
+        new Main().launch();
     });
 </script>
-
 </body>
 </html>

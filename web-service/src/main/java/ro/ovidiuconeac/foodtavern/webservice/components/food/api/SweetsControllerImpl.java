@@ -37,7 +37,7 @@ public class SweetsControllerImpl {
         return sweets.getAll();
     }
 
-    @RequestMapping(method = RequestMethod.PUT, path = "/new", consumes = "application/json")
+    @RequestMapping(method = RequestMethod.POST, path = "/new", consumes = "application/json")
     public boolean addNewSweet(@RequestBody Sweet Sweet) throws PostException {
         return sweets.addNew(Sweet);
     }

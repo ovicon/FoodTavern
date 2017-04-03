@@ -1,6 +1,5 @@
 package ro.ovidiuconeac.foodtavern.webservice.components.food.api;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +24,6 @@ public class CheesesControllerTest {
     @Autowired
     private MockMvc mvc;
 
-    @Autowired
-    private ObjectMapper objectMapper;
-
     @Test
     public void testGetRandomCheese() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/food/cheeses/random")
@@ -44,7 +40,7 @@ public class CheesesControllerTest {
 
     @Test
     public void testAddNewCheese() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.put("/food/cheeses/new")
+        mvc.perform(MockMvcRequestBuilders.post("/food/cheeses/new")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"name\" : \"New stinky cheese\"}"))
                 .andExpect(content().string("true"))

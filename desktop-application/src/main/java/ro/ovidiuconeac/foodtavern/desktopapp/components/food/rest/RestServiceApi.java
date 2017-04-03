@@ -3,6 +3,7 @@ package ro.ovidiuconeac.foodtavern.desktopapp.components.food.rest;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
 import retrofit2.http.PUT;
 import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
 import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
@@ -26,8 +27,8 @@ public interface RestServiceApi {
     @GET("food/fruits/all")
     Call<List<Fruit>> getAllFruits();
 
-    @PUT("food/fruits/new")
-    Call<Boolean> putNewFruit(@Body Fruit fruit);
+    @POST("food/fruits/new")
+    Call<Boolean> postNewFruit(@Body Fruit fruit);
 
     @GET("food/cheeses/random")
     Call<Cheese> getCheese();
@@ -35,8 +36,8 @@ public interface RestServiceApi {
     @GET("food/cheeses/all")
     Call<List<Cheese>> getAllCheeses();
 
-    @PUT("food/cheeses/new")
-    Call<Boolean> putNewCheese(@Body Cheese cheese);
+    @POST("food/cheeses/new")
+    Call<Boolean> postNewCheese(@Body Cheese cheese);
 
     @GET("food/sweets/random")
     Call<Sweet> getSweet();
@@ -44,6 +45,6 @@ public interface RestServiceApi {
     @GET("food/sweets/all")
     Call<List<Sweet>> getAllSweets();
 
-    @PUT("food/sweets/new")
-    Call<Boolean> putNewSweet(@Body Sweet sweet);
+    @POST("food/sweets/new")
+    Call<Boolean> postNewSweet(@Body Sweet sweet);
 }
