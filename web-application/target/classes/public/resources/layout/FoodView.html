@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food</title>
+</head>
+<body>
+
+<div>
+    <label>Fruits</label>
+    <br />
+    <div>
+        <img id="progress_bar_fruit" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="fruit">
+        <button id="get_fruit">Get</button>
+    </div>
+    <div>
+        <img id="progress_bar_all_fruits" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_fruits">Get All</button>
+        <button id="new_fruit">New</button>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<div>
+    <label>Cheeses</label>
+    <br />
+    <div>
+        <img id="progress_bar_cheese" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="cheese">
+        <button id="get_cheese">Get</button>
+    </div>
+    <div>
+        <img id="progress_bar_all_cheeses" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_cheeses">Get All</button>
+        <button id="new_cheese">New</button>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<div>
+    <label>Sweets</label>
+    <br />
+    <div>
+        <img id="progress_bar_sweet" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <input type="text" id="sweet">
+        <button id="get_sweet">Get</button>
+    </div>
+    <div>
+        <img id="progress_bar_all_sweets" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <button id="get_all_sweets">Get All</button>
+        <button id="new_sweet">New</button>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<a onclick="NavigationController.getInstance().showServerConnectionUI()">Server connection</a>
+
+<script type="application/javascript">
+    $(document).ready(function () {
+        new FoodView();
+    });
+</script>
+
+</body>
+</html>

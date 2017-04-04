@@ -18,6 +18,7 @@ public class Main extends javafx.application.Application {
     public void start(Stage stage) throws IOException {
         Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/layout/food_view.fxml")));
         stage.setScene(scene);
+        stage.setTitle("Food Tavern");
         stage.show();
     }
 }
