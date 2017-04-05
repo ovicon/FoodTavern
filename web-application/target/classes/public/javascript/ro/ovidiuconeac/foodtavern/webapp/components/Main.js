@@ -35,8 +35,8 @@ function Main() {
 
     Main.prototype.launch = function() {
         $(function(){
-            //Navigation.getInstance().showFoodUI();
-            Navigation.getInstance().showServerConnectionUI();
+            Navigation.getInstance().showFoodUI();
+            //Navigation.getInstance().showServerConnectionUI();
         });
     }
 }
