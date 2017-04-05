@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Tavern</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="resources/img/favicon.ico" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Main entry point -->
+    <script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/Main.js"></script>
 </head>
 <body>
 <div id="includedContent"></div>
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/png" href="resources/img/favicon.ico" />
-<!-- Main stylesheet -->
-<link rel="stylesheet" type="text/css" href="css/main.css" />
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/png" href="favicon.ico" />
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.js"></script>
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.js"></script>
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.js"></script>
-
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.js"></script>
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.js"></script>
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/presenter/ServerConnectionPresenter.js"></script>
-
-
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/Navigation.js"></script>
-
-<script src="javascript/ro/ovidiuconeac/foodtavern/webapp/components/Main.js"></script>
-
 <script type="application/javascript">
     $(document).ready(function () {
         new Main().launch();

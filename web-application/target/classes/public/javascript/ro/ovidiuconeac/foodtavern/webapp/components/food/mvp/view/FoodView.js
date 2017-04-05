@@ -107,7 +107,7 @@ function FoodView() {
     }
 
     function addNewFruit() {
-        var fruitName = prompt("Add New Fruit");
+        var fruitName = prompt('Add New Fruit');
         presenter.requestAddNewFruit(fruitName);
     }
 
@@ -170,7 +170,7 @@ function FoodView() {
     }
 
     function addNewCheese() {
-        var cheeseName = prompt("Add New Cheese");
+        var cheeseName = prompt('Add New Cheese');
         presenter.requestAddNewCheese(cheeseName);
     }
 
@@ -233,7 +233,7 @@ function FoodView() {
     }
 
     function addNewSweet() {
-        var sweetName = prompt("Add New Sweet");
+        var sweetName = prompt('Add New Sweet');
         presenter.requestAddNewSweet(sweetName);
     }
 

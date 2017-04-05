@@ -1,34 +1,38 @@
 /**
  * Created by ovidiu on 4/3/17.
  */
-var NavigationController = (function () {
+var Navigation = (function () {
+
+    // Instance stores a reference to the Singleton
     var instance;
 
-    function createInstance() {
-        var object = function () {
+    function init() {
+        return {
 
-            object.prototype.showFoodUI = function() {
-                $(function(){
-                    $("#includedContent").load("ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.html");
-                });
+            showFoodUI: function () {
+                $('#includedContent').load('resources/layout/FoodView.html');
+            },
+
+            showServerConnectionUI: function () {
+                $('#includedContent').load('resources/layout/ServerConnectionView.html');
             }
-
-            object.prototype.showServerConnectionUI = function() {
-                $(function(){
-                    $("#includedContent").load("ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.html");
-                });
-            }
-
         };
-        return object;
-    }
+
+    };
 
     return {
+
+        // Get the Singleton instance if one exists
+        // or create one if it doesn't
         getInstance: function () {
-            if (!instance) {
-                instance = createInstance();
+
+            if ( !instance ) {
+                instance = init();
             }
+
             return instance;
         }
+
     };
+
 })();

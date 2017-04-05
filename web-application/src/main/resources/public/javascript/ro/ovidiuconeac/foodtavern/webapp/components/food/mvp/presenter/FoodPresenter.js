@@ -31,7 +31,7 @@ function FoodPresenter(view) {
 
     FoodPresenter.prototype.requestAddNewFruit = function(fruit) {
         var fruitObject = {};
-        fruitObject["name"] = fruit;
+        fruitObject['name'] = fruit;
         model.addNewFruit(fruitObject);
     }
 
@@ -65,7 +65,7 @@ function FoodPresenter(view) {
 
     FoodPresenter.prototype.requestAddNewCheese = function(cheese) {
         var cheeseObject = {};
-        cheeseObject["name"] = cheese;
+        cheeseObject['name'] = cheese;
         model.addNewCheese(cheeseObject);
     }
 
@@ -99,7 +99,7 @@ function FoodPresenter(view) {
 
     FoodPresenter.prototype.requestAddNewSweet = function(sweet) {
         var sweetObjects = {};
-        sweetObjects["name"] = sweet;
+        sweetObjects['name'] = sweet;
         model.addNewSweet(sweetObjects);
     }
 

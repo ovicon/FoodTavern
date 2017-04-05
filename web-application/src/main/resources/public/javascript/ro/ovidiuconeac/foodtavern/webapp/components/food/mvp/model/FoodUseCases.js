@@ -3,7 +3,7 @@
  */
 function FoodUseCases(presenter) {
 
-    // Use case "get Fruit"
+    // Use case 'get Fruit'
     FoodUseCases.prototype.getFruit = function () {
         var url = 'http://localhost:1984/food/fruits/random';
         $.ajax({
@@ -20,7 +20,7 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "get all Fruits"
+    // Use case 'get all Fruits'
     FoodUseCases.prototype.getAllFruits = function() {
         var url = 'http://localhost:1984/food/fruits/all';
         $.ajax({
@@ -37,12 +37,12 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "add new fruit"
+    // Use case 'add new fruit'
     FoodUseCases.prototype.addNewFruit = function(fruit) {
         var url = 'http://localhost:1984/food/fruits/new';
         $.ajax({
             type: 'POST',
-            contentType: "application/json",
+            contentType: 'application/json',
             url: url,
             data: JSON.stringify(fruit),
             dataType: 'json',
@@ -56,7 +56,7 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "get Cheese"
+    // Use case 'get Cheese'
     FoodUseCases.prototype.getCheese = function() {
         var url = 'http://localhost:1984/food/cheeses/random';
         $.ajax({
@@ -73,7 +73,7 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "get all Cheese"
+    // Use case 'get all Cheese'
     FoodUseCases.prototype.getAllCheeses = function() {
         var url = 'http://localhost:1984/food/cheeses/all';
         $.ajax({
@@ -90,15 +90,15 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "add new cheese"
+    // Use case 'add new cheese'
     FoodUseCases.prototype.addNewCheese = function(cheese) {
         var url = 'http://localhost:1984/food/cheeses/new';
         $.ajax({
             type: 'POST',
-            contentType: "application/json",
+            contentType: 'application/json',
             url: url,
             data: JSON.stringify(cheese),
-            dataType: "json",
+            dataType: 'json',
             async: 'true',
             success: function successCallback(result) {
                 // TODO
@@ -109,7 +109,7 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "get Sweet"
+    // Use case 'get Sweet'
     FoodUseCases.prototype.getSweet = function() {
         var url = 'http://localhost:1984/food/sweets/random';
         $.ajax({
@@ -126,7 +126,7 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "get all Sweets"
+    // Use case 'get all Sweets'
     FoodUseCases.prototype.getAllSweets = function() {
         var url = 'http://localhost:1984/food/sweets/all';
         $.ajax({
@@ -143,12 +143,12 @@ function FoodUseCases(presenter) {
         });
     }
 
-    // Use case "add new sweet"
+    // Use case 'add new sweet'
     FoodUseCases.prototype.addNewSweet = function(sweet) {
         var url = 'http://localhost:1984/food/sweets/new';
         $.ajax({
             type: 'POST',
-            contentType: "application/json",
+            contentType: 'application/json',
             url: url,
             data: JSON.stringify(sweet),
             dataType: 'json',
