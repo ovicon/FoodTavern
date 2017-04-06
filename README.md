@@ -1,12 +1,14 @@
 # FoodTavern
 
-Full stack system based on clean architecture and MVP as presentation layer.
+Full stack system based on 5-tier clean architecture.
 
 ![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
 
+And MVP as presentation layer:
+
 ![Model View Presenter Design](http://www.ovidiuconeac.ro/wp-content/uploads/2017/03/model-view-presenter.png "Model View Presenter Design")
 
-The system is composed of the following:
+The system is composed of the following containers:
 - Android client application
 - Desktop client application
 - Web client application
