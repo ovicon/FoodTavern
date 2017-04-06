@@ -14,7 +14,13 @@ The system is composed of the following containers:
 - Web client application
 - RESTfull web service
 
+Architecture
+-------
+[The C4 Software Architecture Model in Action](http://www.ovidiuconeac.ro/2017/03/17/the-c4-software-architecture-model-in-action/).
 
+Design
+-------
+[Design Considerations After Architecture Modeling With C4](http://www.ovidiuconeac.ro/2017/04/05/design-considerations-after-architecture-modeling-with-c4/).
 
 License
 -------
