@@ -21,7 +21,7 @@ You can read more about the system arhitecture modeling here: [The C4 Software A
 
 Design
 -------
-You can read more about desing considerations here: [Design Considerations After Architecture Modeling With C4](http://www.ovidiuconeac.ro/2017/04/05/design-considerations-after-architecture-modeling-with-c4/).
+You can read more about design considerations here: [Design Considerations After Architecture Modeling With C4](http://www.ovidiuconeac.ro/2017/04/05/design-considerations-after-architecture-modeling-with-c4/).
 
 License
 -------
