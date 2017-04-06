@@ -4,11 +4,11 @@ About
 -------
 This is a demo project intended for learning purposes.
 
-Full stack system based on 5-tier clean architecture.
+Food Tavern is a full stack system based on 5-tier clean architecture.
 
 ![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
 
-And MVP as presentation layer:
+And MVP as presentation layer.
 
 ![Model View Presenter Design](http://www.ovidiuconeac.ro/wp-content/uploads/2017/03/model-view-presenter.png "Model View Presenter Design")
 
