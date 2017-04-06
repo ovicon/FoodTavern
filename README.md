@@ -1,5 +1,9 @@
 # FoodTavern
 
+About
+-------
+This is a demo project intended for learning purposes.
+
 Full stack system based on 5-tier clean architecture.
 
 ![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
@@ -14,9 +18,6 @@ The system is composed of the following containers:
 - Web client application
 - RESTfull web service
 
-About
--------
-This is a demo project intended for learning purposes.
 
 Architecture
 -------
