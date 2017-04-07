@@ -1,14 +1,27 @@
 # FoodTavern
 
-Full stack system based on clean architecture and MVP as presentation layer.
+This is a demo full stack system based on 5-tier clean architecture, intended only for learning purposes.
 
-The system is composed of the following:
-- Android App
-- Desktop App
-- Web App
-- RESTfull Web Service
+![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
 
-In progress...
+And MVP as presentation layer.
+
+![Model View Presenter Design](http://www.ovidiuconeac.ro/wp-content/uploads/2017/03/model-view-presenter.png "Model View Presenter Design")
+
+The system is composed of the following containers:
+- Android client application
+- Desktop client application
+- Web client application
+- RESTfull web service
+
+
+Architecture
+-------
+You can read more about the system arhitecture modeling here: [The C4 Software Architecture Model in Action](http://www.ovidiuconeac.ro/2017/03/17/the-c4-software-architecture-model-in-action/).
+
+Design
+-------
+You can read more about design considerations here: [Design Considerations After Architecture Modeling With C4](http://www.ovidiuconeac.ro/2017/04/05/design-considerations-after-architecture-modeling-with-c4/).
 
 License
 -------
