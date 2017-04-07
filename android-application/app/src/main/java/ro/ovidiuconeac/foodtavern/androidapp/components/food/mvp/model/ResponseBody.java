@@ -3,10 +3,9 @@ package ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.model;
 import java.util.List;
 
 import retrofit2.Response;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.NoResultException;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.RequestException;
-import ro.ovidiuconeac.foodtavern.common.models.Food;
-
+import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
+import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
+import ro.ovidiuconeac.foodtavern.models.features.food.Food;
 /**
  * Created by www.ovidiuconeac.ro on 3/20/17.
  */

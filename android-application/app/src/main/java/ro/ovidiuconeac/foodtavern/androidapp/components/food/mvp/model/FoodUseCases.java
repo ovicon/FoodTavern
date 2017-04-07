@@ -5,12 +5,12 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Response;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.NoResultException;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.exceptions.RequestException;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.rest.RestServiceApi;
-import ro.ovidiuconeac.foodtavern.common.models.Cheese;
-import ro.ovidiuconeac.foodtavern.common.models.Fruit;
-import ro.ovidiuconeac.foodtavern.common.models.Sweet;
+import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
+import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
+import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
+import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.

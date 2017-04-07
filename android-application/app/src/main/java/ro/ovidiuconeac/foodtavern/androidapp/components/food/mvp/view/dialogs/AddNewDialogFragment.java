@@ -13,9 +13,9 @@ import android.widget.TextView;
 
 import ro.ovidiuconeac.foodtavern.androidapp.R;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.FoodView;
-import ro.ovidiuconeac.foodtavern.common.models.Cheese;
-import ro.ovidiuconeac.foodtavern.common.models.Fruit;
-import ro.ovidiuconeac.foodtavern.common.models.Sweet;
+import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
+import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/2/17.
