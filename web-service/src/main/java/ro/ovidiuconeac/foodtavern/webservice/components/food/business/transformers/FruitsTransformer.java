@@ -1,7 +1,7 @@
 package ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers;
 
 import org.springframework.stereotype.Service;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.FruitEntity;
 
 /**

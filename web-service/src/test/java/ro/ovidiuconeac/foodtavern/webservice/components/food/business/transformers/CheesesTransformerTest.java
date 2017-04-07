@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.food.business.transform
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.CheeseEntity;
 
 import static org.junit.Assert.assertEquals;

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans.CheesesBean;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.PostException;

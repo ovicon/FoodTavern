@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.serverconnection.busine
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.models.features.serverconnection.ServerConnection;
+import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

@@ -1,0 +1,9 @@
+ro/ovidiuconeac/foodtavern/common/models/Fruit.class
+ro/ovidiuconeac/foodtavern/common/models/ServerConnection.class
+ro/ovidiuconeac/foodtavern/common/exceptions/RequestException.class
+ro/ovidiuconeac/foodtavern/common/exceptions/NoResultException.class
+ro/ovidiuconeac/foodtavern/common/models/Cheese.class
+ro/ovidiuconeac/foodtavern/common/models/Sweet.class
+ro/ovidiuconeac/foodtavern/common/models/Food.class
+ro/ovidiuconeac/foodtavern/common/util/Util.class
+ro/ovidiuconeac/foodtavern/common/api/RestServiceApi.class

@@ -5,10 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
-import ro.ovidiuconeac.foodtavern.desktopapp.components.food.rest.RestServiceApi;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;

@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.PostException;
 

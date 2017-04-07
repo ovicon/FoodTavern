@@ -3,10 +3,10 @@ package ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.desktopapp.components.food.rest.RestServiceApi;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doNothing;

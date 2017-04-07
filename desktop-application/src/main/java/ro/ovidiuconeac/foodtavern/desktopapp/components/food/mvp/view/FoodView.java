@@ -1,8 +1,8 @@
 package ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view;
 
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 /**
  * Created by ovidiu on 2/24/17.

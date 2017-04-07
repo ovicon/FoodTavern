@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.serverconnection.busine
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
-import ro.ovidiuconeac.foodtavern.models.features.serverconnection.ServerConnection;
+import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

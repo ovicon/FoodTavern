@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.desktopapp.components.common;
+package ro.ovidiuconeac.foodtavern.common.util;
 
 /**
  * Created by ovidiu on 12/29/16.

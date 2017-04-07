@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="desktop-application" />
-        <module name="models" />
         <module name="web-application" />
         <module name="web-server" />
         <module name="web-service" />

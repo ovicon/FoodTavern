@@ -2,7 +2,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers.CheesesTransformer;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.dao.CheesesDao;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.CheeseEntity;
