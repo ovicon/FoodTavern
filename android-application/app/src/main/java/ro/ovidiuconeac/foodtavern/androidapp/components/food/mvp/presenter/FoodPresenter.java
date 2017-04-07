@@ -1,10 +1,10 @@
 package ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.presenter;
 
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Presenter;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.rest.RestServiceApi;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.

@@ -28,10 +28,10 @@ import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.presenter.FoodP
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.presenter.FoodPresenterImpl;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.dialogs.AddNewDialogFragment;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.dialogs.ViewAllDialogFragment;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.rest.RestServiceApi;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 import static ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.dialogs.FoodType.*;
 

@@ -5,12 +5,13 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Response;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.rest.RestServiceApi;
+
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
-import ro.ovidiuconeac.foodtavern.models.features.food.Cheese;
-import ro.ovidiuconeac.foodtavern.models.features.food.Fruit;
-import ro.ovidiuconeac.foodtavern.models.features.food.Sweet;
+import ro.ovidiuconeac.foodtavern.common.models.Cheese;
+import ro.ovidiuconeac.foodtavern.common.models.Fruit;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 /**
  * Created by ovidiu on 2/6/17.
@@ -43,7 +44,7 @@ public class FoodUseCases {
 
     // Use case add new fruit
     public boolean addNewFruit(RestServiceApi restServiceApi, Fruit fruit) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewFruit(fruit);
+        Call<Boolean> call = restServiceApi.postNewFruit(fruit);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);
@@ -76,7 +77,7 @@ public class FoodUseCases {
 
     // Use case add new cheese
     public boolean addNewCheese(RestServiceApi restServiceApi, Cheese cheese) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewCheese(cheese);
+        Call<Boolean> call = restServiceApi.postNewCheese(cheese);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);
@@ -109,7 +110,7 @@ public class FoodUseCases {
 
     // Use case add new sweet
     public boolean addNewSweet(RestServiceApi restServiceApi, Sweet sweet) throws RequestException, NoResultException {
-        Call<Boolean> call = restServiceApi.putNewSweet(sweet);
+        Call<Boolean> call = restServiceApi.postNewSweet(sweet);
         try {
             Response<Boolean> response = call.execute();
             return ResponseBody.getResponseBodyFromBoolean(response);

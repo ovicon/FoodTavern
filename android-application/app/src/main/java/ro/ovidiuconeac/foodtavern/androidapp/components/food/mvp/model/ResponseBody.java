@@ -5,7 +5,8 @@ import java.util.List;
 import retrofit2.Response;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
-import ro.ovidiuconeac.foodtavern.models.features.food.Food;
+import ro.ovidiuconeac.foodtavern.common.models.Food;
+
 /**
  * Created by www.ovidiuconeac.ro on 3/20/17.
  */

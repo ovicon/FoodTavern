@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.util.UUID;
 
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Screen;
-import ro.ovidiuconeac.foodtavern.androidapp.components.food.rest.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
