@@ -1,6 +1,6 @@
 # FoodTavern
 
-This is a demo full stack system based on 5-tier clean architecture, intended only for learning purposes.
+A demo full stack system based on 5-tier clean architecture, intended only for learning purposes.
 
 ![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
 
