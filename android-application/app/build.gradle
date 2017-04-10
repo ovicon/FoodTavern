@@ -44,6 +44,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     // Food Tavern
-    compile 'ro.ovidiuconeac.foodtavern:models:1.0.0'
     compile 'ro.ovidiuconeac.foodtavern:common:1.0.0'
 }
