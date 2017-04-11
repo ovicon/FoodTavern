@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa4e4b3-78ef-4ba4-94e1-2150a85cc4eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/Navigation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/presenter/ServerConnectionPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-application/.idea/runConfigurations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/ResponseBody.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/desktop-application-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/TEST-ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/TEST-ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/TEST-ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/TEST-ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenterImplTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/TEST-ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view.FoodActivityTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenterImplTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/surefire-reports/ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.view.FoodActivityTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTestSuite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithRequestExceptionTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImplTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/main/Main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/common-1.0.0.jar" afterPath="$PROJECT_DIR$/common/target/common-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.class" afterPath="$PROJECT_DIR$/desktop-application/target/classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.class" afterPath="$PROJECT_DIR$/desktop-application/target/test-classes/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/web-application-1.0.0.jar" afterPath="$PROJECT_DIR$/web-application/target/web-application-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.class" afterPath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.class" afterPath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.class" afterPath="$PROJECT_DIR$/web-service/target/classes/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/util/ResponseBodyUtil.java" afterPath="$PROJECT_DIR$/common/src/main/java/ro/ovidiuconeac/foodtavern/common/util/ResponseBodyUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.java" afterPath="$PROJECT_DIR$/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.java" afterPath="$PROJECT_DIR$/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/desktop-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/classes/public/javascript/ro/ovidiuconeac/foodtavern/webapp/components/Navigation.js" afterPath="$PROJECT_DIR$/web-application/target/classes/public/javascript/ro/ovidiuconeac/foodtavern/webapp/components/Navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web-application/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.java" afterPath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.java" afterPath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.java" afterPath="$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,48 +22,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheesesDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FruitsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SweetsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-service/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -258,9 +167,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="y" value="28" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -305,6 +214,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,27 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serverconnection" />
+              <option name="myItemId" value="web-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,7 +336,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-service" />
+              <option name="myItemId" value="web-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodTavern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -462,10 +393,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,8 +482,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1142,7 +1067,8 @@
       <workItem from="1491575475163" duration="6730000" />
       <workItem from="1491817720584" duration="664000" />
       <workItem from="1491820684981" duration="8214000" />
-      <workItem from="1491903338975" duration="1361000" />
+      <workItem from="1491903338975" duration="2066000" />
+      <workItem from="1491907057803" duration="170000" />
     </task>
     <servers />
   </component>
@@ -1167,41 +1093,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106632000" />
+    <option name="totallyTimeSpent" value="107507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36248684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30558482" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37699682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14029181" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.361894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30552423" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38072416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14029181" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1640,7 +1566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,7 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1656,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
