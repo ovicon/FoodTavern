@@ -3,6 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components;
 import org.h2.server.web.WebServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,9 +12,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by Ovidiu CONEAC on 2/12/2017.
  */
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan("ro.ovidiuconeac.foodtavern.webservice.components")
+
+@SpringBootApplication
 public class Main {
 
     public static void main(String[] args) {
