@@ -1,7 +1,5 @@
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenter.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodView.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/rest/RestServiceApi.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/ResponseBody.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/Main.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/main/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImpl.java

@@ -7,7 +7,7 @@ import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.Chees
 /**
  * Created by ovidiu on 2/7/17.
  */
-@Repository
+
 public interface CheesesDao extends CrudRepository<CheeseEntity, Long> {
     // Methods implemented by framework
 }

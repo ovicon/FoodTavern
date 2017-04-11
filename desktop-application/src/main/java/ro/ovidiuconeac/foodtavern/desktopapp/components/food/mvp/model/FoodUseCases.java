@@ -5,6 +5,7 @@ import retrofit2.Response;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
 import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
+import ro.ovidiuconeac.foodtavern.common.util.ResponseBodyUtil;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
@@ -24,7 +25,7 @@ public class FoodUseCases {
         Call<Fruit> call = restServiceApi.getFruit();
         try {
             Response<Fruit> response = call.execute();
-            return ResponseBody.getResponseBodyFromRandom(response);
+            return ResponseBodyUtil.getResponseBodyFromRandom(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -35,7 +36,7 @@ public class FoodUseCases {
         Call<List<Fruit>> call = restServiceApi.getAllFruits();
         try {
             Response<List<Fruit>> response = call.execute();
-            return ResponseBody.getResponseBodyFromList(response);
+            return ResponseBodyUtil.getResponseBodyFromList(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -46,7 +47,7 @@ public class FoodUseCases {
         Call<Boolean> call = restServiceApi.postNewFruit(fruit);
         try {
             Response<Boolean> response = call.execute();
-            return ResponseBody.getResponseBodyFromBoolean(response);
+            return ResponseBodyUtil.getResponseBodyFromBoolean(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -57,7 +58,7 @@ public class FoodUseCases {
         Call<Cheese> call = restServiceApi.getCheese();
         try {
             Response<Cheese> response = call.execute();
-            return ResponseBody.getResponseBodyFromRandom(response);
+            return ResponseBodyUtil.getResponseBodyFromRandom(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -68,7 +69,7 @@ public class FoodUseCases {
         Call<List<Cheese>> call = restServiceApi.getAllCheeses();
         try {
             Response<List<Cheese>> response = call.execute();
-            return ResponseBody.getResponseBodyFromList(response);
+            return ResponseBodyUtil.getResponseBodyFromList(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -79,7 +80,7 @@ public class FoodUseCases {
         Call<Boolean> call = restServiceApi.postNewCheese(cheese);
         try {
             Response<Boolean> response = call.execute();
-            return ResponseBody.getResponseBodyFromBoolean(response);
+            return ResponseBodyUtil.getResponseBodyFromBoolean(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -90,7 +91,7 @@ public class FoodUseCases {
         Call<Sweet> call = restServiceApi.getSweet();
         try {
             Response<Sweet> response = call.execute();
-            return ResponseBody.getResponseBodyFromRandom(response);
+            return ResponseBodyUtil.getResponseBodyFromRandom(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -101,7 +102,7 @@ public class FoodUseCases {
         Call<List<Sweet>> call = restServiceApi.getAllSweets();
         try {
             Response<List<Sweet>> response = call.execute();
-            return ResponseBody.getResponseBodyFromList(response);
+            return ResponseBodyUtil.getResponseBodyFromList(response);
         } catch (IOException e) {
             throw new RequestException();
         }
@@ -112,7 +113,7 @@ public class FoodUseCases {
         Call<Boolean> call = restServiceApi.postNewSweet(sweet);
         try {
             Response<Boolean> response = call.execute();
-            return ResponseBody.getResponseBodyFromBoolean(response);
+            return ResponseBodyUtil.getResponseBodyFromBoolean(response);
         } catch (IOException e) {
             throw new RequestException();
         }

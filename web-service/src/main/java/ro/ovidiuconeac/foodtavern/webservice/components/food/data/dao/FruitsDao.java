@@ -7,7 +7,7 @@ import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.Fruit
 /**
  * Created by ovidiu on 2/7/17.
  */
-@Repository
+
 public interface FruitsDao extends CrudRepository<FruitEntity, Long> {
     // Methods implemented by framework
 }

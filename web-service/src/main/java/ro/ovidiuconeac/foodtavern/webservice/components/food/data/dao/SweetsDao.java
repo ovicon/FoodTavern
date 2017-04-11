@@ -7,7 +7,7 @@ import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.Sweet
 /**
  * Created by ovidiu on 2/7/17.
  */
-@Repository
+
 public interface SweetsDao extends CrudRepository<SweetEntity, Long> {
     // Methods implemented by framework
 }

@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model;
+package ro.ovidiuconeac.foodtavern.common.util;
 
 import java.util.List;
 
@@ -12,9 +12,9 @@ import ro.ovidiuconeac.foodtavern.common.models.Food;
  */
 
 @SuppressWarnings("Duplicates")
-abstract class ResponseBody {
+public abstract class ResponseBodyUtil {
 
-    static <T extends Food> T getResponseBodyFromRandom(Response<T> response) throws NoResultException, RequestException {
+    public static <T extends Food> T getResponseBodyFromRandom(Response<T> response) throws NoResultException, RequestException {
         T t = null;
         switch (response.code()) {
             case 200: {
@@ -28,7 +28,7 @@ abstract class ResponseBody {
         return t;
     }
 
-    static <T extends Food> List<T> getResponseBodyFromList(Response<List<T>> response) throws NoResultException {
+    public static <T extends Food> List<T> getResponseBodyFromList(Response<List<T>> response) throws NoResultException {
         List<T> t = null;
         switch (response.code()) {
             case 200: {
@@ -42,7 +42,7 @@ abstract class ResponseBody {
         return t;
     }
 
-    static Boolean getResponseBodyFromBoolean(Response<Boolean> response) throws NoResultException {
+    public static Boolean getResponseBodyFromBoolean(Response<Boolean> response) throws NoResultException {
         Boolean b = null;
         switch (response.code()) {
             case 200: {
