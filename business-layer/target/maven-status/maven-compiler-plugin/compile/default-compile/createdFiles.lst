@@ -1,0 +1,11 @@
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/CheesesTransformer.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/CheesesBeanImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/business/beans/ServerConnectionBeanImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/FruitsBeanImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/CheesesBean.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/FruitsTransformer.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/SweetsBeanImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/business/beans/ServerConnectionBean.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/SweetsBean.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/FruitsBean.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/SweetsTransformer.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0.003" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/ovidiu/Developer/jdk1.8.0_121/jre/lib/amd64"/>
@@ -62,9 +62,9 @@
   <testcase name="testGetAllFruitsWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
   <testcase name="testAddNewCheeseWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
   <testcase name="testGetCheeseWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
-  <testcase name="testGetSweetWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
+  <testcase name="testGetSweetWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0.001"/>
   <testcase name="testGetAllCheesesWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
-  <testcase name="testGetFruitWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
-  <testcase name="testAddNewSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
+  <testcase name="testGetFruitWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0.001"/>
+  <testcase name="testAddNewSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0.001"/>
   <testcase name="testGetAllSweetsWithRequestException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithRequestExceptionTest" time="0"/>
 </testsuite>

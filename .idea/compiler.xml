@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-layer" />
+        <module name="business-layer" />
         <module name="common" />
+        <module name="data-layer" />
         <module name="desktop-application" />
         <module name="web-application" />
         <module name="web-server" />
-        <module name="web-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-layer" target="1.8" />
+      <module name="business-layer" target="1.8" />
       <module name="common" target="1.8" />
+      <module name="data-layer" target="1.8" />
       <module name="desktop-application" target="1.8" />
       <module name="foodtavern" target="1.8" />
       <module name="models" target="1.8" />

@@ -1,0 +1,5 @@
+ro/ovidiuconeac/foodtavern/webservice/components/Main.class
+ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/ServerConnectionController.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/api/SweetsControllerImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/api/CheesesControllerImpl.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/api/FruitsControllerImpl.class

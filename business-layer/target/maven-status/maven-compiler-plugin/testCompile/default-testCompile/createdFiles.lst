@@ -1,0 +1,9 @@
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/FruitTransformerTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/CheeseBeanImplTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/FruitsBeanImplTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/BeanImplTestSuite.class
+ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/business/ServerConnectionBeanImplTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/beans/SweetsBeanImplTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/SweetsTransformerTest.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/TransformerTestSuite.class
+ro/ovidiuconeac/foodtavern/webservice/components/food/business/transformers/CheesesTransformerTest.class
