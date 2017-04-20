@@ -62,9 +62,9 @@
   <testcase name="testGetSweet" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
   <testcase name="testGetAllCheeses" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0.001"/>
   <testcase name="testAddNewFruit" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
-  <testcase name="testAddNewSweet" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
-  <testcase name="testAddNewCheese" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0.001"/>
-  <testcase name="testGetAllFruits" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
-  <testcase name="testGetAllSweets" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0.001"/>
+  <testcase name="testAddNewSweet" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0.001"/>
+  <testcase name="testAddNewCheese" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
+  <testcase name="testGetAllFruits" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0.001"/>
+  <testcase name="testGetAllSweets" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
   <testcase name="testGetCheese" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesTest" time="0"/>
 </testsuite>
