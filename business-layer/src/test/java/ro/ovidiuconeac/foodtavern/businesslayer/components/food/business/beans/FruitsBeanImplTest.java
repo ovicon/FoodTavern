@@ -1,10 +1,11 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
+import ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.FruitsBean;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.PostException;

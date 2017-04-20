@@ -1,13 +1,13 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.transformers.FruitsTransformer;
 import ro.ovidiuconeac.foodtavern.common.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.PostException;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers.FruitsTransformer;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.data.dao.FruitsDao;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.FruitEntity;
+import ro.ovidiuconeac.foodtavern.apilayer.components.food.data.dao.FruitsDao;
+import ro.ovidiuconeac.foodtavern.apilayer.components.food.data.entities.FruitEntity;
 
 import java.util.ArrayList;
 import java.util.List;

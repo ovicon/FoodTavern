@@ -1,6 +1,6 @@
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/CheesesDao.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/entities/FruitEntity.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/entities/SweetEntity.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/entities/CheeseEntity.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/dao/FruitsDao.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/entities/CheeseEntity.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/entities/SweetEntity.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/dao/SweetsDao.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/dao/CheesesDao.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/data/entities/FruitEntity.class

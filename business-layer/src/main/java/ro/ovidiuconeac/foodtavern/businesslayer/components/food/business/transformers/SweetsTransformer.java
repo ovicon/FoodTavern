@@ -1,8 +1,8 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.transformers;
 
 import org.springframework.stereotype.Service;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.SweetEntity;
+import ro.ovidiuconeac.foodtavern.apilayer.components.food.data.entities.SweetEntity;
 
 /**
  * Created by Ovidiu CONEAC on 2/15/2017.

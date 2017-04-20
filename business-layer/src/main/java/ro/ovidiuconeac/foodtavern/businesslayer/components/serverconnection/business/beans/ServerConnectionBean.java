@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.serverconnection.business.beans;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.business.beans;
 
 import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 

@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities;
+package ro.ovidiuconeac.foodtavern.apilayer.components.food.data.entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

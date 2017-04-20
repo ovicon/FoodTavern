@@ -1,10 +1,10 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.serverconnection.business;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.business;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
-import ro.ovidiuconeac.foodtavern.webservice.components.serverconnection.business.beans.ServerConnectionBean;
+import ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.business.beans.ServerConnectionBean;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

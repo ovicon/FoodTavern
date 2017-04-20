@@ -10,13 +10,12 @@
     <version>1.0.0</version>
 
     <modules>
-        <module>web-service</module>
         <module>web-application</module>
-        <module>desktop-application</module>
-        <module>common</module>
         <module>api-layer</module>
         <module>business-layer</module>
         <module>data-layer</module>
+        <module>desktop-application</module>
+        <module>common</module>
     </modules>
 
     <parent>

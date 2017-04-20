@@ -1,8 +1,7 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.data.dao;
+package ro.ovidiuconeac.foodtavern.apilayer.components.food.data.dao;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.SweetEntity;
+import ro.ovidiuconeac.foodtavern.apilayer.components.food.data.entities.SweetEntity;
 
 /**
  * Created by ovidiu on 2/7/17.

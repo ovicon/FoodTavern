@@ -1,11 +1,11 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.transformers;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.CheeseEntity;
+import ro.ovidiuconeac.foodtavern.apilayer.components.food.data.entities.CheeseEntity;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

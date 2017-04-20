@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans;
 
 import ro.ovidiuconeac.foodtavern.common.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.PostException;

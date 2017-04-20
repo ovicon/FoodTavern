@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
+package ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
