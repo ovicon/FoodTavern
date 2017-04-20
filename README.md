@@ -16,7 +16,7 @@ The system is composed of the following containers:
 - Business (business layer)
 - Data (data layer)
 
-If you want to see a package approche to clean arhitecture, based on the same system, see: [FoodTavern - master](https://github.com/ovicon/FoodTavern).
+If you want to see a package approach to clean architecture, based on the same system, see: [FoodTavern - master](https://github.com/ovicon/FoodTavern).
 
 License
 -------
