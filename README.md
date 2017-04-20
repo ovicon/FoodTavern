@@ -9,19 +9,14 @@ And MVP as presentation layer.
 ![Model View Presenter Design](http://www.ovidiuconeac.ro/wp-content/uploads/2017/03/model-view-presenter.png "Model View Presenter Design")
 
 The system is composed of the following containers:
-- Android client application
-- Desktop client application
-- Web client application
-- RESTfull web service
+- Android client application (presentation layer)
+- Desktop client application (presentation layer)
+- Web client application (presentation layer)
+- API (API layer)
+- Business (business layer)
+- Data (data layer)
 
-
-Architecture
--------
-You can read more about the system arhitecture modeling here: [The C4 Software Architecture Model in Action](http://www.ovidiuconeac.ro/2017/03/17/the-c4-software-architecture-model-in-action/).
-
-Design
--------
-You can read more about design considerations here: [Design Considerations After Architecture Modeling With C4](http://www.ovidiuconeac.ro/2017/04/05/design-considerations-after-architecture-modeling-with-c4/).
+If you want to see a package approche to clean arhitecture, based on the same system, see: [FoodTavern - master](https://github.com/ovicon/FoodTavern).
 
 License
 -------
