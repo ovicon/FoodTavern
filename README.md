@@ -14,6 +14,15 @@ The system is composed of the following containers:
 - Web client application
 - RESTfull web service
 
+The presentation layer is implemente by:
+- Android client application
+- Desktop client application
+- Web client application
+
+The API layer, Business layer, Data layer and Database layer are implemented at package level by:
+- RESTfull web service
+
+If you want to see a module approche to clean arhitecture see: ![FoodTavern - v2.0](https://github.com/ovicon/FoodTavern/tree/v2.0).
 
 Architecture
 -------
