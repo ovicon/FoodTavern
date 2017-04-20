@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans.SweetsBeanImplTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans.SweetsBeanImplTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans.SweetsBeanImplTest

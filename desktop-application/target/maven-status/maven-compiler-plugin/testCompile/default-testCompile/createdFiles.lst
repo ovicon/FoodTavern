@@ -1,0 +1,6 @@
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImplTest.class
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.class
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTest.class
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTestSuite.class
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithRequestExceptionTest.class
+ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.class

@@ -4,71 +4,57 @@
     <meta charset="UTF-8">
 </head>
 <body>
-
 <div>
     <label>Fruits</label>
     <br />
     <div>
-        <img id="progress_bar_fruit" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
-        <input type="text" id="fruit">
+        <img class="progress_bar" id="progress_bar_fruit" alt="Loading">
+        <input title="fruit" type="text" id="fruit">
         <button id="get_fruit">Get</button>
     </div>
     <div>
-        <img id="progress_bar_all_fruits" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <img class="progress_bar" id="progress_bar_all_fruits" alt="Loading">
         <button id="get_all_fruits">Get All</button>
         <button id="new_fruit">New</button>
     </div>
 </div>
-
 <br />
 <br />
 <br />
-
 <div>
     <label>Cheeses</label>
     <br />
     <div>
-        <img id="progress_bar_cheese" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <img class="progress_bar" id="progress_bar_cheese" alt="Loading">
         <input type="text" id="cheese">
         <button id="get_cheese">Get</button>
     </div>
     <div>
-        <img id="progress_bar_all_cheeses" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <img class="progress_bar" id="progress_bar_all_cheeses" alt="Loading">
         <button id="get_all_cheeses">Get All</button>
         <button id="new_cheese">New</button>
     </div>
 </div>
-
 <br />
 <br />
 <br />
-
 <div>
     <label>Sweets</label>
     <br />
     <div>
-        <img id="progress_bar_sweet" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <img class="progress_bar" id="progress_bar_sweet" alt="Loading">
         <input type="text" id="sweet">
         <button id="get_sweet">Get</button>
     </div>
     <div>
-        <img id="progress_bar_all_sweets" src="resources/img/loading.gif" alt="Loading" style="width:30px;height:30px;visibility:hidden">
+        <img class="progress_bar" id="progress_bar_all_sweets" alt="Loading">
         <button id="get_all_sweets">Get All</button>
         <button id="new_sweet">New</button>
     </div>
 </div>
-
 <br />
 <br />
 <br />
-
-<button onclick="Navigation.getInstance().showServerConnectionUI()">Server connection user interface</button>
-
-<script type="application/javascript">
-    $(document).ready(function () {
-        new FoodView();
-    });
-</script>
-
+<button id="button_show_server_connection">Server connection user interface</button>
 </body>
 </html>

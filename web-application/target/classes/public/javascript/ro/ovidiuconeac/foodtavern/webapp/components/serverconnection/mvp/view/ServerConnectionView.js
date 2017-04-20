@@ -3,11 +3,26 @@
  */
 function ServerConnectionView() {
 
-    var serverConnection = $('server_connection');
     var presenter = new ServerConnectionPresenter(this);
-    presenter.requestServerConnection();
+    var serverConnection;
+    var buttonShowFood;
+
+    ServerConnectionView.prototype.onCreateView = function () {
+        debugger;
+        $('#includedContent').load('resources/layout/ServerConnectionView.html', function () {
+            debugger;
+            serverConnection = $('#server_connection');
+            buttonShowFood = $('#button_show_food');
+            buttonShowFood.on('click', function () {
+                debugger;
+                new FoodView();
+            });
+            presenter.requestServerConnection();
+        });
+    }();
 
     ServerConnectionView.prototype.postServerConnection = function (value) {
+        debugger;
         serverConnection.val(value);
     }
 }
