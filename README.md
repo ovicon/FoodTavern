@@ -14,7 +14,7 @@ The system is composed of the following containers:
 - Web client application
 - RESTfull web service
 
-The presentation layer is implemente by:
+The presentation layer is implemented by:
 - Android client application
 - Desktop client application
 - Web client application
