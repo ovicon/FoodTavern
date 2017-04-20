@@ -22,7 +22,7 @@ The presentation layer is implemente by:
 The API layer, Business layer, Data layer and Database layer are implemented at package level by:
 - RESTfull web service
 
-If you want to see a module approche to clean arhitecture see: ![FoodTavern - v2.0](https://github.com/ovicon/FoodTavern/tree/v2.0).
+If you want to see a module approche to clean arhitecture see: [FoodTavern - v2.0](https://github.com/ovicon/FoodTavern/tree/v2.0).
 
 Architecture
 -------
