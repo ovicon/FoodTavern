@@ -1,5 +1,5 @@
-ro/ovidiuconeac/foodtavern/webservice/components/food/api/FruitsControllerTest.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/api/SweetsControllerTest.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/api/ControllerTestSuite.class
-ro/ovidiuconeac/foodtavern/webservice/components/food/api/CheesesControllerTest.class
-ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/api/ServerConnectionControllerTest.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/api/ControllerTestSuite.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/api/FruitsControllerTest.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/api/SweetsControllerTest.class
+ro/ovidiuconeac/foodtavern/apilayer/components/food/api/CheesesControllerTest.class
+ro/ovidiuconeac/foodtavern/apilayer/components/serverconnection/api/ServerConnectionControllerTest.class

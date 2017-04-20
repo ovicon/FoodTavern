@@ -1,5 +1,5 @@
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/ControllerTestSuite.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/FruitsControllerTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/api/ServerConnectionControllerTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/CheesesControllerTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/SweetsControllerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/apilayer/components/food/api/ControllerTestSuite.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/apilayer/components/food/api/CheesesControllerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/apilayer/components/food/api/SweetsControllerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/apilayer/components/food/api/FruitsControllerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/api-layer/src/test/java/ro/ovidiuconeac/foodtavern/apilayer/components/serverconnection/api/ServerConnectionControllerTest.java
