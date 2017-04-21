@@ -5,7 +5,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get Fruit'
     FoodUseCases.prototype.getFruit = function () {
-        var url = 'http://localhost:1984/food/fruits/random';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/fruits/random';
         $.ajax({
             type: 'GET',
             url: url,
@@ -22,7 +22,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get all Fruits'
     FoodUseCases.prototype.getAllFruits = function() {
-        var url = 'http://localhost:1984/food/fruits/all';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/fruits/all';
         $.ajax({
             type: 'GET',
             url: url,
@@ -39,7 +39,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'add new fruit'
     FoodUseCases.prototype.addNewFruit = function(fruit) {
-        var url = 'http://localhost:1984/food/fruits/new';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/fruits/new';
         $.ajax({
             type: 'POST',
             contentType: 'application/json',
@@ -58,7 +58,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get Cheese'
     FoodUseCases.prototype.getCheese = function() {
-        var url = 'http://localhost:1984/food/cheeses/random';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/cheeses/random';
         $.ajax({
             type: 'GET',
             url: url,
@@ -75,7 +75,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get all Cheese'
     FoodUseCases.prototype.getAllCheeses = function() {
-        var url = 'http://localhost:1984/food/cheeses/all';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/cheeses/all';
         $.ajax({
             type: 'GET',
             url: url,
@@ -92,7 +92,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'add new cheese'
     FoodUseCases.prototype.addNewCheese = function(cheese) {
-        var url = 'http://localhost:1984/food/cheeses/new';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/cheeses/new';
         $.ajax({
             type: 'POST',
             contentType: 'application/json',
@@ -111,7 +111,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get Sweet'
     FoodUseCases.prototype.getSweet = function() {
-        var url = 'http://localhost:1984/food/sweets/random';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/sweets/random';
         $.ajax({
             type: 'GET',
             url: url,
@@ -128,7 +128,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'get all Sweets'
     FoodUseCases.prototype.getAllSweets = function() {
-        var url = 'http://localhost:1984/food/sweets/all';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/sweets/all';
         $.ajax({
             type: 'GET',
             url: url,
@@ -145,7 +145,7 @@ function FoodUseCases(presenter) {
 
     // Use case 'add new sweet'
     FoodUseCases.prototype.addNewSweet = function(sweet) {
-        var url = 'http://localhost:1984/food/sweets/new';
+        var url = 'https://stormy-forest-71915.herokuapp.com/food/sweets/new';
         $.ajax({
             type: 'POST',
             contentType: 'application/json',
