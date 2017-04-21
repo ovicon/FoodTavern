@@ -1,5 +1,5 @@
+.idea/
 .target/
-.idea
 common/target/generated-sources/
 desktop-application/target/generated-sources/
 desktop-application/target/generated-test-sources/
