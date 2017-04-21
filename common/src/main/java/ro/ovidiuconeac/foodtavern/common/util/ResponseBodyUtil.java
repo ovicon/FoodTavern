@@ -1,11 +1,11 @@
 package ro.ovidiuconeac.foodtavern.common.util;
 
-import java.util.List;
-
 import retrofit2.Response;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;
 import ro.ovidiuconeac.foodtavern.common.models.Food;
+
+import java.util.List;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/20/17.

@@ -5,10 +5,9 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
-import ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBean;
-import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 import ro.ovidiuconeac.foodtavern.common.exceptions.GetException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.PostException;
+import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
 import java.util.ArrayList;
 import java.util.List;

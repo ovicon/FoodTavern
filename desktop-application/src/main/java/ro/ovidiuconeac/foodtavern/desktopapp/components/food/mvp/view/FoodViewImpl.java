@@ -8,12 +8,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenter;
-import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenterImpl;
 import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
+import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenter;
+import ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.presenter.FoodPresenterImpl;
 
 import java.net.URL;
 import java.util.Arrays;

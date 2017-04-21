@@ -1,9 +1,5 @@
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/transformers/CheesesTransformerTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/transformers/TransformerTestSuite.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/SweetsBeanImplTest.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/CheeseBeanImplTest.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/FruitsBeanImplTest.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/serverconnection/business/ServerConnectionBeanImplTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/transformers/FruitTransformerTest.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/BeanImplTestSuite.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/test/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/transformers/SweetsTransformerTest.java

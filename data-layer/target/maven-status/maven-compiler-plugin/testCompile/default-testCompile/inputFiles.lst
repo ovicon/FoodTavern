@@ -1,0 +1,4 @@
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/data-layer/src/test/java/ro/ovidiuconeac/foodtavern/datalayer/components/food/business/transformers/TransformerTestSuite.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/data-layer/src/test/java/ro/ovidiuconeac/foodtavern/datalayer/components/food/business/transformers/SweetsTransformerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/data-layer/src/test/java/ro/ovidiuconeac/foodtavern/datalayer/components/food/business/transformers/FruitTransformerTest.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/data-layer/src/test/java/ro/ovidiuconeac/foodtavern/datalayer/components/food/business/transformers/CheesesTransformerTest.java

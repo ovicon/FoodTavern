@@ -3,8 +3,8 @@ package ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.bus
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 import ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.business.beans.ServerConnectionBean;
+import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

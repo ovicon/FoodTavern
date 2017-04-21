@@ -1,2 +1,12 @@
 .target/
-.idea/workspace.xml
+.idea
+common/target/generated-sources/
+desktop-application/target/generated-sources/
+desktop-application/target/generated-test-sources/
+web-application/target/generated-sources/
+api-layer/target/generated-sources/
+api-layer/target/generated-test-sources/
+business-layer/target/generated-sources/
+business-layer/target/generated-test-sources/
+data-layer/target/generated-sources/
+data-layer/target/generated-test-sources/

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ro.ovidiuconeac.foodtavern.apilayer.components.food.api.FruitsControllerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.022 sec - in ro.ovidiuconeac.foodtavern.apilayer.components.food.api.FruitsControllerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.682 sec - in ro.ovidiuconeac.foodtavern.apilayer.components.food.api.FruitsControllerTest
