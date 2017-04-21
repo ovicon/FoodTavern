@@ -1,8 +1,0 @@
-ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.class
-ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.class
-ro/ovidiuconeac/foodtavern/webapp/components/Main.class
-ro/ovidiuconeac/foodtavern/webapp/components/Navigation.class
-ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.class
-ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/presenter/ServerConnectionPresenter.class
-ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.class
-ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.class

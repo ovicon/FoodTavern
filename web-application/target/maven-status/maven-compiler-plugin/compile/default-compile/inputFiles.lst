@@ -1,8 +1,0 @@
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/presenter/ServerConnectionPresenter.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/view/FoodView.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/model/ServerConnectionUseCases.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/model/FoodUseCases.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/Main.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/Navigation.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/serverconnection/mvp/view/ServerConnectionView.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/web-application/src/main/java/ro/ovidiuconeac/foodtavern/webapp/components/food/mvp/presenter/FoodPresenter.java

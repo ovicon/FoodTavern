@@ -1,8 +1,0 @@
-ro/ovidiuconeac/foodtavern/desktopapp/components/Main.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenter.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCases.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl$1$1.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodViewImpl$1.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImpl.class
-ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodView.class

@@ -1,6 +1,0 @@
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/presenter/FoodPresenterImplTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithNoResultExceptionTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesTestSuite.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/view/FoodActivityTest.java
-/home/ovidiu/Developer/workspace/Spring/FoodTavern/desktop-application/src/test/java/ro/ovidiuconeac/foodtavern/desktopapp/components/food/mvp/model/FoodUseCasesWithRequestExceptionTest.java

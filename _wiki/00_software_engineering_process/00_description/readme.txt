@@ -1,3 +1,0 @@
-- Create a software system that consists of an android client, desktop client, web application client, and an RESTfull web service.
-- A user must be able to get a random food item, add a new food item, and see all food items, in a consistent way in all clients.
-- Current food types are fruits, cheeses, sweets.
