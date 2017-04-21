@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers.SweetsTransformer;
+import ro.ovidiuconeac.foodtavern.webservice.components.food.data.transformers.SweetsTransformer;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.dao.SweetsDao;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.SweetEntity;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.GetException;

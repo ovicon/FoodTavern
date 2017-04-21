@@ -3,7 +3,7 @@ package ro.ovidiuconeac.foodtavern.webservice.components.food.business.beans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
-import ro.ovidiuconeac.foodtavern.webservice.components.food.business.transformers.FruitsTransformer;
+import ro.ovidiuconeac.foodtavern.webservice.components.food.data.transformers.FruitsTransformer;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.dao.FruitsDao;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.data.entities.FruitEntity;
 import ro.ovidiuconeac.foodtavern.webservice.components.food.exceptions.GetException;
