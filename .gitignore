@@ -1,1 +1,8 @@
+.idea
 .target/
+common/target/generated-sources/
+desktop-application/target/generated-sources/
+desktop-application/target/generated-test-sources/
+web-application/target/generated-sources/
+web-service/target/generated-sources/
+web-service/target/generated-test-sources/
