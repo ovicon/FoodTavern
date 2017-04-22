@@ -1,4 +1,4 @@
-.idea
+.idea/
 .target/
 common/target/generated-sources/
 desktop-application/target/generated-sources/
