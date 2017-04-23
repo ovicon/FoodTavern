@@ -1,6 +1,6 @@
 # FoodTavern
 
-Heroku deployemnt... (In progress)
+Heroku deployemnt... (Experimental)
 
 License
 -------
