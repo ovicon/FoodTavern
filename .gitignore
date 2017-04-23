@@ -10,3 +10,4 @@ business-layer/target/generated-sources/
 business-layer/target/generated-test-sources/
 data-layer/target/generated-sources/
 data-layer/target/generated-test-sources/
+target/
