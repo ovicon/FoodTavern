@@ -1,13 +1,5 @@
 .idea
 .target/
-common/target/generated-sources/
-desktop-application/target/generated-sources/
-desktop-application/target/generated-test-sources/
 web-application/target/generated-sources/
 target
-api-layer/
-business-layer/
-common/
-data-layer/
-desktop-application/
 web-application/
