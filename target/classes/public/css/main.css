@@ -1,3 +1,97 @@
 body {
     background-color: aliceblue;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+#back_button {
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: url('../resources/img/back_60x60.png') no-repeat;
+    color: black;
+}
+
+#save_button {
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: url('../resources/img/save_60x60.png') no-repeat;
+    color: black;
+}
+
+#remove_button {
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: url('../resources/img/remove_60x60.png') no-repeat;
+    color: black;
+}
+
+#add_new_button {
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: url('../resources/img/add_new_60x60.png') no-repeat;
+    color: black;
+}
+
+.wrapper {
+    padding: 5px;
+}
+
+.header {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.row {
+    cursor: pointer;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    min-width: 200px;
+    max-width: 500px;
+    width: 25%;
+}
+
+.description {
+    float: left;
+    min-width: 80px;
+}
+
+.input {
+    width: 240px;
+}
+
+.loading {
+    content: url("../resources/img/loading.gif");
+    width: 30px;
+    height: 30px;
+}
+
+.ui {
+    background-color: white;
+}
+
+.ui-row {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
 }
