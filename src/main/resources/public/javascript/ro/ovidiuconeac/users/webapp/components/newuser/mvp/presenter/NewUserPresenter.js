@@ -11,7 +11,7 @@ function NewUserPresenter(view) {
 
     NewUserPresenter.prototype.requestSaveUser = function (db, user) {
         debugger;
-        if (Util.getInstance().isUserValid(user)) {
+        if (Utility.getInstance().isUserValid(user)) {
             model.saveUser(db, user);
             view.postSaveUserSuccessful();
             view.requestResetUserInterface();

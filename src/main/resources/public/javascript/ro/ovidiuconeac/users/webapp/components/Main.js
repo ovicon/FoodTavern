@@ -13,6 +13,11 @@ function Main() {
 
         var indexHead = $('head');
 
+        // Import Utility
+        var util = document.createElement('script');
+        util.src = 'javascript/ro/ovidiuconeac/users/webapp/common/Utility.js';
+        indexHead.append(util);
+
         // Import Users
         var usersModel = document.createElement('script');
         usersModel.src = 'javascript/ro/ovidiuconeac/users/webapp/components/users/mvp/model/UsersUseCases.js';
@@ -45,11 +50,6 @@ function Main() {
         var editUserPresenter = document.createElement('script');
         editUserPresenter.src = 'javascript/ro/ovidiuconeac/users/webapp/components/edituser/mvp/presenter/EditUserPresenter.js';
         indexHead.append(editUserPresenter);
-
-        // Import Util
-        var util = document.createElement('script');
-        util.src = 'javascript/ro/ovidiuconeac/users/webapp/common/Util.js';
-        indexHead.append(util);
 
         // Set view
         new UsersView();

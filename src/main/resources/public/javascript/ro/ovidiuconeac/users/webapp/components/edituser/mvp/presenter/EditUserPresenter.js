@@ -11,7 +11,7 @@ function EditUserPresenter(view) {
 
     EditUserPresenter.prototype.requestUpdateUser = function (db, user) {
         debugger;
-        if (Util.getInstance().isUserValid(user)) {
+        if (Utility.getInstance().isUserValid(user)) {
             model.updateUser(db, user)
             view.postUpdateUserSuccessful();
             view.requestShowUsers();
@@ -23,7 +23,7 @@ function EditUserPresenter(view) {
 
     EditUserPresenter.prototype.requestRemoveUser = function (db, user) {
         debugger;
-        if (Util.getInstance().isUserValid(user)) {
+        if (Utility.getInstance().isUserValid(user)) {
             model.removeUser(db, user);
             view.requestResetUserInterface()
             view.postRemoveUserSuccessful();
