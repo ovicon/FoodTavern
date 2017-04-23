@@ -18,6 +18,7 @@
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/SweetsDao.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/api/SweetsControllerImpl.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/dao/FruitsDao.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/config/DatabaseConfig.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/entities/CheeseEntity.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/food/data/transformers/CheesesTransformer.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/src/main/java/ro/ovidiuconeac/foodtavern/webservice/components/serverconnection/business/ServerConnectionBeanImpl.java

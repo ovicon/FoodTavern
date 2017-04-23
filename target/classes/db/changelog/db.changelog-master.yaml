@@ -1,10 +1,10 @@
 databaseChangeLog:
   - changeSet:
       id: 1
-      author: jkutner
+      author: ovicon
       changes:
         - createTable:
-            tableName: record
+            tableName: fruits
             columns:
               - column:
                   name: id
@@ -14,7 +14,7 @@ databaseChangeLog:
                     primaryKey: true
                     nullable: false
               - column:
-                  name: data
+                  name: name
                   type: varchar(255)
                   constraints:
                     nullable: false
