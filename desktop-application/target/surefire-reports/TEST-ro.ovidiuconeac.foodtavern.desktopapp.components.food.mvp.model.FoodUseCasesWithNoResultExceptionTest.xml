@@ -60,11 +60,11 @@
   </properties>
   <testcase name="testAddNewFruitWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0.001"/>
   <testcase name="testGetAllSweetsWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
-  <testcase name="testGetAllCheesesWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
-  <testcase name="testAddNewCheeseWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0.001"/>
+  <testcase name="testGetAllCheesesWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0.001"/>
+  <testcase name="testAddNewCheeseWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
   <testcase name="testGetAllFruitsWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
   <testcase name="testGetCheeseWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
-  <testcase name="testGetSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0.001"/>
-  <testcase name="testAddNewSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
+  <testcase name="testGetSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
+  <testcase name="testAddNewSweetWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0.001"/>
   <testcase name="testGetFruitWithNoResultException" classname="ro.ovidiuconeac.foodtavern.desktopapp.components.food.mvp.model.FoodUseCasesWithNoResultExceptionTest" time="0"/>
 </testsuite>

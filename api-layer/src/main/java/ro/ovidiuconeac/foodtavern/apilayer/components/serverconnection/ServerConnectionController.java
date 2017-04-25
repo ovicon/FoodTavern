@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 import ro.ovidiuconeac.foodtavern.businesslayer.components.serverconnection.business.beans.ServerConnectionBean;
+import ro.ovidiuconeac.foodtavern.common.models.ServerConnection;
 
 @RestController
 public class ServerConnectionController {

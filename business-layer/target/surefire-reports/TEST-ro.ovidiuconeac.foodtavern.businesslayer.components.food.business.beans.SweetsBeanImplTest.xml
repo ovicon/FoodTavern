@@ -60,11 +60,11 @@
   </properties>
   <testcase name="testAddNew" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
   <testcase name="testGetAll" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
-  <testcase name="testGetRandomWithGetException1" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0.001"/>
-  <testcase name="testGetRandomWithGetException2" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
+  <testcase name="testGetRandomWithGetException1" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
+  <testcase name="testGetRandomWithGetException2" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0.001"/>
   <testcase name="testGetRandom" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
   <testcase name="testGetAllWithGetException1" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
-  <testcase name="testGetAllWithGetException2" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
-  <testcase name="testAddNewWithPostException1" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0.001"/>
+  <testcase name="testGetAllWithGetException2" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0.001"/>
+  <testcase name="testAddNewWithPostException1" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
   <testcase name="testAddNewWithPostException2" classname="ro.ovidiuconeac.foodtavern.businesslayer.components.food.business.beans.SweetsBeanImplTest" time="0"/>
 </testsuite>

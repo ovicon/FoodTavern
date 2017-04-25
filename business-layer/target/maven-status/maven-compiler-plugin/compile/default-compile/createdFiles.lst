@@ -4,5 +4,7 @@ ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/CheesesB
 ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/SweetsBean.class
 ro/ovidiuconeac/foodtavern/businesslayer/components/serverconnection/business/beans/ServerConnectionBean.class
 ro/ovidiuconeac/foodtavern/businesslayer/components/serverconnection/business/beans/ServerConnectionBeanImpl.class
+ro/ovidiuconeac/foodtavern/businesslayer/exceptions/AddFoodException.class
 ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/CheesesBean.class
+ro/ovidiuconeac/foodtavern/businesslayer/exceptions/EmptyResultException.class
 ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/FruitsBean.class

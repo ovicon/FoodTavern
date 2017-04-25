@@ -2,7 +2,9 @@
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/CheesesBean.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/SweetsBeanImpl.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/CheesesBeanImpl.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/exceptions/AddFoodException.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/FruitsBean.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/food/business/beans/SweetsBean.java
+/home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/exceptions/EmptyResultException.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/serverconnection/business/beans/ServerConnectionBeanImpl.java
 /home/ovidiu/Developer/workspace/Spring/FoodTavern/business-layer/src/main/java/ro/ovidiuconeac/foodtavern/businesslayer/components/serverconnection/business/beans/ServerConnectionBean.java

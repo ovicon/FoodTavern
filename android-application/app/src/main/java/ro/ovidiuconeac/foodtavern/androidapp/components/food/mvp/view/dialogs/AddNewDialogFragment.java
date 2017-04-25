@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import ro.ovidiuconeac.foodtavern.androidapp.R;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.FoodView;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;

@@ -3,7 +3,6 @@ package ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.model;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.exceptions.NoResultException;
 import ro.ovidiuconeac.foodtavern.common.exceptions.RequestException;

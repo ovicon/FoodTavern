@@ -10,15 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-import java.util.UUID;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import ro.ovidiuconeac.foodtavern.androidapp.R;
@@ -32,6 +28,8 @@ import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
+
+import java.util.UUID;
 
 import static ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.dialogs.FoodType.*;
 

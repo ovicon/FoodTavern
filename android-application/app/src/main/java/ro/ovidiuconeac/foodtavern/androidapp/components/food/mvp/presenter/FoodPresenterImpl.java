@@ -3,11 +3,6 @@ package ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.presenter;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
-
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Screen;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.model.FoodUseCases;
 import ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.view.FoodView;
@@ -18,6 +13,10 @@ import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 import ro.ovidiuconeac.foodtavern.common.util.Util;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by ovidiu on 2/6/17.

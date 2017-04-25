@@ -3,21 +3,18 @@ package ro.ovidiuconeac.foodtavern.androidapp.components.food.mvp.presenter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.UUID;
-
 import ro.ovidiuconeac.foodtavern.androidapp.components.common.Screen;
 import ro.ovidiuconeac.foodtavern.common.api.RestServiceApi;
 import ro.ovidiuconeac.foodtavern.common.models.Cheese;
 import ro.ovidiuconeac.foodtavern.common.models.Fruit;
 import ro.ovidiuconeac.foodtavern.common.models.Sweet;
 
+import java.util.UUID;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.any;
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by ovidiu on 2/7/17.
